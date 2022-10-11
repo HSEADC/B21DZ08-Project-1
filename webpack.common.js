@@ -84,12 +84,38 @@ module.exports = {
       chunks: ['index']
     }),
 
-    // Internal pages
+    // Myths
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
+      template: './src/pages/myth.html',
+      filename: './pages/myth.html',
+      chunks: ['page']
+    }),
+
+    // Zodiak
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/zodiak.html',
+      filename: './pages/zodiak.html',
+      chunks: ['page']
+    }),
+    // Map
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/map.html',
+      filename: './pages/map.html',
+      chunks: ['page']
+    }),
+
+    // articletest
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/articletest.html',
+      filename: './articles/articletest.html',
       chunks: ['page']
     }),
 
