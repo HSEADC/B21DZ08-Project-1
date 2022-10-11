@@ -19,4 +19,15 @@ body.index {
     font-weight: 400;
     margin-top: 32px;
   }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-top: 12px;
+  }
+  button {
+    margin-top: 12px;
+  }
 }
