@@ -109,6 +109,11 @@ module.exports = {
       filename: './pages/map.html',
       chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      template: './src/pages/about.html',
+      filename: './pages/about.html'
+    }),
 
     // articletest
     new HtmlWebpackPlugin({
