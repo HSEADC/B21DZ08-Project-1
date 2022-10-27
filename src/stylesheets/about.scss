@@ -1,18 +1,102 @@
 body.about {
   h1,
-  h3 {
-    font-size: 55px;
+  h2,
+  p,
+  p.lead {
     font-family: 'PTSans', Helvetica, Arial, sans-serif;
-    margin-left: 40px;
-    margin-top: 60px;
+    font-weight: 400;
   }
-  .about {
-    font-size: 16px;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  h1 {
+    font-size: 64px;
   }
+  h2 {
+    font-size: 36px;
+    margin-top: 8px;
+    margin-bottom: 36px;
+  }
+  h2.top {
+    margin-top: 190px;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  p.lead,
+  p.lead1 {
+    font-size: 24px;
+    font-style: italic;
+    width: 304px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  p.lead1 {
+    margin-top: 76px;
+  }
+
+  p.top {
+    margin-top: 76px;
+  }
+
+  p.top2 {
+    margin-top: 140px;
+  }
+  .mainabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 132px;
+  }
+
+  .leftabout,
+  .rightabout {
+    width: 456px;
+  }
+
+  .rightabout {
+    margin-left: 200px;
+  }
+
+  button {
+    background-color: #faf8f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  button:hover {
+    background: #000000;
+    color: #faf8f5;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  button.buttonstars {
+    margin-top: 72px;
+    float: right;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   hr {
-    margin-left: 40px;
+    width: 1112px;
+    margin-top: -12px;
+    margin-bottom: 22px;
+  }
+
+  .imagesabout {
+    margin-top: 156px;
   }
 }
