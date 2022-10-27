@@ -1,0 +1,148 @@
+body.article {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'PTSans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0px 140px 0px 140px;
+}
+
+a {
+  color: var(--black);
+}
+
+//   & > div,
+//   & > a {
+//     margin: 10px 0;
+//   }
+//
+//   h1 {
+//     font-size: 48px;
+//     font-weight: 600;
+//   }
+//
+//   h2 {
+//     font-size: 24px;
+//     font-weight: 400;
+//     margin-top: 32px;
+//   }
+//
+//   p {
+//     width: 600px;
+//     margin-top: 10px;
+//     font-size: 16px;
+//     line-height: 1.4;
+//   }
+//   p.lead {
+//     width: 600px;
+//     margin: 40px auto;
+//     font-size: 30px;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     text-align: center;
+//   }
+// }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+  div {
+    padding: 0px 60px 0px 60px;
+  }
+}
+
+.lion {
+  button {
+  }
+}
+.button2 {
+  width: 200px;
+  height: 36px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'PTSans', Helvetica, Arial, sans-serif;
+  margin-left: 430px;
+}
+
+.lion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 64px;
+  font-style: italic;
+  // padding: 0px 343px 0px 20px;
+}
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 10px;
+}
+hr {
+  color: black;
+  width: 1050px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.lead {
+  font-style: italic;
+  font-size: 24px;
+  width: 340px;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+.maintext {
+  width: 456px;
+  font-size: 20px;
+  margin-top: -290px;
+}
+
+// .note1 {
+//   font-size: 20px;
+// }
+// .note2 {
+//   font-size: 16px;
+// }
+.blok1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.zeus {
+  margin-top: 32px;
+  margin-left: 243px;
+}
+
+.sign {
+  float: right; /* Выравнивание по правому краю */
+}
+
+figcaption {
+  margin-left: 240px;
+}
+
+.note {
+  margin-top: 20px;
+  p {
+    font-size: 16px;
+  }
+}
+.main {
+  width: 456px;
+  margin-top: 200px;
+  p {
+  }
+}
+
+.picture1 {
+}
