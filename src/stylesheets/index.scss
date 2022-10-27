@@ -8,4 +8,29 @@ body.index {
   & > a {
     margin: 10px 0;
   }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 32px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-top: 12px;
+  }
+  button {
+    margin-top: 12px;
+  }
+}
+.about {
+  width: 470px;
 }
