@@ -1,55 +1,71 @@
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Light.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Light.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'PT Root UI';
+//   src: url('fonts/PT-Root-UI_Light.woff2') format('woff2'),
+//     url('fonts/PT-Root-UI_Light.woff') format('woff');
+//   font-weight: 100;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'PT Root UI';
+//   src: url('fonts/PT-Root-UI_Regular.woff2') format('woff2'),
+//     url('fonts/PT-Root-UI_Regular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'PT Root UI';
+//   src: url('fonts/PT-Root-UI_Medium.woff2') format('woff2'),
+//     url('fonts/PT-Root-UI_Medium.woff') format('woff');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'PT Root UI';
+//   src: url('fonts/PT-Root-UI_Bold.woff2') format('woff2'),
+//     url('fonts/PT-Root-UI_Bold.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Marlene';
+//   src: url('fonts/Marlene-LightItalic.woff2') format('woff2'),
+//     url('fonts/Marlene-LightItalic.woff') format('woff');
+//   font-weight: 300;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'Marlene';
+//   src: url('fonts/Marlene-Italic.woff2') format('woff2'),
+//     url('fonts/Marlene-Italic.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'Marlene';
+//   src: url('fonts/Marlene-Medium.woff') format('woff'),
+//     url('fonts/Marlene-Medium.woff2') format('woff2');
+//   font-weight: 500;
+//   font-style: normal;
+// }
 
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Regular.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Regular.woff') format('woff');
+  font-family: 'PTSans';
+  src: url('fonts/PT-Sans_Italic.woff2') format('woff2'),
+    url('fonts/PT-Sans_Italic.woff') format('woff');
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Medium.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Bold.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Marlene';
-  src: url('fonts/Marlene-LightItalic.woff2') format('woff2'),
-    url('fonts/Marlene-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Marlene';
-  src: url('fonts/Marlene-Italic.woff2') format('woff2'),
-    url('fonts/Marlene-Italic.woff') format('woff');
+  font-family: 'PTSans';
+  src: url('fonts/PT-Sans_Regular.woff2') format('woff2'),
+    url('fonts/PT-Sans_Regular.woff') format('woff');
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Marlene';
-  src: url('fonts/Marlene-Medium.woff') format('woff'),
-    url('fonts/Marlene-Medium.woff2') format('woff2');
-  font-weight: 500;
   font-style: normal;
 }

@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
+  font-family: 'PTSans', Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -34,4 +34,8 @@ body {
       background-image: url('images/image.svg');
     }
   }
+}
+
+a {
+  text-decoration: none;
 }
