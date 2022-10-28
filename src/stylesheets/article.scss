@@ -1,3 +1,7 @@
+a {
+  color: var(--black);
+}
+
 body.article {
   // display: flex;
   // flex-direction: column;
@@ -10,7 +14,50 @@ a {
   color: var(--black);
 }
 
-.menu {
+//   & > div,
+//   & > a {
+//     margin: 10px 0;
+//   }
+//
+//   h1 {
+//     font-size: 48px;
+//     font-weight: 600;
+//   }
+//
+//   h2 {
+//     font-size: 24px;
+//     font-weight: 400;
+//     margin-top: 32px;
+//   }
+//
+//   p {
+//     width: 600px;
+//     margin-top: 10px;
+//     font-size: 16px;
+//     line-height: 1.4;
+//   }
+//   p.lead {
+//     width: 600px;
+//     margin: 40px auto;
+//     font-size: 30px;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     text-align: center;
+//   }
+// }
+
+// .menu {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   margin-top: 40px;
+//   justify-content: center;
+//   div {
+//     padding: 0px 60px 0px 60px;
+//   }
+// }
+
+.blok {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,11 +67,12 @@ a {
     margin-top: 120px;
   }
   hr {
-    width: 1112px;
+    margin-top: 10px;
   }
   h1 {
     font-size: 64px;
     font-style: italic;
+    margin-bottom: 8px;
   }
   h2 {
     font-size: 36px;
@@ -38,9 +86,7 @@ a {
     margin: 22px 0px 22px;
     width: 340px;
   }
-  h1 {
-    margin-bottom: 8px;
-  }
+
   p.footnote {
     font-size: 16px;
     margin-top: 90px;
@@ -77,18 +123,22 @@ a {
   p.indent {
     margin-top: 12px;
   }
+  .futor {
+    margin-top: 500px;
+  }
 }
 
 .blok2 {
   margin-left: 200px;
+  margin-bottom: 200px;
   p.indent {
-    margin-top: 360px;
+    margin-top: 370px;
   }
   img {
-    margin-top: 120px;
+    margin-top: 100px;
   }
   figcaption {
-    margin-bottom: 115px;
+    margin-bottom: 104px;
   }
 }
 
@@ -97,30 +147,6 @@ a {
     margin-top: 150px;
   }
   figcaption {
-    margin-bottom: 180px;
+    margin-bottom: 160px;
   }
-}
-
-.menu,
-.plashka {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-}
-
-.plashka {
-  margin-top: 20px;
-}
-
-.start {
-  margin-right: 470px;
-}
-
-.aboutus {
-  margin-left: 470px;
-}
-
-.legends {
-  margin: 0px 100px 0px 100px;
 }

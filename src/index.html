@@ -7,25 +7,38 @@
   </head>
 
   <body class="index">
-    <a href="./index.html">
-      <img src="./images/circle.png" alt="logo" />
-    </a>
-    <a href="./pages/map.html">созвездия</a>
-    <a href="./pages/myth.html">легенды</a>
-    <a href="./pages/zodiak.html">зодиаки</a>
-    <a href="./pages/about.html">о нас</a>
+    <div class="plashka">
+      <a href="./index.html"
+        ><img class="start" src="./images/circle.png" alt="кружок"
+      /></a>
+      <div class="menu">
+        <a href="./pages/map.html"><p>созвездия</p></a>
+        <a href="./pages/myth.html"><p class="legends">легенды</p></a>
+        <a href="./pages/zodiak.html"><p>зодиаки</p></a>
+      </div>
+      <a href="./pages/about.html"><p class="aboutus">о нас</p></a>
+    </div>
+
+    <div class="heading">
+      <h1>Скоро во Млечном пути</h1>
+      <h2>Сайт находится в стадии разработки</h2>
+      <hr />
+    </div>
 
     <div class="forma">
-      <h2>Подпишитесь на нашу рассылку</h2>
       <!-- modify this form HTML and place wherever you want your form -->
+
       <form id="my-form" action="https://formspree.io/f/xoqblwrd" method="POST">
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        <button id="my-form-button">Submit</button>
+        <p>Подпишитесь на нашу рассылку</p>
+        <!-- <label>Email:</label> -->
+        <input type="email" name="email" placeholder="ваша почта" />
+        <!-- <label>Message:</label> -->
+        <br />
+        <input type="text" name="message" placeholder="ваша сообщение" />
+        <button id="my-form-button">отправить</button>
         <p id="my-form-status"></p>
       </form>
+      <img src="./images/galaxy1.png" alt="" />
     </div>
 
     <!-- Place this script at the end of the body tag -->
@@ -45,7 +58,7 @@
         })
           .then((response) => {
             if (response.ok) {
-              status.innerHTML = 'Thanks for your submission!'
+              status.innerHTML = 'Спасибо, улетело на орбиту!'
               form.reset()
             } else {
               response.json().then((data) => {
@@ -54,14 +67,13 @@
                     .map((error) => error['message'])
                     .join(', ')
                 } else {
-                  status.innerHTML =
-                    'Oops! There was a problem submitting your form'
+                  status.innerHTML = 'Ой! Возникла проблема с отправкой формы'
                 }
               })
             }
           })
           .catch((error) => {
-            status.innerHTML = 'Oops! There was a problem submitting your form'
+            status.innerHTML = 'Ой! Возникла проблема с отправкой формы'
           })
       }
       form.addEventListener('submit', handleSubmit)
