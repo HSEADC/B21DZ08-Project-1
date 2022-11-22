@@ -4,10 +4,132 @@
     <meta charset="utf-8" />
     <title>about</title>
     <analytics></analytics>
+    <style type="text/css">
+      body {
+        background-color: black;
+      }
+    </style>
   </head>
 
   <body class="index">
-    <div class="plashka">
+    <div class="section1">
+      <h1>Мифос</h1>
+      <img class="lines1" src="./images/lines.svg" alt="" />
+
+      <div class="circle1">
+        <div></div>
+        <p class="lead">Покажем, где располагаются созвездия на ночном небе</p>
+      </div>
+
+      <div class="circle2"></div>
+
+      <div class="circle3">
+        <div></div>
+        <p class="lead">Расскажем легенды и мифы происхождения созвездий</p>
+      </div>
+
+      <div class="circle4">
+        <div></div>
+        <p class="lead">Поверим в магию</p>
+      </div>
+
+      <div class="circle5"></div>
+    </div>
+
+    <div class="section2">
+      <h2>Чем мы занимаемся?</h2>
+      <h3>Звездная мифология</h3>
+      <br />
+      <div class="text1">
+        <p class="text">
+          В нашей галактике – «Млечном Пути» расположены миллиарды звёзд
+          и десятки созвездий. Древняя Греция внесла большой вклад в современную
+          астрономию. Большую часть созвездий открыли греки, они же дали
+          им названия: Геракл, Дракон, Центавр
+        </p>
+        <br />
+        <p class="lead">
+          Поэтому группы звёзд носят имена богов, царей, чудовищ или героев
+          греческих мифов.
+        </p>
+        <br />
+        <p class="text">
+          Мифос расскажет вам про расположение созвездий на ночном небе,
+          основные характеристики и легенды их происхождения
+        </p>
+      </div>
+      <img src="./images/sozvezdiya4.svg" alt="" />
+    </div>
+
+    <div class="section3">
+      <h3>Скоро во Млечном пути</h3>
+      <br />
+      <p class="lead">
+        Полетели вместе с «Мифос» исследовать легенды созвездий <br />
+        и их происхождение?
+      </p>
+      <div class="forma">
+        <!-- modify this form HTML and place wherever you want your form -->
+
+        <form
+          id="my-form"
+          action="https://formspree.io/f/xoqblwrd"
+          method="POST"
+        >
+          <p>Подпишитесь на нашу рассылку</p>
+          <br />
+
+          <input type="email" name="email" placeholder="ваша почта" />
+
+          <br />
+          <input type="text" name="message" placeholder="ваша сообщение" />
+          <button id="my-form-button">отправить</button>
+          <p id="my-form-status"></p>
+        </form>
+        <!-- <img src="./images/galaxy1.png" alt="" /> -->
+      </div>
+
+      <!-- Place this script at the end of the body tag -->
+      <script>
+        var form = document.getElementById('my-form')
+
+        async function handleSubmit(event) {
+          event.preventDefault()
+          var status = document.getElementById('my-form-status')
+          var data = new FormData(event.target)
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+              Accept: 'application/json'
+            }
+          })
+            .then((response) => {
+              if (response.ok) {
+                status.innerHTML = 'Спасибо, улетело на орбиту!'
+                form.reset()
+              } else {
+                response.json().then((data) => {
+                  if (Object.hasOwn(data, 'errors')) {
+                    status.innerHTML = data['errors']
+                      .map((error) => error['message'])
+                      .join(', ')
+                  } else {
+                    status.innerHTML = 'Ой! Возникла проблема с отправкой формы'
+                  }
+                })
+              }
+            })
+            .catch((error) => {
+              status.innerHTML = 'Ой! Возникла проблема с отправкой формы'
+            })
+        }
+        form.addEventListener('submit', handleSubmit)
+      </script>
+    </div>
+
+    <!-- <style></style> -->
+    <!-- <div class="plashka">
       <a href="./index.html"
         ><img class="start" src="./images/circle.png" alt="кружок"
       /></a>
@@ -17,23 +139,52 @@
         <a href="./pages/zodiak.html"><p>зодиаки</p></a>
       </div>
       <a href="./pages/about.html"><p class="aboutus">о нас</p></a>
-    </div>
+    </div> -->
+    <!-- <h4 class="heading">Мύфос</h1>
+    <div class="screen1">
+      <img src="./images/lines.svg" alt="линии" />
+      <div class="circle1"></div>
+      <h1 class="lead">Покажем, где располагаются созвездия на ночном небе</h1>
 
-    <div class="heading">
-      <h1>Скоро во Млечном пути</h1>
-      <h2>Сайт находится в стадии разработки</h2>
-      <hr />
-    </div>
+      <div class="circle2"></div>
 
-    <div class="forma">
-      <!-- modify this form HTML and place wherever you want your form -->
+      <div class="circle3"></div>
+      <h2 class="lead">Расскажем легенды и мифы происхождения созвездий</h2>
+      <div class="circle4"></div>
 
-      <form id="my-form" action="https://formspree.io/f/xoqblwrd" method="POST">
+      <div class="circle5"></div>
+      <h3 class="lead">Поверим в магию</h3>
+    </div> -->
+
+    <!-- <div class="section2">
+    <div class="screen2"><h5>Чем мы занимаемся?</h5>
+    <div class="text2"><h6>Звёздная мифология</h6><br>
+    <p>В нашей галактике – «Млечном Пути» расположены миллиарды звёзд и десятки созвездий. Древняя Греция внесла большой вклад в современную астрономию. Подавляющую часть созвездий открыли греки, они же дали им названия: Геракл, Дракон, Центавр</p>
+    <br><p class="lead">Поэтому группы звёзд носят имена богов, царей, чудовищ или героев греческих мифов.</p>
+<br><p>Мифос расскажет вам про расположение созвездий на ночном небе, основные характеристики и легенды <br>их происхождения</p>
+</div>
+</div>
+<img src="./images/sozvezdiya2.svg" alt="">
+
+</div> -->
+
+    <!-- <div class="text3">
+      <h6>Скоро во Млечном пути</h6>
+      <br>
+      <p class="lead">Полетели вместе с «Мифос» исследовать легенды созвездий
+<br> и их происхождение?</p>
+
+    </div> -->
+
+    <!-- <div class="forma">
+    modify this form HTML and place wherever you want your form
+
+    <form id="my-form" action="https://formspree.io/f/xoqblwrd" method="POST">
         <p>Подпишитесь на нашу рассылку</p>
-        <!-- <label>Email:</label> -->
-        <input type="email" name="email" placeholder="ваша почта" />
-        <!-- <label>Message:</label> -->
-        <br />
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="ваша почта" />
+    <label>Message:</label>
+    <br />
         <input type="text" name="message" placeholder="ваша сообщение" />
         <button id="my-form-button">отправить</button>
         <p id="my-form-status"></p>
@@ -41,7 +192,7 @@
       <img src="./images/galaxy1.png" alt="" />
     </div>
 
-    <!-- Place this script at the end of the body tag -->
+    Place this script at the end of the body tag
     <script>
       var form = document.getElementById('my-form')
 
@@ -77,6 +228,6 @@
           })
       }
       form.addEventListener('submit', handleSubmit)
-    </script>
+    </script> -->
   </body>
 </html>
