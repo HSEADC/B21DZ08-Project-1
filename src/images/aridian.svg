@@ -1,0 +1,64 @@
+<svg width="265" height="380" viewBox="0 0 265 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="258.91" cy="373.294" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="248.914" cy="333.058" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="220.902" cy="301.766" rx="3.99997" ry="4.47057" fill="black"/>
+<ellipse cx="214.91" cy="270.47" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="214.906" cy="245.882" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="192.906" cy="245.881" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="172.91" cy="263.764" rx="3.99997" ry="4.47057" fill="black"/>
+<ellipse cx="150.906" cy="245.881" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="134.906" cy="216.822" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="102.906" cy="205.646" rx="3.99997" ry="4.47057" fill="black"/>
+<ellipse cx="88.914" cy="212.351" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="70.914" cy="183.294" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="110.91" cy="140.824" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="126.906" cy="143.06" rx="3.99997" ry="4.47057" fill="black"/>
+<ellipse cx="138.902" cy="127.41" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="156.902" cy="118.473" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="178.91" cy="127.41" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="198.906" cy="140.822" rx="3.99997" ry="4.47057" fill="black"/>
+<ellipse cx="214.906" cy="120.706" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="222.906" cy="100.588" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="232.91" cy="76.0008" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="214.91" cy="44.7087" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="184.91" cy="37.9988" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="160.906" cy="40.2341" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="142.906" cy="42.4734" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="134.906" cy="62.5857" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="112.906" cy="69.2937" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="94.9101" cy="31.2927" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="64.914" cy="82.7048" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="58.9101" cy="13.4129" rx="5.99995" ry="6.70586" fill="black"/>
+<ellipse cx="38.9101" cy="8.94114" rx="7.99993" ry="8.94114" fill="black"/>
+<ellipse cx="6.91011" cy="26.823" rx="5.99995" ry="6.70586" fill="black"/>
+<line y1="-0.5" x2="38.4156" y2="-0.5" transform="matrix(0.88505 -0.465496 0.388055 0.921636 4.90625 26.8242)" stroke="black"/>
+<line y1="-0.5" x2="22.4496" y2="-0.5" transform="matrix(0.979971 0.19914 -0.160568 0.987025 38.9141 8.94141)" stroke="black"/>
+<line y1="-0.5" x2="41.997" y2="-0.5" transform="matrix(0.904818 0.425799 -0.352542 0.935796 56.9141 13.4141)" stroke="black"/>
+<line y1="-0.5" x2="44.9317" y2="-0.5" transform="matrix(0.445116 0.895473 -0.849553 0.527503 94.9141 31.293)" stroke="black"/>
+<line y1="-0.5" x2="23.7479" y2="-0.5" transform="matrix(0.926412 -0.376512 0.309393 0.950934 112.91 71.5273)" stroke="black"/>
+<line y1="-0.5" x2="21.6498" y2="-0.5" transform="matrix(0.369515 -0.929225 0.895594 0.444872 134.906 64.8262)" stroke="black"/>
+<line y1="-0.5" x2="18.5469" y2="-0.5" transform="matrix(0.970514 -0.241044 0.195012 0.980801 142.906 44.7051)" stroke="black"/>
+<line x1="158.914" y1="39.7344" x2="186.914" y2="39.7344" stroke="black"/>
+<line y1="-0.5" x2="28.0889" y2="-0.5" transform="matrix(0.996829 0.0795791 -0.0637793 0.997964 186.91 40.2344)" stroke="black"/>
+<line y1="-0.5" x2="42.0474" y2="-0.5" transform="matrix(0.428085 0.903739 -0.860629 0.509233 214.906 40.2344)" stroke="black"/>
+<line y1="-0.5" x2="26.5438" y2="-0.5" transform="matrix(-0.376732 0.926322 -0.891547 -0.452927 232.914 75.998)" stroke="black"/>
+<line y1="-0.5" x2="19.5902" y2="-0.5" transform="matrix(-0.408364 0.912819 -0.872943 -0.487823 222.914 100.588)" stroke="black"/>
+<line y1="-0.5" x2="27.489" y2="-0.5" transform="matrix(-0.582046 0.813156 -0.745469 -0.66654 214.906 118.469)" stroke="black"/>
+<line y1="-0.5" x2="24.0804" y2="-0.5" transform="matrix(0.830543 0.556955 -0.472991 0.881067 178.91 127.408)" stroke="black"/>
+<line y1="-0.5" x2="23.7479" y2="-0.5" transform="matrix(0.926412 0.376512 -0.309393 0.950934 156.902 118.469)" stroke="black"/>
+<line y1="-0.5" x2="22.9995" y2="-0.5" transform="matrix(0.956549 -0.29157 0.237062 0.971494 136.906 125.172)" stroke="black"/>
+<line y1="-0.5" x2="21.5354" y2="-0.5" transform="matrix(0.557217 -0.830367 0.766369 0.642401 126.906 145.293)" stroke="black"/>
+<line y1="-0.5" x2="16.6129" y2="-0.5" transform="matrix(0.963111 0.269106 -0.218289 0.975884 110.906 140.824)" stroke="black"/>
+<line y1="-0.5" x2="58.6735" y2="-0.5" transform="matrix(0.647647 -0.761941 0.685614 0.727965 72.9141 185.529)" stroke="black"/>
+<line y1="-0.5" x2="30.2571" y2="-0.5" transform="matrix(0.462697 0.886516 -0.837691 0.546144 72.9141 185.529)" stroke="black"/>
+<line y1="-0.5" x2="16.6123" y2="-0.5" transform="matrix(-0.842784 0.538251 -0.455227 -0.890375 102.91 203.41)" stroke="black"/>
+<line y1="-0.5" x2="33.896" y2="-0.5" transform="matrix(-0.944074 -0.329733 0.269276 -0.963063 134.906 214.588)" stroke="black"/>
+<line y1="-0.5" x2="33.1724" y2="-0.5" transform="matrix(-0.482325 -0.875992 0.823932 -0.566689 150.902 245.883)" stroke="black"/>
+<line y1="-0.5" x2="28.3508" y2="-0.5" transform="matrix(-0.775986 -0.630751 0.545409 -0.83817 172.906 263.764)" stroke="black"/>
+<line y1="-0.5" x2="26.8285" y2="-0.5" transform="matrix(-0.745469 0.66654 -0.582046 -0.813156 192.906 245.883)" stroke="black"/>
+<line x1="214.906" y1="246.383" x2="192.906" y2="246.383" stroke="black"/>
+<line x1="214.406" y1="270.473" x2="214.406" y2="245.885" stroke="black"/>
+<line y1="-0.5" x2="32.3004" y2="-0.5" transform="matrix(-0.247673 -0.968844 0.952609 -0.304196 222.914 301.762)" stroke="black"/>
+<line y1="-0.5" x2="40.6854" y2="-0.5" transform="matrix(-0.639044 -0.76917 0.693864 -0.720106 248.91 333.055)" stroke="black"/>
+<line y1="-0.5" x2="44.1332" y2="-0.5" transform="matrix(-0.271902 -0.962325 0.94299 -0.332822 260.91 375.529)" stroke="black"/>
+</svg>

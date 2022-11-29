@@ -1,0 +1,661 @@
+@media only screen and (min-width: 1920px) and (max-width: 2048px) {
+  body.index {
+    .lead {
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 64px;
+    }
+    h2 {
+      font-size: 42px;
+    }
+    p {
+      font-size: 26px;
+    }
+    .section1 {
+      .lines {
+        top: 25%;
+      }
+      .arrow {
+        margin-top: 50%;
+      }
+    }
+    .section2 {
+    }
+    .section3 {
+      .imgLiza {
+        img {
+          width: 540px;
+          height: 350px;
+          object-fit: cover;
+        }
+      }
+
+      .imgNastya {
+        img {
+          width: 540px;
+          height: 350px;
+          object-fit: cover;
+        }
+      }
+    }
+    .section4 {
+      .imgstars {
+        img {
+          width: 640px;
+          height: 100%;
+        }
+      }
+      .textForma {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1366px) {
+  body.index {
+    .lead {
+      font-size: 26px;
+      width: 410px;
+      margin-left: 0px;
+    }
+    h1 {
+      font-size: 60px;
+      width: 496px;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    button {
+      margin-left: 0px;
+      width: 238px;
+    }
+    p {
+      margin-left: 0px;
+      width: 496px;
+      font-size: 22px;
+    }
+    img {
+      width: 496px;
+    }
+    .section1 {
+      .headings {
+        width: 496px;
+      }
+      .arrow {
+        margin-left: 516px;
+        margin-top: 60%;
+      }
+      .lines {
+        width: 70%;
+        top: 25%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .section2 {
+      div {
+        width: 496px;
+      }
+      .textmain {
+        p {
+          margin-left: 0px;
+        }
+      }
+      .imgstar {
+        margin-left: 64px;
+        img {
+          width: 496px;
+        }
+      }
+    }
+    .section3 {
+      div {
+        width: 496px;
+      }
+      p {
+        margin-left: 0px;
+      }
+      .imgLiza {
+        margin-left: 64px;
+        img {
+          width: 496px;
+          height: 310px;
+          object-fit: cover;
+        }
+      }
+      .imgNastya {
+        margin-left: 0px;
+        img {
+          width: 496px;
+          height: 310px;
+          object-fit: cover;
+        }
+      }
+    }
+    .section4 {
+      .forma {
+        input {
+          margin-left: 0px;
+        }
+      }
+      .imgstars {
+        margin-left: 64px;
+        img {
+          width: 496px;
+        }
+      }
+      div {
+        width: 496px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1366px) {
+  body.index {
+    .lead {
+      font-size: 24px;
+      margin-left: 0px;
+    }
+    h1 {
+      font-size: 58px;
+      width: 492px;
+    }
+    h2 {
+      font-size: 36px;
+      width: 492px;
+    }
+    p {
+      font-size: 20px;
+      margin-left: 0px;
+      width: 492px;
+    }
+    button {
+      margin-left: 0px;
+      width: 238px;
+    }
+
+    .section1 {
+      h1 {
+        width: 492px;
+      }
+      h2 {
+        width: 492px;
+      }
+      .arrow {
+        margin-left: 506px;
+        margin-top: 60%;
+      }
+      .lines {
+        width: 80%;
+        top: 25%;
+      }
+    }
+    .section2 {
+      div {
+        width: 494px;
+      }
+
+      .textmain {
+        p {
+          margin-left: 0px;
+        }
+      }
+      .imgstar {
+        margin-left: 32px;
+        img {
+          width: 492px;
+        }
+      }
+    }
+    .section3 {
+      .imgLiza {
+        margin-left: 32px;
+        img {
+          width: 492px;
+          height: 315px;
+          object-fit: cover;
+        }
+      }
+      .imgNastya {
+        margin-left: 0px;
+        img {
+          width: 492px;
+          height: 315px;
+          object-fit: cover;
+        }
+      }
+      .about {
+        width: 492px;
+      }
+      .aboutN {
+        margin-left: 32px;
+        width: 492px;
+      }
+      p {
+        margin-left: 0px;
+      }
+    }
+    .section4 {
+      .forma {
+        input {
+          margin-left: 0px;
+        }
+      }
+      .imgstars {
+        margin-left: 32px;
+        img {
+          width: 492px;
+        }
+      }
+      div {
+        width: 492px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 970px) and (max-width: 1080px) {
+  body.index {
+    .lead {
+      font-size: 24px;
+      margin-left: 0px;
+    }
+    h1 {
+      font-size: 58px;
+      width: 708px;
+    }
+    h2 {
+      font-size: 36px;
+      width: 708px;
+    }
+    p {
+      font-size: 20px;
+      margin-left: 0px;
+      width: 432px;
+    }
+    button {
+      margin-left: 0px;
+      width: 188px;
+    }
+
+    .section1 {
+      h1 {
+        width: 708px;
+      }
+      h2 {
+        width: 708px;
+      }
+      .arrow {
+        display: none;
+      }
+      .lines {
+        width: 80%;
+        top: 20%;
+      }
+      .img1 {
+        display: none;
+      }
+      .img2 {
+        display: block;
+      }
+    }
+    .section2 {
+      div {
+        width: 432px;
+      }
+
+      .textmain {
+        p {
+          margin-left: 0px;
+        }
+      }
+      .imgstar {
+        margin-left: 32px;
+        img {
+          width: 432px;
+        }
+      }
+    }
+    .section3 {
+      .imgLiza {
+        margin-left: 32px;
+        margin-top: 100px;
+        img {
+          width: 432px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 55% 0;
+        }
+      }
+      .imgNastya {
+        margin-left: 0px;
+        margin-top: 46px;
+        img {
+          width: 432px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 40% 0;
+        }
+      }
+      .about {
+        width: 432px;
+      }
+      .aboutN {
+        margin-left: 32px;
+        width: 432px;
+      }
+      p {
+        margin-left: 0px;
+      }
+      .buttons {
+        flex-direction: column;
+        width: 432px;
+        .buttonsecond {
+          margin-top: 20px;
+          margin-left: 0px;
+        }
+      }
+    }
+    .section4 {
+      .forma {
+        input {
+          margin-left: 0px;
+          width: 432px;
+        }
+      }
+      .imgstars {
+        margin-left: 32px;
+        img {
+          width: 432px;
+        }
+      }
+      div {
+        width: 432px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 970px) {
+  body.index {
+    .lead {
+      font-size: 24px;
+      margin-left: 0px;
+    }
+    h1 {
+      font-size: 58px;
+      width: 520px;
+    }
+    h2 {
+      font-size: 36px;
+      width: 520px;
+    }
+    p {
+      font-size: 20px;
+      margin-left: 0px;
+      width: 520px;
+    }
+    button {
+      margin-left: 0px;
+      width: 250px;
+    }
+
+    .section1 {
+      h1 {
+        width: 520px;
+      }
+      h2 {
+        width: 520px;
+      }
+      .arrow {
+        display: none;
+      }
+      .lines {
+        width: 80%;
+        top: 20%;
+      }
+      .img1 {
+        display: none;
+      }
+      .img2 {
+        display: block;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      height: 120%;
+      div {
+        width: 520px;
+      }
+      h2 {
+        width: 520px;
+      }
+
+      .textmain {
+        margin-top: 100px;
+        p {
+          margin-left: 0px;
+        }
+      }
+      .imgstar {
+        margin-left: 0px;
+        margin-top: 32px;
+        img {
+          width: 520px;
+        }
+      }
+    }
+    .section3 {
+      flex-direction: column;
+      height: 100%;
+
+      .imgLiza {
+        margin-left: 0px;
+        margin-top: 60px;
+        img {
+          width: 520px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 55% 0;
+        }
+      }
+      .imgNastya {
+        margin-left: 0px;
+        margin-top: 0px;
+        img {
+          width: 520px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 40% 0;
+        }
+      }
+      .about {
+        width: 520px;
+      }
+      .aboutN {
+        margin-left: 0px;
+        width: 520px;
+      }
+      p {
+        margin-left: 0px;
+      }
+      .buttons {
+        width: 250px;
+        .buttonsecond {
+          margin-top: 32px;
+          margin-left: 32px;
+        }
+      }
+    }
+    .section4 {
+      flex-direction: column;
+      .forma {
+        input {
+          margin-left: 0px;
+          width: 520px;
+        }
+      }
+      .imgstars {
+        margin-left: 0px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 320px;
+        }
+      }
+      div {
+        width: 520px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 640px) {
+  body.index {
+    .lead {
+      font-size: 24px;
+      margin-left: 0px;
+      width: 260px;
+    }
+    h1 {
+      font-size: 58px;
+      width: 352px;
+    }
+    h2 {
+      font-size: 32px;
+      width: 352px;
+    }
+    p {
+      font-size: 20px;
+      margin-left: 0px;
+      width: 352px;
+    }
+    button {
+      margin-left: 0px;
+      width: 352px;
+    }
+
+    .section1 {
+      h1 {
+        width: 352px;
+      }
+      h2 {
+        width: 352px;
+      }
+      .headings {
+        margin-top: 80px;
+      }
+      .arrow {
+        display: none;
+      }
+      .lines {
+        width: 80%;
+        top: 20%;
+      }
+      .img1 {
+        display: none;
+      }
+      .img2 {
+        display: none;
+      }
+      .img3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .section2 {
+      flex-direction: column;
+      height: 120%;
+      div {
+        width: 352px;
+      }
+
+      .textmain {
+        margin-top: 60px;
+        p {
+          margin-left: 0px;
+        }
+        h2 {
+          width: 352px;
+        }
+      }
+      .imgstar {
+        margin-left: 0px;
+        margin-top: 40px;
+        img {
+          width: 352px;
+        }
+      }
+    }
+    .section3 {
+      flex-direction: column;
+      height: 100%;
+      .imgLiza {
+        margin-left: 0px;
+        margin-top: 32px;
+        img {
+          width: 352px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 55% 0;
+        }
+      }
+      .imgNastya {
+        margin-left: 0px;
+        margin-top: 0px;
+        img {
+          width: 352px;
+          height: 400px;
+          object-fit: cover;
+          object-position: 40% 0;
+        }
+      }
+      .about {
+        width: 352px;
+      }
+      .aboutN {
+        margin-left: 0px;
+        width: 352px;
+      }
+      p {
+        margin-left: 0px;
+      }
+      .buttons {
+        flex-direction: column;
+        width: 352px;
+        .buttonsecond {
+          margin-top: 20px;
+          margin-left: 0px;
+        }
+      }
+    }
+    .section4 {
+      flex-direction: column;
+      .forma {
+        margin-top: 32px;
+        input {
+          margin-left: 0px;
+          width: 352px;
+        }
+      }
+
+      .imgstars {
+        margin-left: 0px;
+        margin-top: 60px;
+        img {
+          width: 352px;
+        }
+      }
+      div {
+        width: 352px;
+      }
+    }
+  }
+}
