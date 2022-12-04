@@ -425,9 +425,9 @@
         display: block;
       }
     }
+
     .section2 {
       flex-direction: column;
-      height: 120%;
       div {
         width: 520px;
       }
@@ -451,11 +451,10 @@
     }
     .section3 {
       flex-direction: column;
-      height: 100%;
 
       .imgLiza {
         margin-left: 0px;
-        margin-top: 60px;
+        margin-top: 0px;
         img {
           width: 520px;
           height: 400px;
@@ -465,7 +464,7 @@
       }
       .imgNastya {
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 60px;
         img {
           width: 520px;
           height: 400px;
@@ -479,6 +478,7 @@
       .aboutN {
         margin-left: 0px;
         width: 520px;
+        margin-top: 0px;
       }
       p {
         margin-left: 0px;
@@ -515,7 +515,7 @@
   }
 }
 
-@media only screen and (min-device-width: 390px) and (max-device-width: 640px) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   body.index {
     .lead {
       font-size: 24px;
@@ -555,7 +555,7 @@
       }
       .lines {
         width: 80%;
-        top: 20%;
+        top: 28%;
       }
       .img1 {
         display: none;
@@ -572,7 +572,6 @@
     }
     .section2 {
       flex-direction: column;
-      height: 120%;
       div {
         width: 352px;
       }
@@ -596,10 +595,9 @@
     }
     .section3 {
       flex-direction: column;
-      height: 100%;
       .imgLiza {
         margin-left: 0px;
-        margin-top: 32px;
+        margin-top: 0px;
         img {
           width: 352px;
           height: 400px;
@@ -609,7 +607,7 @@
       }
       .imgNastya {
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 80px;
         img {
           width: 352px;
           height: 400px;
@@ -619,10 +617,12 @@
       }
       .about {
         width: 352px;
+        margin-top: 32px;
       }
       .aboutN {
         margin-left: 0px;
         width: 352px;
+        margin-top: 0px;
       }
       p {
         margin-left: 0px;
@@ -637,7 +637,11 @@
       }
     }
     .section4 {
+      margin-top: 50px;
       flex-direction: column;
+      .text {
+        margin-top: 20px;
+      }
       .forma {
         margin-top: 32px;
         input {
@@ -648,7 +652,7 @@
 
       .imgstars {
         margin-left: 0px;
-        margin-top: 60px;
+        margin-top: 30px;
         img {
           width: 352px;
         }

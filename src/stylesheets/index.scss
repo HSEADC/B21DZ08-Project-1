@@ -47,6 +47,7 @@ body.index {
     margin-top: 100px;
   }
   .lines {
+    z-index: -100;
     width: 100%;
     height: auto;
     position: absolute;
@@ -108,7 +109,7 @@ body.index {
 
 .section2 {
   background-color: #faf8f5;
-  height: 840px;
+  height: auto;
   width: 100%;
   color: black;
   display: flex;
@@ -134,6 +135,7 @@ body.index {
     }
   }
   .imgstar {
+    margin-top: 60px;
     margin-left: 132px;
     img {
       width: 540px;
@@ -143,7 +145,7 @@ body.index {
 
 .section3 {
   background-color: #faf8f5;
-  height: 620px;
+  height: auto;
   width: 100%;
   margin-top: -2px;
   color: black;
@@ -151,8 +153,15 @@ body.index {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  .about {
+    margin-bottom: 30px;
+  }
+  .aboutN {
+    margin-bottom: 130px;
+  }
   .about,
   .aboutN {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     div {
@@ -176,14 +185,14 @@ body.index {
     }
   }
   .imgLiza {
-    margin-top: 80px;
+    margin-top: 140px;
     margin-left: 132px;
     img {
       width: 540px;
     }
   }
   .imgNastya {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 56px;
     img {
       width: 540px;
