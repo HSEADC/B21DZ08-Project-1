@@ -1,0 +1,12 @@
+<svg width="256" height="131" viewBox="0 0 256 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="4.12903" cy="4.14557" rx="4.12903" ry="4.14557" fill="white"/>
+<ellipse cx="64.419" cy="29.8497" rx="6.60645" ry="6.63291" fill="white"/>
+<ellipse cx="178.38" cy="77.9356" rx="6.60645" ry="6.63291" fill="white"/>
+<ellipse cx="237.819" cy="127.682" rx="3.30322" ry="3.31645" fill="white"/>
+<ellipse cx="251.049" cy="106.125" rx="4.95484" ry="4.97468" fill="white"/>
+<ellipse cx="161.866" cy="49.7442" rx="3.30323" ry="3.31646" fill="white"/>
+<line y1="-0.75" x2="64.4511" y2="-0.75" transform="matrix(0.922529 0.385927 -0.383307 0.923621 4.94531 4.97461)" stroke="white" stroke-width="1.5"/>
+<line y1="-0.75" x2="123.692" y2="-0.75" transform="matrix(0.921332 0.388777 -0.386145 0.922438 64.4062 29.8496)" stroke="white" stroke-width="1.5"/>
+<line y1="-0.75" x2="75.2492" y2="-0.75" transform="matrix(0.943789 0.330547 -0.3282 0.944608 181.68 81.25)" stroke="white" stroke-width="1.5"/>
+<line y1="-0.75" x2="74.1442" y2="-0.75" transform="matrix(-0.779649 -0.626217 0.623172 -0.782085 239.469 127.686)" stroke="white" stroke-width="1.5"/>
+</svg>
