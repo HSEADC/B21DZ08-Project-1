@@ -89,6 +89,15 @@ module.exports = {
       chunks: ['index']
     }),
 
+    // styleguide
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/styleguide.html',
+      filename: './styleguide.html',
+      chunks: ['index']
+    }),
+
     // Myths
     new HtmlWebpackPlugin({
       hash: true,
