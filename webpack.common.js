@@ -10,7 +10,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    page: './src/page.jsx'
+    page: './src/page.jsx',
+    myths: './src/myths.js'
   },
   output: {
     filename: '[name].js',
@@ -87,6 +88,15 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
       chunks: ['index']
+    }),
+
+    // For article
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/orion.html',
+      filename: './myths/orion.html',
+      chunks: ['myths']
     }),
 
     // Myths

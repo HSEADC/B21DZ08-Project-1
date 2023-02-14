@@ -1,0 +1,65 @@
+.M_ArticleInfoBlock {
+  width: 810px;
+  border-top: 1px solid var(--border);
+}
+
+.O_MenuFill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(
+    152.97deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(20px);
+  border-radius: 0px 0px 20px 20px;
+  z-index: 100;
+
+  .M_MenuButtons {
+    width: 1620px;
+    border-right: 1px solid var(--border);
+  }
+}
+
+.O_ArticleAllcontent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .M_Titles {
+    padding: 60px 0px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .C_Article {
+    // width: 1620px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+      152.97deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 0.1px solid var(--border);
+
+    .M_ArticleLeftBlock {
+      width: 810px;
+    }
+
+    .M_ArticleRightBlock {
+      width: 810px;
+      border-left: 1px solid var(--border);
+    }
+  }
+}
