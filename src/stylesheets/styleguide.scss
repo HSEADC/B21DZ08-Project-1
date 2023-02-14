@@ -1,7 +1,5 @@
-body.index {
+body.styleguide {
   width: 100%;
-  background-image: url('./images/noiseground1.png');
-  background-repeat: repeat-x;
   .menulogo {
     display: flex;
     -ms-flex-align: center;
@@ -18,15 +16,27 @@ body.index {
     border-bottom: 1px solid var(--white);
     z-index: 100;
     .logo {
-      font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
-      font-size: 32px;
+      font-family: 'PT-Root-UI', Helvetica, Arial, sans-serif;
+      font-size: 24px;
       color: var(--white);
       width: 100%;
       font-style: normal;
       font-weight: 400;
       letter-spacing: 0.1em;
       z-index: 102;
+      border-right: 1px solid var(--white);
+      border-left: 1px solid var(--white);
     }
+  }
+  .myphoslogo {
+    margin-top: 90px;
+    margin-left: 60px;
+  }
+  .signs1 {
+    height: 360px;
+    margin-left: 56px;
+    margin-top: 40px;
+    width: 100px;
   }
   .stars1 {
     display: flex;
@@ -109,18 +119,24 @@ body.index {
     height: 418px;
     .who {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       width: 662px;
       border: 0.5px solid var(--white);
+      div {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+      }
       .photoabout {
         display: flex;
         flex-direction: row;
         height: 242px;
+
         .about {
           h3,
           p.lead {
             margin-left: 20px;
-            width: 296px;
+            // width: 296px;
           }
           h3 {
             margin-top: 32px;
@@ -145,6 +161,7 @@ body.index {
       .text {
         border-top: 0.5px solid var(--white);
         height: 176px;
+        margin-left: 40px;
         p {
           margin: auto;
           margin-top: 40px;
@@ -262,10 +279,8 @@ body.index {
       height: 678px;
       border: 0.5px solid var(--white);
       img {
-        margin-top: 40px;
-        margin-left: 32px;
-        width: 596px;
-        height: auto;
+        width: 100%;
+        height: 100%;
       }
     }
     .info2 {
@@ -276,6 +291,10 @@ body.index {
       border: 0.5px solid var(--white);
       border-left: none;
       border-bottom: none;
+      img {
+        width: 100%;
+        height: 100%;
+      }
       .info.two {
         height: 360px;
         border-top: none;
@@ -370,8 +389,14 @@ body.index {
         margin-left: 56px;
         margin-top: 16px;
       }
-      img.img1 {
-        width: 25%;
+      img.img1,
+      .img2 {
+        width: 55%;
+      }
+      .img3,
+      .img4 {
+        width: 55%;
+        margin: 70px 145px 0px 145px;
       }
     }
   }
@@ -435,7 +460,8 @@ body.index {
     }
   }
 }
-.back {
-  position: absolute;
-  z-index: -1000;
+
+.colors {
+  width: 1000px;
+  border-bottom: 1px solid var(--white);
 }
