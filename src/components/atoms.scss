@@ -1,0 +1,102 @@
+.Q_ArticleStars {
+  margin-left: 70px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.A_FirstTitle {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 160px;
+}
+
+.A_SecondTitle {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 96px;
+}
+
+.A_ArticleStarsContainer {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--border);
+}
+
+.A_ArticleContent {
+  width: 622px;
+  margin-left: 6px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.A_ArticleInfoContent {
+  width: 622px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-size: 24px;
+}
+
+.A_ArticleBetony,
+.A_ArticleInfoName {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 64px;
+}
+
+.A_ArticleInfoName {
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.A_ArticleLead {
+  width: 670px;
+  margin-left: 70px;
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+.A_BigLead {
+  width: 1540px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 80px;
+}
+
+.A_ArticleInter {
+  font-size: 36px;
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+}
+
+.A_MenuLogo {
+  width: 1620px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Base&Bloom Demo', Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.W_MenuSections {
+  width: 1620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .A_MenuSection {
+    width: inherit;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-left: 1px solid var(--border);
+  }
+}
+
+.W_ArticleMainContent {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 40px;
+}

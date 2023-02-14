@@ -8,18 +8,24 @@ body {
   height: 100%;
   background-color: var(--black);
   overflow-x: hidden;
-  /* для Chrome/Edge/Safari */
   *::-webkit-scrollbar {
     height: 8px;
     width: 16px;
   }
   *::-webkit-scrollbar-track {
     background: var(--black);
-    border: 1px solid var(--white);
+    // border: 1px solid var(--border);
   }
   *::-webkit-scrollbar-thumb {
     background-color: var(--black);
-    border: 1px solid var(--white);
+    background: linear-gradient(
+      152.97deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    backdrop-filter: blur(20px);
+    border: 0.1px solid var(--border);
+    border-radius: 10px;
   }
 }
 
@@ -27,45 +33,45 @@ body {
   font-family: 'PT-Root-UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: var(--white);
-  p,
-  p.basetext {
-    font-size: 20px;
-    width: 540px;
-    line-height: 24px;
-  }
-  p.lead {
-    font-size: 40px;
-    line-height: 48px;
-    width: 560px;
-    margin-top: 40px;
-    margin-left: 56px;
-  }
-  p.biglead {
-    font-size: 72px;
-    line-height: 86px;
-  }
-  p.betony {
-    font-size: 48px;
-    margin-left: 56px;
-    width: 50px;
-    font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
-  }
-  h2 {
-    font-size: 120px;
-    font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
-  }
-  h3 {
-    font-size: 56px;
-    font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
-  }
-  h4 {
-    font-size: 96px;
-    font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
-  }
+  // p,
+  // p.basetext {
+  //   font-size: 20px;
+  //   width: 540px;
+  //   line-height: 24px;
+  // }
+  // p.lead {
+  //   font-size: 40px;
+  //   line-height: 48px;
+  //   width: 560px;
+  //   margin-top: 40px;
+  //   margin-left: 56px;
+  // }
+  // p.biglead {
+  //   font-size: 72px;
+  //   line-height: 86px;
+  // }
+  // p.betony {
+  //   font-size: 48px;
+  //   margin-left: 56px;
+  //   width: 50px;
+  //   font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
+  // }
+  // h2 {
+  //   font-size: 120px;
+  //   font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
+  // }
+  // h3 {
+  //   font-size: 56px;
+  //   font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
+  // }
+  // h4 {
+  //   font-size: 96px;
+  //   font-family: 'Base&Bloom', Helvetica, Arial, sans-serif;
+  // }
 }
 
 a {
   text-decoration: none;
-  color: var(--white);
-  cursor: url('./images/activecursor.svg') 4 1, pointer;
+  // color: var(--white);
+  // cursor: url('./images/activecursor.svg') 4 1, pointer;
 }
