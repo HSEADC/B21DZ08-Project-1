@@ -3,5 +3,6 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
 
-@import 'components/atoms.scss';
-@import 'components/molecules.scss';
+@import 'articles/atoms.scss';
+@import 'articles/molecules.scss';
+@import 'articles/responsive.scss';
