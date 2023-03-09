@@ -130,12 +130,12 @@ module.exports = {
       filename: './pages/about.html'
     }),
 
-    // articletest
+    // test
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/articletest.html',
-      filename: './articles/articletest.html',
+      template: './src/test/articletest.html',
+      filename: './test/articletest.html',
       chunks: ['page']
     }),
 

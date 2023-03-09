@@ -1,7 +1,19 @@
 .Q_ArticleStars {
-  margin-left: 70px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  width: 150px;
+  height: 164px;
+  background-repeat: no-repeat;
+
+  &.orion {
+    background-image: url('./images/orion.svg');
+  }
+
+  &.big_dog {
+    background-image: url('./images/big_dog.svg');
+  }
+
+  &.small_dog {
+    background-image: url('./images/small_dog.svg');
+  }
 }
 
 .Q_top {
@@ -15,7 +27,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   backdrop-filter: blur(10px);
 }
 
@@ -24,7 +35,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .A_ArticleLead,
@@ -41,11 +51,12 @@
 
 .A_SecondTitle {
   font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-  font-size: 96px;
+  font-size: 128px;
 }
 
 .A_ArticleStarsContainer {
   display: flex;
+  padding: 20px 70px 20px 70px;
   justify-content: flex-start;
   border-bottom: 1px solid var(--border);
 }

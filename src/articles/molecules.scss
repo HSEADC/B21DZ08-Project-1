@@ -49,7 +49,9 @@
     align-items: center;
     z-index: 3;
   }
-
+  .M_ArticleLeftBlock {
+    width: 810px;
+  }
   .C_Article {
     .W_Article {
       z-index: 3;
@@ -61,9 +63,7 @@
       border-radius: 20px;
       border: 0.1px solid var(--border);
     }
-    .M_ArticleLeftBlock {
-      width: 810px;
-    }
+  
     .W_ArticleMainContent {
       display: flex;
       margin-left: 70px;
