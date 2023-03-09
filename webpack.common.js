@@ -99,6 +99,16 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    //For Zodiak page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/zodiak.html',
+      filename: './main_pages/zodiak.html',
+      chunks: ['myths']
+    }),
+
+
     // Myths
     new HtmlWebpackPlugin({
       hash: true,
