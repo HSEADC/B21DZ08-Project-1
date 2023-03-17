@@ -108,6 +108,35 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    
+    //For Map page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/map.html',
+      filename: './main_pages/map.html',
+      chunks: ['myths']
+    }),
+
+    
+    //For Myphology page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/myphology.html',
+      filename: './main_pages/myphology.html',
+      chunks: ['myths']
+    }),
+
+    
+    //For About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/about.html',
+      filename: './main_pages/about.html',
+      chunks: ['myths']
+    }),
 
     // Myths
     new HtmlWebpackPlugin({

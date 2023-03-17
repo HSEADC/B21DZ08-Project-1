@@ -1,40 +1,42 @@
-.Q_ArticleStars {
-  width: 150px;
-  height: 164px;
-  background-repeat: no-repeat;
-
-  &.orion {
-    background-image: url('./images/orion.svg');
-  }
-
-  &.big_dog {
-    background-image: url('./images/big_dog.svg');
-  }
-
-  &.small_dog {
-    background-image: url('./images/small_dog.svg');
-  }
-}
-
-.Q_top {
+.A_FirstTitle {
   font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-  width: 50px;
-  font-size: 128px;
-  transform: rotate(-90deg);
-  margin-top: 32px;
-  margin-bottom: 32px;
-  background: var(--background-top);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  backdrop-filter: blur(10px);
+  font-size: 160px;
+  text-align: center;
 }
 
-.Q_top:hover {
-  background: var(--white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.A_SecondTitle {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 128px;
+  text-align: center;
+}
+
+.A_ArticleImageBox{
+  width: 160px;
+  height: 160px;
+
+  &.orionBox {
+    width: 132px;;
+  }
+
+  .Q_ArticleStars {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    &.orion {
+      background-image: url('./images/orion.svg');
+    }
+  
+    &.big_dog {
+      background-image: url('./images/big_dog.svg');
+    }
+  
+    &.small_dog {
+      background-image: url('./images/small_dog.svg');
+    }
+  }
 }
 
 .A_ArticleLead,
@@ -42,23 +44,6 @@
 .A_ArticleInfoContent,
 .A_BigLead {
   line-height: normal;
-}
-
-.A_FirstTitle {
-  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-  font-size: 160px;
-}
-
-.A_SecondTitle {
-  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-  font-size: 128px;
-}
-
-.A_ArticleStarsContainer {
-  display: flex;
-  padding: 20px 70px 20px 70px;
-  justify-content: flex-start;
-  border-bottom: 1px solid var(--border);
 }
 
 .A_ArticleContent {
@@ -73,7 +58,7 @@
 .A_ArticleInfoContent {
   width: 622px;
   margin-bottom: 40px;
-  margin-left: 108px;
+  margin-left: 124px;
   font-size: 24px;
 }
 
@@ -138,7 +123,6 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  font-weight: 500;
   text-transform: uppercase;
   border-left: 1px solid var(--border);
   background-repeat: no-repeat;
@@ -173,28 +157,49 @@
 .A_ImgGrain {
   position: absolute;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   width: 1470px;
   height: 1140px;
   z-index: 0;
 
   &.first {
-    margin-left: -10%;
-    top: 5%;
+    margin-left: -240px;
+    top: -176px;
     background-image: url('./images/grain6.png');
   }
 
   &.second {
-    left: 30%;
-    top: 40%;
+    left: 220px;
+    top: -516px;
     background-image: url('./images/grain2.png');
   }
 
   &.third {
-    left: -5%;
-    top: 70%;
+    left: -410px;
+    top: -378px;
     background-image: url('./images/grain3.png');
+  }
+}
+
+.Q_top {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  width: 50px;
+  font-size: 128px;
+  transform: rotate(-90deg);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: var(--background-top);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  backdrop-filter: blur(10px);
+
+  &:hover {
+    background: var(--white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
 
@@ -202,15 +207,27 @@
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 10px;
-
-  &.year {
-    font-size: 30px;
-  }
 }
 
 .A_FuterButton {
   font-size: 20px;
   margin-top: 8px;
+
+  &.year {
+    font-size: 22px;
+    margin-top: 0px;
+  }
 }
 
-.A_ZodiakStarImg {}
+.A_FuterImage {
+  position: absolute;
+  width: 486px;
+  height: 452px;
+  margin-left: 1138px;
+  margin-top: -274px;
+  background-image: url('./images/futerImage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 0;
+}
