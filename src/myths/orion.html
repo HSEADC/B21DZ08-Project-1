@@ -38,19 +38,49 @@
 
   </head>
   <body>
-    <div class="S_MenuFill">
-      <div class="M_MenuButtons">
-        <div class="A_MenuLogo">МИфОС</div>
-        <div class="M_MenuSections">
-          <div class="A_MenuSection first">СОЗВЕЗДИЯ</div>
-          <div class="A_MenuSection second">МИФОЛОГИЯ</div>
-          <div class="A_MenuSection third">ЗОДИАКИ</div>
-          <div class="A_MenuSection forth">О НАС</div>
+
+    <nav class="S_MenuPhone">
+      <div class="O_MenuPhoneContainer">
+        <div class="M_MenuPhoneElements">
+          <div class="M_MenuPhoneHamb">
+            <div class="A_MenuPhoneHambField" id="hamb">
+              <span class="Q_MenuBar"></span> <span class="Q_MenuBar"></span>
+              <span class="Q_MenuBar"></span>
+            </div>
+            <a class="A_MenuLogo"  href="../index.html" id="logo">МИфОС</a>
+          </div>
+
+          <ul class="M_MenuSections" id="menu">
+            <li><a class="A_MenuSection first" href="../main_pages/map.html">КАРТА СОЗВЕЗДИЙ</a></li>
+            <li><a class="A_MenuSection" href="../main_pages/myphology.html">МИФОЛОГИЯ</a></li>
+            <li><a class="A_MenuSection" href="../main_pages/zodiak.html">ЗОДИАКИ</a></li>
+            <li><a class="A_MenuSection" href="../main_pages/about.html">О НАС</a></li>
+
+            <li class="A_TgIcon"><a class="Q_TgIcon" href="https://t.me/spacegreekmyths"></a></li>
+          </ul>
+
         </div>
       </div>
+    </nav>
+    
+
+    <div class="S_MenuFill">
+      <header class="M_MenuButtons">
+        <a class="A_MenuLogo"  href="../index.html">МИфОС</a>
+
+        <div class="M_MenuSections">
+          <a class="A_MenuSection first"  href="../main_pages/map.html">КАРТА СОЗВЕЗДИЙ</a>
+          <a class="A_MenuSection second"  href="../main_pages/myphology.html">МИФОЛОГИЯ</a>
+          <a class="A_MenuSection third" href="../main_pages/zodiak.html">ЗОДИАКИ</a>
+          <a class="A_MenuSection forth"  href="../main_pages/about.html">О НАС</a>
+        </div>
+
+      </header>
     </div>
 
+
     <div id="top"></div>
+
 
     <div class="S_ArticleAllcontent">
       <div class="M_Titles">
@@ -58,7 +88,7 @@
           ОрИОн
         </h1>
         <h2 class="A_SecondTitle">
-          бОЛьшОЙ И МалыЙ пСы
+          бОЛьшОЙ И&nbsp;МалыЙ пСы
         </h2>
       </div>
 
@@ -66,10 +96,14 @@
         <div class="A_ImgGrain first"></div>
         <div class="W_Article">
           <div class="M_ArticleLeftBlock">
-            <div class="A_ArticleStarsContainer">
-              <div class="Q_ArticleStars orion"></div>
-              <div class="Q_ArticleStars big_dog"></div>
-              <div class="Q_ArticleStars small_dog"></div>
+            <div class="M_ArticleStarsContainer">
+
+              <div class="A_ArticleImageBox orionBox"><div class="Q_ArticleStars orion"></div></div>
+
+              <div class="A_ArticleImageBox"><div class="Q_ArticleStars big_dog"></div></div>
+
+              <div class="A_ArticleImageBox"><div class="Q_ArticleStars small_dog"></div></div>              
+            
             </div>
             <p class="A_ArticleLead">
               Однажды в&nbsp;жаркий летний день Орион отправился в&nbsp;густые
@@ -213,24 +247,25 @@
     <div class="S_Futer">
       <div class="O_FuterAll">
         <div class="M_FuterPart first">
-          <div class="A_FuterMenu">МИфОС</div>
-          <div class="A_FuterButton">Телеграм</div>
+          <div class="A_FuterMenu name">МИфОС</div>
+          <div class="A_FuterButton tg">Телеграм</div>
         </div>
-        <div class="M_FuterPart">
+        <div class="M_FuterPart second">
           <div class="A_FuterMenu">Проект сделали:</div>
           <div class="A_FuterButton">Лиза Демичева</div>
           <div class="A_FuterButton">Настя Колодина</div>
           <div class="A_FuterButton">Полина Барыбина</div>
         </div>
-        <div class="M_FuterPart">
+        <div class="M_FuterPart third">
           <div class="A_FuterMenu">Кураторы:</div>
           <div class="A_FuterButton">Захар День</div>
           <div class="A_FuterButton">Соня Каем</div>
         </div>
-        <div class="M_FuterPart">
+        <div class="M_FuterPart fourth">
           <div class="A_FuterButton year">2023</div>
         </div>
       </div>
+      <div class="A_FuterImage"></div>
     </div>
   </body>
 </html>
