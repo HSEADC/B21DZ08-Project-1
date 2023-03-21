@@ -39,7 +39,7 @@
   flex-direction: column;
 
   .M_Titles {
-    padding: 120px 0px 40px;
+    padding: 160px 0px 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,12 +61,16 @@
       border: 0.1px solid var(--border);
 
       .M_ArticleRightBlock {
+        display: flex;
         width: 810px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-left: 1px solid var(--border);
         border-left: 1px solid var(--border);
 
         .W_ArticleMainContent {
           display: flex;
-          margin-left: 70px;
           margin-top: 40px;
           margin-bottom: 40px;
 
@@ -77,6 +81,10 @@
 
         .M_ArticleInfoBlock {
           width: 810px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           border-top: 1px solid var(--border);
         }
       }
@@ -126,5 +134,104 @@
         border-top-left-radius: 20px;
       }
     }
+  }
+}
+
+
+.S_Zodiak {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+
+  .W_ZodiakContent {
+    display: flex;
+    width: 1620px;
+    background: var(--background-article);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 0.1px solid var(--border);
+
+    .C_ZodiakWithNaming {
+      position: relative;
+      width: 810px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .M_ZodiacAllTogether {
+        position: relative;
+        margin-top: 40px;
+        width: 645px;
+        height: 645px;
+      }
+    }
+  }
+  .M_ArticleRightBlock {
+    display: flex;
+    width: 810px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid var(--border);
+
+    &.aries {
+      display: none;
+
+      &.active {
+        display: flex;
+      }
+    }
+
+    &.leo {
+      display: none;
+
+      &.active {
+        display: flex;
+      }
+    }
+
+    .W_ArticleMainContent {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+
+      .M_ArticleContentBlocks {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.M_Button {
+  box-sizing: border-box;
+  width: 640px;
+  height: 86px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  background: var(--button);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+
+  &.articlebtn {
+    margin-top: 100px;
+    z-index: 5;
+  }
+
+  &:hover {
+    background: var(--button-hover);
+  }
+
+  .A_ButtonText {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 30px;
   }
 }
