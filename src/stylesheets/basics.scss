@@ -36,7 +36,9 @@ body {
 }
 
 a {
+  box-sizing: border-box;
   text-decoration: none;
   color: var(--white);
   cursor: url('./images/activecursor.svg') 4 1, pointer;
+  z-index: 5;
 }
