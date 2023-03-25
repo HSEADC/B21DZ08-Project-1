@@ -28,7 +28,6 @@
   display: none;
 }
 
-
 .S_ArticleAllcontent {
   position: relative;
   width: 100%;
@@ -137,7 +136,6 @@
   }
 }
 
-
 .S_Zodiak {
   position: relative;
   width: 100%;
@@ -156,23 +154,8 @@
     backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 0.1px solid var(--border);
-
-    .C_ZodiakWithNaming {
-      position: relative;
-      width: 810px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-
-      .M_ZodiacAllTogether {
-        position: relative;
-        margin-top: 40px;
-        width: 645px;
-        height: 645px;
-      }
-    }
   }
+
   .M_ArticleRightBlock {
     display: flex;
     width: 810px;
@@ -181,21 +164,21 @@
     align-items: center;
     border-left: 1px solid var(--border);
 
-    &.aries {
-      display: none;
+    // &.aries {
+    //   display: none;
 
-      &.active {
-        display: flex;
-      }
-    }
+    //   &.active {
+    //     display: flex;
+    //   }
+    // }
 
-    &.leo {
-      display: none;
+    // &.leo {
+    //   display: none;
 
-      &.active {
-        display: flex;
-      }
-    }
+    //   &.active {
+    //     display: flex;
+    //   }
+    // }
 
     .W_ArticleMainContent {
       margin-top: 40px;
@@ -207,6 +190,22 @@
       }
     }
   }
+}
+
+.C_ZodiakWithNaming {
+  position: relative;
+  width: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.M_ZodiakAllTogether {
+  position: relative;
+  margin-top: 40px;
+  width: 645px;
+  height: 645px;
 }
 
 .M_Button {
@@ -227,11 +226,5 @@
 
   &:hover {
     background: var(--button-hover);
-  }
-
-  .A_ButtonText {
-    font-size: 24px;
-    text-transform: uppercase;
-    padding: 30px;
   }
 }

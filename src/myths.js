@@ -1,63 +1,108 @@
 import './myths.css'
 
-const MenuField = document.querySelector('.A_MenuPhoneHambField')
-if (MenuField){
+function phoneMenu() {
+  const MenuField = document.querySelector('.A_MenuPhoneHambField')
+  if (MenuField) {
     const MenuSections = document.querySelector('.M_MenuSections')
-    MenuField.addEventListener("click", function(e){
-        MenuField.classList.toggle('active');
-        MenuSections.classList.toggle('active');
+    MenuField.addEventListener('click', function (e) {
+      MenuField.classList.toggle('active')
+      MenuSections.classList.toggle('active')
     })
+  }
 }
 
-const zodiaks = document.querySelector('.M_ZodiacAllTogether')
+// function getZodiakTags() {
+//   const zodiakButton = document.querySelectorAll('.A_ZodiakButton')
+//   const tags = []
+//   for (let i = 0; i < zodiakButton.length; i++) {
+//     const trueTag = zodiakButton[i]
+//     const contentTag = trueTag.dataset.tag.split()
 
-const aries = document.querySelector('.A_ZodiakAries')
-const ariesName = document.querySelector('.ariesName')
-const ariesStars = document.querySelector('.Q_ZodiakAries')
-const text1 = document.querySelector('.aries')
+//     tags.push(...contentTag)
+//     // console.log(contentTag)
+//   }
+// }
 
-const leo = document.querySelector('.A_ZodiakLeo')
-const leoName = document.querySelector('.leoName')
-const leoStars = document.querySelector('.Q_ZodiakLeo')
-const text2 = document.querySelector('.leo')
+// Zodiak Page
 
-if (zodiaks){
-    aries.addEventListener("click", function(e){
-        aries.classList.add('active');
-        ariesName.classList.add('active');
-        ariesStars.classList.add('active');
-        text1.classList.add('active');
+function getZodiakTags() {
+  const zodiakButton = document.querySelectorAll('.A_ZodiakButton')
+  const tags = []
 
-        leo.classList.remove('active');
-        leoName.classList.remove('active');
-        leoStars.classList.remove('active');
-        text2.classList.remove('active');
-    })
-} else {
-    aries.classList.remove('active');
-    ariesName.classList.remove('active');
-    ariesStars.classList.remove('active');
-    text1.classList.remove('active');
+  for (let i = 0; i < zodiakButton.length; i++) {
+    const trueTag = zodiakButton[i]
+    const contentTag = trueTag.dataset.tag.split()
+
+    tags.push(...contentTag)
+    // console.log(contentTag)
+  }
 }
 
+function getZodiakNames() {
+  const zodiakName = document.querySelectorAll('.A_ZodiakName')
+  const names = []
 
+  for (let i = 0; i < zodiakName.length; i++) {
+    const trueName = zodiakName[i]
+    const contentName = trueName.dataset.name.split()
 
-if (zodiaks){
-    leo.addEventListener("click", function(e){
-        leo.classList.add('active');
-        leoName.classList.add('active');
-        leoStars.classList.add('active');
-        text2.classList.add('active');
-
-        aries.classList.remove('active');
-        ariesName.classList.remove('active');
-        ariesStars.classList.remove('active');
-        text1.classList.remove('active');
-    })
-} else {
-    leo.classList.remove('active');
-    leoName.classList.remove('active');
-    leoStars.classList.remove('active');
-    text2.classList.remove('active');
+    names.push(...contentName)
+    // console.log(contentName)
+  }
 }
 
+function updatedContent() {
+  const contentCenterImage = document.querySelectorAll('.A_ZodiakInCircle')
+  const contentNameTitle = document.querySelectorAll('.A_ZodiakName')
+  const contentDescription = document.querySelectorAll('.M_ArticleRightBlock')
+  const contentPage = {
+    id: '',
+    image: contentCenterImage,
+    title: contentNameTitle,
+    description: contentDescription
+  }
+
+  contentPageId.forEach((id) => {
+    content.forEach((contentPage) => {
+      if (contentPage.id === id) {
+      }
+    })
+  })
+}
+
+function initZodiaks() {
+  getZodiakTags()
+  getZodiakNames()
+  const zodiaks = document.querySelectorAll('.A_ZodiakButton')
+
+  let zodiakClicked = zodiaks[0]
+
+  for (let i = 0; i < zodiaks.length; i++) {
+    zodiaks[i].addEventListener('click', function () {
+      zodiakClicked.classList.remove('active')
+      this.classList.add('active')
+
+      zodiakClicked = this
+    })
+  }
+
+  if (Array(zodiaks).classList.contains('active')) {
+    console.log('hi')
+    const clickedTag = zodiaks.dataset.tag.split()
+    console.log(clickedTag)
+
+    let foundName = names.filter((e) => {
+      return e === clickedTag
+    })
+    console.log(clickedTag)
+    zodiakName.classList.remove('active')
+    if ((foundName = clickedTag)) {
+      zodiakName.classList.add('active')
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initZodiaks()
+  phoneMenu()
+})

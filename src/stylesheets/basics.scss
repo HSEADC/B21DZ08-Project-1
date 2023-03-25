@@ -40,5 +40,6 @@ a {
   text-decoration: none;
   color: var(--white);
   cursor: url('./images/activecursor.svg') 4 1, pointer;
+  user-select: none;
   z-index: 5;
 }
