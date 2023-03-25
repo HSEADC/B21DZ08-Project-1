@@ -10,12 +10,12 @@
   text-align: center;
 }
 
-.A_ArticleImageBox{
+.A_ArticleImageBox {
   width: 160px;
   height: 160px;
 
   &.orionBox {
-    width: 132px;;
+    width: 132px;
   }
 
   .Q_ArticleStars {
@@ -24,15 +24,15 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: contain;
-  
+
     &.orion {
       background-image: url('./images/orion.svg');
     }
-  
+
     &.big_dog {
       background-image: url('./images/big_dog.svg');
     }
-  
+
     &.small_dog {
       background-image: url('./images/small_dog.svg');
     }
@@ -107,12 +107,12 @@
   border-bottom: 1px solid var(--border);
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.A_MenuLogo:hover {
-  width: inherit;
-  height: 60px;
-  background-image: url('./images/A_MenuLogo.png');
+  &:hover {
+    width: inherit;
+    height: 60px;
+    background-image: url('./images/A_MenuLogo.png');
+  }
 }
 
 .A_MenuSection {
@@ -231,215 +231,204 @@
   z-index: 0;
 }
 
-.A_ZodiakAries, .A_ZodiakTaurus, .A_ZodiakGemini, .A_ZodiakCancer, .A_ZodiakLeo, .A_ZodiakVirgo, .A_ZodiakLibra, .A_ZodiakScorpio, .A_ZodiakStrelec, .A_ZodiakKozerog, .A_ZodiakVodolei, .A_ZodiakPisces {
+.A_ZodiakButton {
+  display: block;
   position: absolute;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: contain;
-}
 
-.A_ZodiakAries {
-  width: 158.73px;
-  height: 158.74px;
-  left: 48px;
-  top: 439px;
-  background-image: url('./images/ZodiakPage/A_ZodiakAries.png');
+  &.Aries {
+    width: 158.73px;
+    height: 158.74px;
+    left: 48px;
+    top: 439px;
+    background-image: url('./images/ZodiakPage/A_ZodiakAries.png');
 
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
+    }
 
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
-  }
-}
+  &.Taurus {
+    left: 167px;
+    top: 518px;
+    width: 152px;
+    height: 126.85px;
+    background-image: url('./images/ZodiakPage/A_ZodiakTaurus.png');
 
-.A_ZodiakTaurus {
-  left: 167px;
-  top: 518px;
-  width: 152px;
-  height: 126.85px;
-  background-image: url('./images/ZodiakPage/A_ZodiakTaurus.png');
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
+    }
 
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
-  }
-
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
-  }
-} 
-
-.A_ZodiakGemini{
-  left: 324px;
-  top: 518px;
-  width: 152px;
-  height: 126.85px;
-  background-image: url('./images/ZodiakPage/A_ZodiakGemini.png');
-
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
-  }
-}
+  &.Gemini {
+    left: 324px;
+    top: 518px;
+    width: 152px;
+    height: 126.85px;
+    background-image: url('./images/ZodiakPage/A_ZodiakGemini.png');
 
-.A_ZodiakCancer{
-  left: 436px;
-  top: 440px;
-  width: 158.72px;
-  height: 158.75px;
-  background-image: url('./images/ZodiakPage/A_ZodiakCancer.png');
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
+    }
 
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
-  }
-
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
-  }
-} 
-
-.A_ZodiakLeo {
-  left: 516px;
-  top: 328px;
-  width: 126.84px;
-  height: 152.02px;
-  background-image: url('./images/ZodiakPage/A_ZodiakLeo.png');
-
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
-  }
-} 
+  &.Cancer {
+    left: 436px;
+    top: 440px;
+    width: 158.72px;
+    height: 158.75px;
+    background-image: url('./images/ZodiakPage/A_ZodiakCancer.png');
 
-.A_ZodiakVirgo {
-  left: 516px;
-  top: 170px;
-  width: 126.83px;
-  height: 152px;
-  background-image: url('./images/ZodiakPage/A_ZodiakVirgo.png');
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
+    }
 
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
-  }
-
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
-  }
-} 
-
-.A_ZodiakLibra {
-  left: 436px;
-  top: 52px;
-  width: 158.72px;
-  height: 158.74px;
-  background-image: url('./images/ZodiakPage/A_ZodiakLibra.png');
-
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
-  }
-} 
+  &.Leo {
+    left: 516px;
+    top: 328px;
+    width: 126.84px;
+    height: 152.02px;
+    background-image: url('./images/ZodiakPage/A_ZodiakLeo.png');
 
-.A_ZodiakScorpio {
-  left: 324px;
-  top: 4px;
-  width: 152px;
-  height: 126.85px;
-  background-image: url('./images/ZodiakPage/A_ZodiakScorpio.png');
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
+    }
 
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
-  }
-
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
-  }
-} 
-
-.A_ZodiakStrelec {
-  left: 166px;
-  top: 4px;
-  width: 152px;
-  height: 126.85px;
-
-  background-image: url('./images/ZodiakPage/A_ZodiakStrelec.png');
-
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
-  }
-} 
+  &.Virgo {
+    left: 516px;
+    top: 170px;
+    width: 126.83px;
+    height: 152px;
+    background-image: url('./images/ZodiakPage/A_ZodiakVirgo.png');
 
-.A_ZodiakKozerog {
-  left: 48px;
-  top: 52px;
-  width: 158.73px;
-  height: 158.75px;
-  background-image: url('./images/ZodiakPage/A_ZodiakKozerog.png');
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
+    }
 
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
-  }
-  
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
-  }
-} 
-
-.A_ZodiakVodolei {
-  top: 170px;
-  left: 2px;
-  width: 126.85px;
-  height: 152.01px;
-  background-image: url('./images/ZodiakPage/A_ZodiakVodolei.png');
-
-
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+  &.Libra {
+    left: 436px;
+    top: 52px;
+    width: 158.72px;
+    height: 158.74px;
+    background-image: url('./images/ZodiakPage/A_ZodiakLibra.png');
+
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
+    }
+
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
+    }
   }
-} 
 
-.A_ZodiakPisces {
-  left: 2px;
-  top: 328px;
-  width: 126.84px;
-  height: 152.02px;
-  background-image: url('./images/ZodiakPage/A_ZodiakPisces.png');
+  &.Scorpio {
+    left: 324px;
+    top: 4px;
+    width: 152px;
+    height: 126.85px;
+    background-image: url('./images/ZodiakPage/A_ZodiakScorpio.png');
 
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
+    }
 
-  &:hover {
-    background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
+    }
   }
 
-  &.active {
-    background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+  &.Strelec {
+    left: 166px;
+    top: 4px;
+    width: 152px;
+    height: 126.85px;
+
+    background-image: url('./images/ZodiakPage/A_ZodiakStrelec.png');
+
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
+    }
+
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
+    }
+  }
+
+  &.Kozerog {
+    left: 48px;
+    top: 52px;
+    width: 158.73px;
+    height: 158.75px;
+    background-image: url('./images/ZodiakPage/A_ZodiakKozerog.png');
+
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
+    }
+
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
+    }
+  }
+
+  &.Vodolei {
+    top: 170px;
+    left: 2px;
+    width: 126.85px;
+    height: 152.01px;
+    background-image: url('./images/ZodiakPage/A_ZodiakVodolei.png');
+
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+    }
+
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+    }
+  }
+
+  &.Pisces {
+    left: 2px;
+    top: 328px;
+    width: 126.84px;
+    height: 152.02px;
+    background-image: url('./images/ZodiakPage/A_ZodiakPisces.png');
+
+    &:hover {
+      background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+    }
+
+    &.active {
+      background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+    }
   }
 }
 
@@ -464,7 +453,7 @@
   border-radius: 100%;
   border: 1px solid var(--white);
 
-  .Q_ZodiakAries, .Q_ZodiakLeo {
+  .Q_ZodiakCenter {
     display: none;
     width: 268px;
     height: 250px;
@@ -477,14 +466,20 @@
       display: block;
     }
 
-    &.Q_ZodiakAries {
+    &.AriesCenter {
       background-image: url('./images/ZodiakPage/aries.svg');
     }
 
-    &.Q_ZodiakLeo {
+    &.LeoCenter {
       margin-top: 64px;
       width: 300px;
       background-image: url('./images/ZodiakPage/leo.svg');
     }
   }
+}
+
+.A_ButtonText {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 30px;
 }
