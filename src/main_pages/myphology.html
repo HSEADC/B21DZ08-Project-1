@@ -2,16 +2,13 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Поиск созвездий</title>
     <link rel="icon" href="../images/favicon.svg" type="image/svg" />
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Поиск созвездий" />
-    <meta
-      name="description"
-      content="Найди свой миф среди 45&nbsp;созвездий"
-    />
+    <meta name="description" content="Найди свой миф среди 45&nbsp;созвездий" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -32,7 +29,6 @@
     <meta property="twitter:image" content="../images/favicon.svg" />
 
     <analytics></analytics>
-
   </head>
   <body>
     <nav class="S_MenuPhone">
@@ -43,35 +39,122 @@
               <span class="Q_MenuBar"></span> <span class="Q_MenuBar"></span>
               <span class="Q_MenuBar"></span>
             </div>
-            <a class="A_MenuLogo"  href="../index.html" id="logo">МИфОС</a>
+            <a class="A_MenuLogo" href="../index.html" id="logo">МИфОС</a>
           </div>
 
           <ul class="M_MenuSections" id="menu">
-            <li><a class="A_MenuSection first" href="../main_pages/map.html">КАРТА СОЗВЕЗДИЙ</a></li>
-            <li><a class="A_MenuSection" href="../main_pages/myphology.html">МИФОЛОГИЯ</a></li>
-            <li><a class="A_MenuSection" href="../main_pages/zodiak.html">ЗОДИАКИ</a></li>
-            <li><a class="A_MenuSection" href="../main_pages/about.html">О НАС</a></li>
+            <li>
+              <a class="A_MenuSection first" href="../main_pages/map.html"
+                >КАРТА СОЗВЕЗДИЙ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/myphology.html"
+                >МИФОЛОГИЯ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/zodiak.html"
+                >ЗОДИАКИ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/about.html">О НАС</a>
+            </li>
 
-            <li class="A_TgIcon"><a class="Q_TgIcon" href="https://t.me/spacegreekmyths"></a></li>
+            <li class="A_TgIcon">
+              <a class="Q_TgIcon" href="https://t.me/spacegreekmyths"></a>
+            </li>
           </ul>
-
         </div>
       </div>
     </nav>
-    
+
     <div class="S_MenuFill">
       <header class="M_MenuButtons">
-        <a class="A_MenuLogo"  href="../index.html">МИфОС</a>
+        <a class="A_MenuLogo" href="../index.html">МИфОС</a>
 
         <div class="M_MenuSections">
-          <a class="A_MenuSection first"  href="../main_pages/map.html">КАРТА СОЗВЕЗДИЙ</a>
-          <a class="A_MenuSection second"  href="../main_pages/myphology.html">МИФОЛОГИЯ</a>
-          <a class="A_MenuSection third" href="../main_pages/zodiak.html">ЗОДИАКИ</a>
-          <a class="A_MenuSection forth"  href="../main_pages/about.html">О НАС</a>
+          <a class="A_MenuSection first" href="../main_pages/map.html"
+            >КАРТА СОЗВЕЗДИЙ</a
+          >
+          <a class="A_MenuSection second" href="../main_pages/myphology.html"
+            >МИФОЛОГИЯ</a
+          >
+          <a class="A_MenuSection third" href="../main_pages/zodiak.html"
+            >ЗОДИАКИ</a
+          >
+          <a class="A_MenuSection forth" href="../main_pages/about.html"
+            >О НАС</a
+          >
         </div>
-
       </header>
     </div>
+
+    <div class="S_FilterBarAllcontent">
+      <div class="M_Titles">
+        <h1 class="A_FirstTitle"></h1>
+        <h2 class="A_SecondTitle">МИфОлОГИя СОЗвеЗдИЙ</h2>
+      </div>
+      <div class="O_FilterBar">
+        <div class="W_FilterBarSearch">
+          <img src="../images/A_FilterBarSearchIcon.svg" alt="" />
+        </div>
+        <div class="C_FilterBarFilterButton">
+          <div class="M_FilterBarFilterButton All">
+            <div class="A_FilterBarFilterButtonText All" data-filter="all">
+              все
+            </div>
+          </div>
+          <div class="M_FilterBarFilterButton Sky">
+            <div class="A_FilterBarFilterButtonText Left" data-filter="south">
+              южное небо
+            </div>
+            <div class="A_FilterBarFilterButtonText Right" data-filter="north">
+              северное небо
+            </div>
+          </div>
+          <div class="M_FilterBarFilterButton Zodiak">
+            <div class="A_FilterBarFilterButtonText Left" data-filter="zodiak">
+              зодиакальные
+            </div>
+            <div
+              class="A_FilterBarFilterButtonText Right"
+              data-filter="notzodiak"
+            >
+              незодиакальные
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="O_Cards">
+        <div class="W_Cards" data-sky="south, zodiak">
+          <div class="Q_CardsImage">
+            <img src="../images/cardsImage/lira.png" alt="" />
+          </div>
+          <div class="A_CardsStarName">ЛИРА</div>
+        </div>
+        <div class="W_Cards" data-tags="north">
+          <div class="Q_CardsImage">
+            <img src="../images/cardsImage/dragon.png" alt="" />
+          </div>
+          <div class="A_CardsStarName">ДРАКОН</div>
+        </div>
+        <div class="W_Cards" data-tags="south">
+          <div class="Q_CardsImage">
+            <img src="../images/cardsImage/big_dipper.png" alt="" />
+          </div>
+          <div class="A_CardsStarName">БОЛЬШАЯ МЕДВЕДИЦА</div>
+        </div>
+        <div class="W_Cards" data-tags="north">
+          <div class="Q_CardsImage">
+            <img src="../images/cardsImage/perseus.png" alt="" />
+          </div>
+          <div class="A_CardsStarName">ПЕРСЕЙ</div>
+        </div>
+      </div>
+    </div>
+    <!-- тут я буду работать -->
 
     <div class="S_Futer">
       <div class="O_FuterAll">
@@ -96,4 +179,5 @@
       </div>
       <div class="A_FuterImage"></div>
     </div>
-</body>
+  </body>
+</html>

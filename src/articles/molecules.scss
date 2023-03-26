@@ -28,6 +28,128 @@
   display: none;
 }
 
+.S_FilterBarAllcontent {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .M_Titles {
+    padding: 120px 0px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .O_FilterBar {
+    z-index: 3;
+    position: relative;
+    width: 1620px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    // justify-content: center;
+    background: var(--background-article);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 52px 64px 52px 64px;
+    border: 0.1px solid var(--border);
+
+    .W_FilterBarSearch {
+      width: 1334px;
+    }
+    .C_FilterBarFilterButton {
+      display: flex;
+      flex-direction: row;
+      gap: 62px;
+
+      .M_FilterBarFilterButton {
+        display: flex;
+        flex-direction: row;
+
+        .A_FilterBarFilterButtonText {
+          font-size: 22px;
+          white-space: nowrap;
+          display: flex;
+          flex-direction: row;
+          background-color: rgba(0, 0, 0, 0.25);
+          padding: 22px 80px 22px 80px;
+
+          &.All {
+            padding: 22px 46px 22px 46px;
+          }
+
+          &.active {
+            // background-color: red;
+            background: url('./images/button_checked.png');
+          }
+        }
+        .A_FilterBarFilterButtonText:hover {
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(0, 0, 0, 0.2) 100%
+          );
+        }
+        .A_FilterBarFilterButtonText:active {
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(0, 0, 0, 0.4) 100%
+          );
+        }
+        .Right {
+          border-radius: 0px 13px 13px 0px;
+        }
+        .Left {
+          border-width: 1px 1px 0px 1px;
+          border-style: solid;
+          border-image: var(--filtr);
+          border-image-slice: 1;
+          border-radius: 13px 0px 0px 13px;
+        }
+      }
+    }
+  }
+  .O_Cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .W_Cards {
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 390px;
+      background: var(--background-article);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      border: 0.1px solid var(--border);
+
+      &.active {
+        display: block;
+      }
+      // &:not(.active) {
+      //   display: none;
+      // }
+
+      .Q_CardsImage {
+      }
+      .A_CardsStarName {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        padding: 32px 0px 32px 0px;
+      }
+    }
+  }
+}
 
 .S_ArticleAllcontent {
   position: relative;
