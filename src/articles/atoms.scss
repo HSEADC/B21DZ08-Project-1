@@ -10,12 +10,12 @@
   text-align: center;
 }
 
-.A_ArticleImageBox{
+.A_ArticleImageBox {
   width: 160px;
   height: 160px;
 
   &.orionBox {
-    width: 132px;;
+    width: 132px;
   }
 
   .Q_ArticleStars {
@@ -24,17 +24,37 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: contain;
-  
+
     &.orion {
-      background-image: url('./images/orion.svg');
+      background-image: url('./images/articles/orion.svg');
     }
-  
+
     &.big_dog {
-      background-image: url('./images/big_dog.svg');
+      background-image: url('./images/articles/big_dog.svg');
     }
-  
+
     &.small_dog {
-      background-image: url('./images/small_dog.svg');
+      background-image: url('./images/articles/small_dog.svg');
+    }
+
+    &.lira {
+      background-image: url('./images/articles/lira.svg');
+    }
+
+    &.swan {
+      background-image: url('./images/articles/swan.svg');
+    }
+
+    &.capricorn {
+      background-image: url('./images/articles/capricorn.svg');
+    }
+
+    &.libra {
+      background-image: url('./images/articles/libra.svg');
+    }
+
+    &.lion {
+      background-image: url('./images/articles/lion.svg');
     }
   }
 }

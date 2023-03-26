@@ -99,6 +99,38 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/capricorn.html',
+      filename: './myths/capricorn.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/libra.html',
+      filename: './myths/libra.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/lion.html',
+      filename: './myths/lion.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/swan_and_lira.html',
+      filename: './myths/swan_and_lira.html',
+      chunks: ['myths']
+    }),
+
     //For Zodiak page
     new HtmlWebpackPlugin({
       hash: true,
@@ -108,7 +140,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For Map page
     new HtmlWebpackPlugin({
       hash: true,
@@ -118,7 +149,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For Myphology page
     new HtmlWebpackPlugin({
       hash: true,
@@ -128,7 +158,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For About page
     new HtmlWebpackPlugin({
       hash: true,
