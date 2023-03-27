@@ -126,6 +126,46 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
+      template: './src/myths/aquarius.html',
+      filename: './myths/aquarius.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/pisces.html',
+      filename: './myths/pisces.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/virgin.html',
+      filename: './myths/virgin.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/keel_feed_sail.html',
+      filename: './myths/keel_feed_sail.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/north_crown.html',
+      filename: './myths/north_crown.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
       template: './src/myths/swan_and_lira.html',
       filename: './myths/swan_and_lira.html',
       chunks: ['myths']
