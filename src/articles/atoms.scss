@@ -18,6 +18,10 @@
     width: 132px;
   }
 
+  &.aquariusBox {
+    height: 94px;
+  }
+
   .Q_ArticleStars {
     height: inherit;
     width: inherit;
@@ -55,6 +59,34 @@
 
     &.lion {
       background-image: url('./images/articles/lion.svg');
+    }
+
+    &.aquarius {
+      background-image: url('./images/articles/aquarius.svg');
+    }
+
+    &.pisces {
+      background-image: url('./images/articles/pisces.svg');
+    }
+
+    &.virgin {
+      background-image: url('./images/articles/virgin.svg');
+    }
+
+    &.keel {
+      background-image: url('./images/articles/keel.svg');
+    }
+
+    &.feed {
+      background-image: url('./images/articles/feed.svg');
+    }
+
+    &.sail {
+      background-image: url('./images/articles/sail.svg');
+    }
+
+    &.north_crown {
+      background-image: url('./images/articles/north_crown.svg');
     }
   }
 }
