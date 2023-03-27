@@ -1,0 +1,102 @@
+.S_MenuFill {
+  position: fixed;
+  width: calc(100% - 32px);
+  left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 20px 20px;
+  z-index: 100;
+}
+
+.S_MenuPhone {
+  display: none;
+}
+
+.S_ArticleAllcontent {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.S_Futer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.S_Zodiak {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
+
+//adaptive
+
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .S_MenuFill {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .S_MenuFill {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .S_MenuFill {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .S_MenuFill {
+    display: flex;
+  }
+}
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .S_MenuPhone {
+    display: block;
+  }
+
+  .S_MenuFill {
+    display: none;
+  }
+
+  .S_ArticleAllcontent {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .S_MenuPhone {
+    display: block;
+  }
+
+  .S_MenuFill {
+    display: none;
+  }
+
+  .S_ArticleAllcontent {
+    margin-left: 0px;
+  }
+}

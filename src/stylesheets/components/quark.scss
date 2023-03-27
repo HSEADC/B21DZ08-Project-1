@@ -1,0 +1,112 @@
+.Q_top {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  width: 50px;
+  font-size: 128px;
+  transform: rotate(-90deg);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: var(--background-top);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  backdrop-filter: blur(10px);
+
+  &:hover {
+    background: var(--white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.Q_ZodiakCenter {
+  display: none;
+  width: 268px;
+  height: 250px;
+  align-self: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &.active {
+    display: block;
+  }
+
+  &.AriesCenter {
+    background-image: url('./images/ZodiakPage/aries.svg');
+  }
+
+  &.LeoCenter {
+    margin-top: 64px;
+    width: 300px;
+    background-image: url('./images/ZodiakPage/leo.svg');
+  }
+}
+
+//adaptive
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}

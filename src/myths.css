@@ -3,6 +3,11 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
 
-@import 'articles/atoms.scss';
-@import 'articles/molecules.scss';
-@import 'articles/responsive.scss';
+@import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/molecules.scss';
+@import 'stylesheets/components/organizm.scss';
+@import 'stylesheets/components/collection.scss';
+@import 'stylesheets/components/wrapper.scss';
+@import 'stylesheets/components/superorganizm.scss';
+@import 'stylesheets/components/quark.scss';
+@import 'stylesheets/components/responsive.scss';
