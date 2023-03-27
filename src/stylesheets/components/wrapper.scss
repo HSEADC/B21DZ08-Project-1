@@ -1,0 +1,116 @@
+.W_Article {
+  z-index: 3;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0.1px solid var(--border);
+}
+
+.W_ArticleMainContent {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.W_ZodiakContent {
+  display: flex;
+  width: 1620px;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0.1px solid var(--border);
+}
+
+.W_FilterBarSearch {
+  width: 1334px;
+}
+
+.W_Card {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 390px;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0.1px solid var(--border);
+
+  &.active {
+    display: block;
+  }
+  // &:not(.active) {
+  //   display: none;
+  // }
+}
+
+// .W_ArticleMainContent {
+//   display: flex;
+//   margin-top: 40px;
+// }
+
+//adaptive
+
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .W_ZodiakContent {
+    width: 1360px;
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .W_ZodiakContent {
+    width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .W_ZodiakContent {
+    width: 960px;
+  }
+  .W_ArticleMainContent {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .W_ZodiakContent {
+    width: 728px;
+  }
+
+  .W_Article {
+    flex-direction: column;
+  }
+
+  .W_ArticleMainContent {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .W_ZodiakContent {
+    width: 560px;
+  }
+  .W_Article {
+    flex-direction: column;
+  }
+  .W_ArticleMainContent {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .W_ZodiakContent {
+    width: 358px;
+  }
+  .W_Article {
+    flex-direction: column;
+  }
+  .W_ArticleMainContent {
+    margin-left: 0px;
+  }
+}

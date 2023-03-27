@@ -1,0 +1,259 @@
+.Q_top {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  width: 50px;
+  font-size: 128px;
+  transform: rotate(-90deg);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: var(--background-top);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  backdrop-filter: blur(10px);
+
+  &:hover {
+    background: var(--white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.Q_ZodiakCenter {
+  display: none;
+  width: 268px;
+  height: 250px;
+  align-self: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &.active {
+    display: block;
+  }
+
+  &.AriesCenter {
+    background-image: url('./images/ZodiakPage/aries.svg');
+  }
+
+  &.LeoCenter {
+    margin-top: 64px;
+    width: 300px;
+    background-image: url('./images/ZodiakPage/leo.svg');
+  }
+}
+
+.Q_CardsImage {
+  width: 390px;
+  height: 422px;
+
+  &.lira {
+    background-image: url('./images/cardsImage/lira.png');
+  }
+  &.dragon {
+    background-image: url('./images/cardsImage/dragon.png');
+  }
+  &.big_dipper {
+    background-image: url('./images/cardsImage/big_dipper.png');
+  }
+  &.perseus {
+    background-image: url('./images/cardsImage/perseus.png');
+  }
+}
+
+.Q_ArticleStars {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &.hare {
+    background-image: url('./images/articles/hare.svg');
+  }
+
+  &.big_dipper {
+    background-image: url('./images/articles/big_dipper.svg');
+  }
+
+  &.ursa_minor {
+    background-image: url('./images/articles/ursa_minor.svg');
+  }
+
+  &.triangle {
+    background-image: url('./images/articles/triangle.svg');
+  }
+  &.dragon {
+    background-image: url('./images/articles/dragon.svg');
+  }
+
+  &.voznichi {
+    background-image: url('./images/articles/voznichi.svg');
+  }
+
+  &.perseus {
+    background-image: url('./images/articles/perseus.svg');
+  }
+
+  &.andromeda {
+    background-image: url('./images/articles/andromeda.svg');
+  }
+  &.whale {
+    background-image: url('./images/articles/whale.svg');
+  }
+  &.cassiopeia {
+    background-image: url('./images/articles/cassiopeia.svg');
+  }
+  &.cefei {
+    background-image: url('./images/articles/cefei.svg');
+  }
+  &.gemini {
+    background-image: url('./images/articles/gemini.svg');
+  }
+  &.scorpio {
+    background-image: url('./images/articles/scorpio.svg');
+  }
+  &.eridan {
+    background-image: url('./images/articles/eridan.svg');
+  }
+  &.hydra {
+    background-image: url('./images/articles/hydra.svg');
+  }
+  &.veronica_hair {
+    background-image: url('./images/articles/veronica_hair.svg');
+  }
+  &.cancer {
+    background-image: url('./images/articles/cancer.svg');
+  }
+  &.cup {
+    background-image: url('./images/articles/cup.svg');
+  }
+
+  &.orion {
+    background-image: url('./images/articles/orion.svg');
+  }
+
+  &.big_dog {
+    background-image: url('./images/articles/big_dog.svg');
+  }
+
+  &.small_dog {
+    background-image: url('./images/articles/small_dog.svg');
+  }
+
+  &.lira {
+    background-image: url('./images/articles/lira.svg');
+  }
+
+  &.swan {
+    background-image: url('./images/articles/swan.svg');
+  }
+
+  &.capricorn {
+    background-image: url('./images/articles/capricorn.svg');
+  }
+
+  &.libra {
+    background-image: url('./images/articles/libra.svg');
+  }
+
+  &.lion {
+    background-image: url('./images/articles/lion.svg');
+  }
+
+  &.aquarius {
+    background-image: url('./images/articles/aquarius.svg');
+  }
+
+  &.pisces {
+    background-image: url('./images/articles/pisces.svg');
+  }
+
+  &.virgin {
+    background-image: url('./images/articles/virgin.svg');
+  }
+
+  &.keel {
+    background-image: url('./images/articles/keel.svg');
+  }
+
+  &.feed {
+    background-image: url('./images/articles/feed.svg');
+  }
+
+  &.sail {
+    background-image: url('./images/articles/sail.svg');
+  }
+
+  &.north_crown {
+    background-image: url('./images/articles/north_crown.svg');
+  }
+}
+
+//adaptive
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
