@@ -1,0 +1,50 @@
+.C_Article {
+  position: relative;
+}
+
+.C_ZodiakWithNaming {
+  position: relative;
+  width: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// adaptives
+
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .C_Article {
+    width: 1360px;
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .C_Article {
+    width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .C_Article {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .C_Article {
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .C_Article {
+    width: 560px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .C_Article {
+    width: 358px;
+  }
+}
