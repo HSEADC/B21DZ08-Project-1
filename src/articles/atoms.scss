@@ -165,7 +165,7 @@
 .A_MenuLogo:hover {
   width: inherit;
   height: 60px;
-  background-image: url('./images/A_MenuLogo.png');
+  background-image: url('./images/menuButton/A_MenuLogo.png');
 }
 
 .A_MenuSection {
@@ -183,25 +183,25 @@
   &.first:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/A_MenuSection first.png');
+    background-image: url('./images/menuButton/A_MenuSection first.png');
   }
 
   &.second:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/A_MenuSection second.png');
+    background-image: url('./images/menuButton/A_MenuSection second.png');
   }
 
   &.third:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/A_MenuSection third.png');
+    background-image: url('./images/menuButton/A_MenuSection third.png');
   }
 
   &.forth:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/A_MenuSection forth.png');
+    background-image: url('./images/menuButton/A_MenuSection forth.png');
     border-right: 1px solid var(--border);
   }
 }
@@ -218,19 +218,19 @@
   &.first {
     margin-left: -240px;
     top: -176px;
-    background-image: url('./images/grain6.png');
+    background-image: url('./images/grains/grain6.png');
   }
 
   &.second {
     left: 220px;
     top: -516px;
-    background-image: url('./images/grain2.png');
+    background-image: url('./images/grains/grain2.png');
   }
 
   &.third {
     left: -410px;
     top: -378px;
-    background-image: url('./images/grain3.png');
+    background-image: url('./images/grains/grain3.png');
   }
 }
 
