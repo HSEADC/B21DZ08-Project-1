@@ -42,7 +42,11 @@
   align-items: center;
   justify-content: flex-start;
 }
-
+.O_MapSkies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {

@@ -130,6 +130,47 @@
   flex-direction: row;
 }
 
+.M_MapReadmyph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.M_MapSky {
+  width: 811px;
+  border: 0.1px solid var(--border);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.M_CardBack {
+  width: 390px;
+  height: 520px;
+  background: var(--background-article);
+  border: 0.1px solid var(--border);
+  border-radius: 30px;
+}
+.M_Button {
+  box-sizing: border-box;
+  width: 640px;
+  height: 86px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  background: var(--button);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+
+  &.articlebtn {
+    margin-top: 100px;
+    z-index: 5;
+  }
+
+  &:hover {
+    background: var(--button-hover);
+  }
+}
+
 // adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
