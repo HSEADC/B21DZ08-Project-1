@@ -46,6 +46,7 @@
 .Q_CardsImage {
   width: 390px;
   height: 422px;
+  background-size: contain;
 
   &.lira {
     background-image: url('./images/cardsImage/lira.png');
@@ -191,7 +192,36 @@
 }
 
 //adaptive
-
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .Q_CardsImage {
+    width: 313px;
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .Q_CardsImage {
+    width: 254px;
+    height: 265px;
+  }
+}
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .Q_CardsImage {
+    width: 240px;
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .Q_CardsImage {
+    width: 298px;
+    height: 323px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .Q_CardsImage {
+    width: 224px;
+    height: 225px;
+  }
+}
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
   .Q_TgIcon {
     display: block;
@@ -255,5 +285,9 @@
 
   .A_MenuPhoneHambField.active .Q_MenuBar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  .Q_CardsImage {
+    width: 172px;
+    height: 180px;
   }
 }
