@@ -108,7 +108,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For Map page
     new HtmlWebpackPlugin({
       hash: true,
@@ -118,7 +117,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For Myphology page
     new HtmlWebpackPlugin({
       hash: true,
@@ -128,7 +126,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    
     //For About page
     new HtmlWebpackPlugin({
       hash: true,
