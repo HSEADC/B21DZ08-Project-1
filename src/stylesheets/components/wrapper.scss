@@ -35,7 +35,8 @@
   z-index: 3;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  // justify-content: center;
   width: 390px;
   background: var(--background-article);
   backdrop-filter: blur(10px);
@@ -54,7 +55,33 @@
 //   display: flex;
 //   margin-top: 40px;
 // }
+.W_Map {
+  width: 1620px;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0.1px solid var(--border);
+  margin-top: 150px;
+}
 
+.W_MapStarinfo {
+  height: 108px;
+  border: 0.1px solid var(--border);
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.W_StartPageCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  div {
+    margin: 5px;
+  }
+}
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -63,18 +90,42 @@
     height: 604px;
   }
 }
-
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .W_ZodiakContent {
+    width: 1100px;
+  }
+  .W_Card {
+    width: 313px;
+  }
+}
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
   .W_ZodiakContent {
     width: 1100px;
     height: 554px;
   }
+  .W_Card {
+    width: 254px;
+  }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .W_ZodiakContent {
     width: 960px;
     height: 514px;
+  }
+  .W_Card {
+    width: 240px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .W_ZodiakContent {
+    width: 960px;
+  }
+  .W_ArticleMainContent {
+    margin-left: 50px;
+  }
+  .W_Card {
+    width: 298px;
   }
 }
 
@@ -86,6 +137,13 @@
 
   .W_Article {
     flex-direction: column;
+  }
+
+  .W_ArticleMainContent {
+    margin-left: 50px;
+  }
+  .W_Card {
+    width: 224px;
   }
 }
 
@@ -112,5 +170,8 @@
   }
   .W_ArticleMainContent {
     margin-left: 0px;
+  }
+  .W_Card {
+    width: 172px;
   }
 }

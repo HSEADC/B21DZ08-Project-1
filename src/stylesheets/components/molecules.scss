@@ -128,18 +128,46 @@
 .M_FilterBarFilterButton {
   display: flex;
   flex-direction: row;
-  &.Right {
-    border-radius: 0px 13px 13px 0px;
+}
+
+.M_MapReadmyph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.M_MapSky {
+  width: 811px;
+  border: 0.1px solid var(--border);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.M_CardBack {
+  width: 390px;
+  height: 520px;
+  background: var(--background-article);
+  border: 0.1px solid var(--border);
+  border-radius: 30px;
+}
+.M_Button {
+  box-sizing: border-box;
+  width: 640px;
+  height: 86px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  background: var(--button);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+
+  &.articlebtn {
+    margin-top: 100px;
+    z-index: 5;
   }
-  &.Left {
-    border-width: 1px 1px 0px 1px;
-    border-style: solid;
-    border-image: var(--filtr);
-    border-image-slice: 1;
-    border-radius: 13px 0px 0px 13px;
-  }
-  &.All {
-    padding: 22px 46px 22px 46px;
+
+  &:hover {
+    background: var(--button-hover);
   }
 }
 

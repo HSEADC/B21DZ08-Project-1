@@ -9,3 +9,6 @@
 @import 'stylesheets/responsive.scss';
 @import 'stylesheets/tizer.scss';
 @import 'stylesheets/styleguide.scss';
+@import 'articles/atoms.scss';
+@import 'articles/molecules.scss';
+@import 'articles/responsive.scss';

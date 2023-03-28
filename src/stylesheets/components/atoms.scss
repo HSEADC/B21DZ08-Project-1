@@ -539,6 +539,20 @@
   background-color: rgba(0, 0, 0, 0.25);
   padding: 22px 80px 22px 80px;
 
+  &.Right {
+    border-radius: 0px 13px 13px 0px;
+  }
+  &.Left {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-image: var(--filtr);
+    border-image-slice: 1;
+    border-radius: 13px 0px 0px 13px;
+  }
+  &.All {
+    padding: 22px 46px 22px 46px;
+  }
+
   &.active {
     // background-color: red;
     background: url('./images/button_checked.png');
@@ -559,6 +573,93 @@
   padding: 32px 0px 32px 0px;
 }
 
+.A_MapNameofstar {
+  margin: 0 400px 0 400px;
+  font-size: 32px;
+}
+.A_MapSkyNorth,
+.A_MapSkySouth {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 646px;
+  height: 646px;
+  border: 0.1px solid var(--border);
+  border-radius: 100%;
+  background: var(--background-circle);
+}
+
+.A_MapTypeOfSky {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  padding: 26px 26px;
+}
+.A_PopularMyphsTitle {
+  font-size: 160px;
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
+}
+.A_Card,
+.A_Card1,
+.A_Card2,
+.A_Card3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  width: 390px;
+  height: 520px;
+  display: table;
+  p {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 32px;
+    text-transform: uppercase;
+  }
+}
+A_Card {
+  background-image: url('./images/stars_north_default/big_dipper.png');
+}
+.A_Card1 {
+  background-image: url('./images/stars_south_default/orion.png');
+  background-size: 45%;
+}
+.A_Card2 {
+  background-image: url('./images/stars_south_default/hare.png');
+}
+.A_Card3 {
+  background-image: url('./images/stars_north_default/dragon.png');
+  background-size: 65%;
+}
+
+.A_StartPageSky1,
+.A_StartPageSky2 {
+  width: 406px;
+  height: 820px;
+}
+
+.A_StartPageSky1 {
+  background-image: url('./images/startpage/A_StartPageSky1.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.A_StartPageSky2 {
+  background-image: url('./images/startpage/A_StartPageSky2.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.A_ButtonText {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 30px;
+}
 //adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -686,7 +787,9 @@
       top: -340px;
     }
   }
-
+  .A_CardsStarName {
+    font-size: 20px;
+  }
   .A_ZodiakInCircle {
     width: 278px;
     height: 278px;
@@ -898,112 +1001,119 @@
     margin-left: 790px;
     margin-top: -164px;
   }
-
-  .A_ZodiakInCircle {
-    width: 278px;
-    height: 278px;
-    top: 85px;
+  .A_CardsStarName {
+    font-size: 18px;
   }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .A_CardsStarName {
+    font-size: 16px;
 
-  .A_ZodiakName {
-    font-size: 60px;
-  }
-
-  .A_ZodiakButton {
-    display: block;
-    position: absolute;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    &.Aries {
-      height: 110px;
-      width: 108px;
-      left: 38px;
-      top: 296px;
+    .A_ZodiakInCircle {
+      width: 278px;
+      height: 278px;
+      top: 85px;
     }
 
-    &.Taurus {
-      height: 87px;
-      width: 108px;
-      left: 118px;
-      top: 348px;
+    .A_ZodiakName {
+      font-size: 60px;
     }
 
-    &.Gemini {
-      height: 86px;
-      width: 108px;
-      left: 224px;
-      top: 348px;
-    }
+    .A_ZodiakButton {
+      display: block;
+      position: absolute;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: contain;
 
-    &.Cancer {
-      height: 111px;
-      width: 108px;
-      left: 299px;
-      top: 294px;
-    }
+      &.Aries {
+        height: 110px;
+        width: 108px;
+        left: 38px;
+        top: 296px;
+      }
 
-    &.Leo {
-      height: 104px;
-      width: 97px;
-      left: 350px;
-      top: 220px;
-    }
+      &.Taurus {
+        height: 87px;
+        width: 108px;
+        left: 118px;
+        top: 348px;
+      }
 
-    &.Virgo {
-      height: 108px;
-      width: 84px;
-      left: 350px;
-      top: 115px;
-      transform: rotate(358deg);
-    }
+      &.Gemini {
+        height: 86px;
+        width: 108px;
+        left: 224px;
+        top: 348px;
+      }
 
-    &.Libra {
-      height: 106px;
-      width: 102px;
-      left: 299px;
-      top: 41px;
-      transform: rotate(359deg);
-    }
+      &.Cancer {
+        height: 111px;
+        width: 108px;
+        left: 299px;
+        top: 294px;
+      }
 
-    &.Scorpio {
-      height: 86px;
-      width: 100px;
-      left: 224px;
-      top: 9px;
-    }
+      &.Leo {
+        height: 104px;
+        width: 97px;
+        left: 350px;
+        top: 220px;
+      }
 
-    &.Strelec {
-      height: 86px;
-      width: 100px;
-      left: 121px;
-      top: 9px;
-    }
+      &.Virgo {
+        height: 108px;
+        width: 84px;
+        left: 350px;
+        top: 115px;
+        transform: rotate(358deg);
+      }
 
-    &.Kozerog {
-      height: 108px;
-      width: 106px;
-      left: 42px;
-      top: 39px;
-    }
+      &.Libra {
+        height: 106px;
+        width: 102px;
+        left: 299px;
+        top: 41px;
+        transform: rotate(359deg);
+      }
 
-    &.Vodolei {
-      height: 108px;
-      width: 85px;
-      top: 118px;
-      left: 9px;
-    }
+      &.Scorpio {
+        height: 86px;
+        width: 100px;
+        left: 224px;
+        top: 9px;
+      }
 
-    &.Pisces {
-      height: 108px;
-      width: 86px;
-      left: 8px;
-      top: 222px;
+      &.Strelec {
+        height: 86px;
+        width: 100px;
+        left: 121px;
+        top: 9px;
+      }
+
+      &.Kozerog {
+        height: 108px;
+        width: 106px;
+        left: 42px;
+        top: 39px;
+      }
+
+      &.Vodolei {
+        height: 108px;
+        width: 85px;
+        top: 118px;
+        left: 9px;
+      }
+
+      &.Pisces {
+        height: 108px;
+        width: 86px;
+        left: 8px;
+        top: 222px;
+      }
     }
   }
 }
-
 @media only screen and (min-width: 1024px) and (max-width: 1194px) {
   .A_ImgGrain.five {
     left: 130px;
@@ -1111,7 +1221,9 @@
     margin-left: 616px;
     margin-top: -164px;
   }
-
+  .A_CardsStarName {
+    font-size: 18px;
+  }
   .A_ZodiakInCircle {
     width: 278px;
     height: 278px;
@@ -1333,6 +1445,9 @@
     width: 400px;
     margin-left: 380px;
     margin-top: -142px;
+  }
+  .A_CardsStarName {
+    font-size: 14px;
   }
 }
 
@@ -1765,6 +1880,9 @@
 
   *::-webkit-scrollbar {
     display: none;
+  }
+  .A_CardsStarName {
+    font-size: 12px;
   }
 
   .A_ButtonText {
