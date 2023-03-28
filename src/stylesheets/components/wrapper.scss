@@ -24,6 +24,7 @@
   backdrop-filter: blur(10px);
   border-radius: 20px;
   border: 0.1px solid var(--border);
+  z-index: 5;
 }
 
 .W_FilterBarSearch {
@@ -60,6 +61,7 @@
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
   .W_ZodiakContent {
     width: 1360px;
+    height: 604px;
   }
 }
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -73,6 +75,7 @@
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
   .W_ZodiakContent {
     width: 1100px;
+    height: 554px;
   }
   .W_Card {
     width: 254px;
@@ -82,9 +85,7 @@
 @media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .W_ZodiakContent {
     width: 960px;
-  }
-  .W_ArticleMainContent {
-    margin-left: 50px;
+    height: 514px;
   }
   .W_Card {
     width: 240px;
@@ -105,6 +106,7 @@
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
   .W_ZodiakContent {
     width: 728px;
+    flex-direction: column;
   }
 
   .W_Article {
@@ -122,6 +124,7 @@
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
   .W_ZodiakContent {
     width: 560px;
+    flex-direction: column;
   }
   .W_Article {
     flex-direction: column;
@@ -134,6 +137,7 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
   .W_ZodiakContent {
     width: 358px;
+    flex-direction: column;
   }
   .W_Article {
     flex-direction: column;
