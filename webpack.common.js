@@ -171,7 +171,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    //For Zodiak page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -180,7 +179,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    //For Map page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -189,7 +187,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    //For Myphology page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -198,7 +195,6 @@ module.exports = {
       chunks: ['myths']
     }),
 
-    //For About page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -284,6 +280,70 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/myths/cup.html',
       filename: './myths/cup.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/raven.html',
+      filename: './myths/raven.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/centaurus.html',
+      filename: './myths/centaurus.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/strelec.html',
+      filename: './myths/strelec.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/aries.html',
+      filename: './myths/aries.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/wolf.html',
+      filename: './myths/wolf.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/eagle_arrow.html',
+      filename: './myths/eagle_arrow.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/delphin.html',
+      filename: './myths/delphin.html',
+      chunks: ['myths']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/myths/zmeenosec.html',
+      filename: './myths/zmeenosec.html',
       chunks: ['myths']
     }),
 

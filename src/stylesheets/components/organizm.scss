@@ -11,6 +11,13 @@
   z-index: 5;
 }
 
+.O_Cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .O_FilterBar {
   z-index: 3;
   position: relative;
@@ -24,13 +31,6 @@
   border-radius: 20px;
   padding: 52px 64px 52px 64px;
   border: 0.1px solid var(--border);
-}
-
-.O_Cards {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 //adaptive
