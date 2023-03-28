@@ -14,12 +14,53 @@
   width: 156px;
   height: 160px;
 
+  &.swanBox {
+    margin-right: 20px;
+  }
+
+  &.virginBox {
+    height: 100px;
+  }
+
+  &.perseusBox {
+    width: 100px;
+  }
+
+  &.keelBox {
+    height: 70px;
+    margin-right: 20px;
+  }
+
+  &.sailBox {
+    height: 100px;
+  }
+
+  &.lionBox {
+    height: 90px;
+  }
+
+  &.crownBox {
+    height: 120px;
+  }
+  &.feedBox {
+    width: 100px;
+  }
+
+  &.arrowBox {
+    height: 80px;
+  }
+
+  &.centaurusBox {
+    height: 118px;
+  }
+
   &.aquariusBox {
     height: 94px;
   }
 
   &.orionBox {
-    width: 132px;
+    width: 112px;
+    height: 128px;
   }
 
   &.dipperBox {
@@ -43,6 +84,10 @@
   }
   &.hydraBox {
     height: 110px;
+  }
+  &.dogBox {
+    height: 100px;
+    width: 108px;
   }
 }
 
@@ -481,7 +526,7 @@
 }
 
 .A_ButtonText {
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   padding: 30px;
 }
@@ -641,6 +686,110 @@
       top: -340px;
     }
   }
+
+  .A_ZodiakInCircle {
+    width: 278px;
+    height: 278px;
+    top: 111px;
+  }
+
+  .A_ZodiakName {
+    font-size: 60px;
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 110px;
+      width: 108px;
+      left: 38px;
+      top: 296px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 108px;
+      left: 118px;
+      top: 348px;
+    }
+
+    &.Gemini {
+      height: 86px;
+      width: 108px;
+      left: 224px;
+      top: 348px;
+    }
+
+    &.Cancer {
+      height: 111px;
+      width: 108px;
+      left: 299px;
+      top: 294px;
+    }
+
+    &.Leo {
+      height: 104px;
+      width: 97px;
+      left: 350px;
+      top: 220px;
+    }
+
+    &.Virgo {
+      height: 108px;
+      width: 84px;
+      left: 350px;
+      top: 115px;
+      transform: rotate(358deg);
+    }
+
+    &.Libra {
+      height: 106px;
+      width: 102px;
+      left: 299px;
+      top: 41px;
+      transform: rotate(359deg);
+    }
+
+    &.Scorpio {
+      height: 86px;
+      width: 100px;
+      left: 224px;
+      top: 9px;
+    }
+
+    &.Strelec {
+      height: 86px;
+      width: 100px;
+      left: 121px;
+      top: 9px;
+    }
+
+    &.Kozerog {
+      height: 108px;
+      width: 106px;
+      left: 42px;
+      top: 39px;
+    }
+
+    &.Vodolei {
+      height: 108px;
+      width: 85px;
+      top: 118px;
+      left: 9px;
+    }
+
+    &.Pisces {
+      height: 108px;
+      width: 86px;
+      left: 8px;
+      top: 222px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
@@ -696,10 +845,6 @@
     // width: 114px;
     // height: 110px;
 
-    &.orionBox {
-      width: 90px;
-    }
-
     &.dipperBox {
       height: 50px;
     }
@@ -752,6 +897,110 @@
     width: 400px;
     margin-left: 790px;
     margin-top: -164px;
+  }
+
+  .A_ZodiakInCircle {
+    width: 278px;
+    height: 278px;
+    top: 85px;
+  }
+
+  .A_ZodiakName {
+    font-size: 60px;
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 110px;
+      width: 108px;
+      left: 38px;
+      top: 296px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 108px;
+      left: 118px;
+      top: 348px;
+    }
+
+    &.Gemini {
+      height: 86px;
+      width: 108px;
+      left: 224px;
+      top: 348px;
+    }
+
+    &.Cancer {
+      height: 111px;
+      width: 108px;
+      left: 299px;
+      top: 294px;
+    }
+
+    &.Leo {
+      height: 104px;
+      width: 97px;
+      left: 350px;
+      top: 220px;
+    }
+
+    &.Virgo {
+      height: 108px;
+      width: 84px;
+      left: 350px;
+      top: 115px;
+      transform: rotate(358deg);
+    }
+
+    &.Libra {
+      height: 106px;
+      width: 102px;
+      left: 299px;
+      top: 41px;
+      transform: rotate(359deg);
+    }
+
+    &.Scorpio {
+      height: 86px;
+      width: 100px;
+      left: 224px;
+      top: 9px;
+    }
+
+    &.Strelec {
+      height: 86px;
+      width: 100px;
+      left: 121px;
+      top: 9px;
+    }
+
+    &.Kozerog {
+      height: 108px;
+      width: 106px;
+      left: 42px;
+      top: 39px;
+    }
+
+    &.Vodolei {
+      height: 108px;
+      width: 85px;
+      top: 118px;
+      left: 9px;
+    }
+
+    &.Pisces {
+      height: 108px;
+      width: 86px;
+      left: 8px;
+      top: 222px;
+    }
   }
 }
 
@@ -807,12 +1056,8 @@
   }
 
   .A_ArticleImageBox {
-    width: 146px;
+    width: 120px;
     // height: 98px;
-
-    &.orionBox {
-      width: 90px;
-    }
 
     &.dipperBox {
       height: 50px;
@@ -865,6 +1110,114 @@
     width: 400px;
     margin-left: 616px;
     margin-top: -164px;
+  }
+
+  .A_ZodiakInCircle {
+    width: 278px;
+    height: 278px;
+    top: 81px;
+  }
+
+  .A_ZodiakName {
+    font-size: 50px;
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 110px;
+      width: 108px;
+      left: 38px;
+      top: 296px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 108px;
+      left: 118px;
+      top: 348px;
+    }
+
+    &.Gemini {
+      height: 86px;
+      width: 108px;
+      left: 224px;
+      top: 348px;
+    }
+
+    &.Cancer {
+      height: 111px;
+      width: 108px;
+      left: 299px;
+      top: 294px;
+    }
+
+    &.Leo {
+      height: 104px;
+      width: 97px;
+      left: 350px;
+      top: 220px;
+    }
+
+    &.Virgo {
+      height: 108px;
+      width: 84px;
+      left: 350px;
+      top: 115px;
+      transform: rotate(358deg);
+    }
+
+    &.Libra {
+      height: 106px;
+      width: 102px;
+      left: 299px;
+      top: 41px;
+      transform: rotate(359deg);
+    }
+
+    &.Scorpio {
+      height: 86px;
+      width: 100px;
+      left: 224px;
+      top: 9px;
+    }
+
+    &.Strelec {
+      height: 86px;
+      width: 100px;
+      left: 121px;
+      top: 9px;
+    }
+
+    &.Kozerog {
+      height: 108px;
+      width: 106px;
+      left: 42px;
+      top: 39px;
+    }
+
+    &.Vodolei {
+      height: 108px;
+      width: 85px;
+      top: 118px;
+      left: 9px;
+    }
+
+    &.Pisces {
+      height: 108px;
+      width: 86px;
+      left: 8px;
+      top: 222px;
+    }
+  }
+
+  .A_ButtonText {
+    padding: 20px;
   }
 }
 
@@ -928,10 +1281,6 @@
   .A_ArticleImageBox {
     width: 142px;
     // height: 118px;
-
-    &.orionBox {
-      width: 90px;
-    }
 
     &.dipperBox {
       height: 50px;
@@ -1090,10 +1439,6 @@
     width: 156px;
     // height: 78px;
 
-    &.orionBox {
-      width: 68px;
-    }
-
     &.dipperBox {
       height: 50px;
     }
@@ -1157,6 +1502,114 @@
 
   *::-webkit-scrollbar {
     display: none;
+  }
+
+  .A_ZodiakInCircle {
+    width: 278px;
+    height: 278px;
+    top: 122px;
+  }
+
+  .A_ZodiakName {
+    font-size: 50px;
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 110px;
+      width: 108px;
+      left: 38px;
+      top: 296px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 108px;
+      left: 118px;
+      top: 348px;
+    }
+
+    &.Gemini {
+      height: 86px;
+      width: 108px;
+      left: 224px;
+      top: 348px;
+    }
+
+    &.Cancer {
+      height: 111px;
+      width: 108px;
+      left: 299px;
+      top: 294px;
+    }
+
+    &.Leo {
+      height: 104px;
+      width: 97px;
+      left: 350px;
+      top: 220px;
+    }
+
+    &.Virgo {
+      height: 108px;
+      width: 84px;
+      left: 350px;
+      top: 115px;
+      transform: rotate(358deg);
+    }
+
+    &.Libra {
+      height: 106px;
+      width: 102px;
+      left: 299px;
+      top: 41px;
+      transform: rotate(359deg);
+    }
+
+    &.Scorpio {
+      height: 86px;
+      width: 100px;
+      left: 224px;
+      top: 9px;
+    }
+
+    &.Strelec {
+      height: 86px;
+      width: 100px;
+      left: 121px;
+      top: 9px;
+    }
+
+    &.Kozerog {
+      height: 108px;
+      width: 106px;
+      left: 42px;
+      top: 39px;
+    }
+
+    &.Vodolei {
+      height: 108px;
+      width: 85px;
+      top: 118px;
+      left: 9px;
+    }
+
+    &.Pisces {
+      height: 108px;
+      width: 86px;
+      left: 8px;
+      top: 222px;
+    }
+  }
+
+  .A_ButtonText {
+    padding: 20px;
   }
 }
 
@@ -1265,10 +1718,6 @@
     // width: 86px;
     // height: 78px;
 
-    &.orionBox {
-      width: 68px;
-    }
-
     &.dipperBox {
       height: 50px;
     }
@@ -1316,5 +1765,114 @@
 
   *::-webkit-scrollbar {
     display: none;
+  }
+
+  .A_ButtonText {
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .A_ZodiakInCircle {
+    width: 210px;
+    height: 210px;
+    top: 102px;
+  }
+
+  .A_ZodiakName {
+    font-size: 50px;
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 90px;
+      width: 84px;
+      left: 35px;
+      top: 225px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 80px;
+      left: 96px;
+      top: 266px;
+    }
+
+    &.Gemini {
+      height: 79px;
+      width: 80px;
+      left: 178px;
+      top: 267px;
+    }
+
+    &.Cancer {
+      height: 91px;
+      width: 84px;
+      left: 235px;
+      top: 226px;
+    }
+
+    &.Leo {
+      height: 79px;
+      width: 73px;
+      left: 277px;
+      top: 169px;
+    }
+
+    &.Virgo {
+      height: 88px;
+      width: 65px;
+      left: 278px;
+      top: 89px;
+    }
+
+    &.Libra {
+      height: 89px;
+      width: 81px;
+      left: 238px;
+      top: 28px;
+    }
+
+    &.Scorpio {
+      height: 68px;
+      width: 78px;
+      left: 180px;
+      top: 2px;
+    }
+
+    &.Strelec {
+      height: 66px;
+      width: 80px;
+      left: 100px;
+      top: 3px;
+    }
+
+    &.Kozerog {
+      height: 88px;
+      width: 82px;
+      left: 40px;
+      transform: rotate(2deg);
+      top: 25px;
+    }
+
+    &.Vodolei {
+      height: 88px;
+      width: 68px;
+      top: 83px;
+      left: 13px;
+      transform: rotate(1deg);
+    }
+
+    &.Pisces {
+      height: 88px;
+      width: 69px;
+      left: 12px;
+      top: 167px;
+    }
   }
 }
