@@ -28,7 +28,6 @@
   display: none;
 }
 
-
 .S_ArticleAllcontent {
   position: relative;
   width: 100%;
@@ -127,4 +126,143 @@
       }
     }
   }
+}
+
+.O_StartPage {
+  background-image: url('./images/startpage/Q_StartPagePicture.png');
+  align-self: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.SO_StartPage {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+  .O_StartPage {
+    width: 1500px;
+    height: 1700px;
+    align-self: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 99999;
+  }
+}
+
+.W_StartPageText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 380px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.A_StartPageTextHeader,
+.Q_StartPageArrow {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 200px;
+  margin-bottom: 50px;
+}
+.A_StartPageTextSubtitle {
+  font-size: 48px;
+  width: 800px;
+  text-align: center;
+}
+.Q_StartPageArrow {
+  margin-top: 200px;
+  rotate: 90deg;
+}
+
+.O_StartPageSkies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 350px;
+}
+.M_StartPageText2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.M_StartPageText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.O_StartPageMounth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.O_StartPageMounth {
+  margin-top: 200px;
+}
+
+.M_Button1 {
+  box-sizing: border-box;
+  width: 640px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  background: var(--button);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  align-items: center;
+
+  &.articlebtn {
+    margin-top: 60px;
+    z-index: 5;
+  }
+
+  &:hover {
+    background: var(--button-hover);
+  }
+}
+
+input {
+  width: 640px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: black;
+  color: white;
+  padding-left: 30px;
+  margin-top: 60px;
+}
+
+#M_StartPageMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.O_StartPageMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.M_StartPageMailText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
