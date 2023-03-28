@@ -11,6 +11,13 @@
   z-index: 5;
 }
 
+.O_Cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .O_FilterBar {
   z-index: 3;
   position: relative;
