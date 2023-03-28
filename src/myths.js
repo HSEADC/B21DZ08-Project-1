@@ -168,8 +168,37 @@ function initZodiaks() {
 //     zodiakName.classList.add('active')
 //   }
 // }
+function initMaps() {
+  getZodiakTags()
+  getZodiakNames()
+  const stars = document.querySelectorAll('.stars')
+  const starsname = document.querySelectorAll('.W_MapStarinfo')
+  // const zodiaksinfo = document.querySelectorAll('.M_ZodiakRightBlock')
+  // const zodiaksimage = document.querySelectorAll('.Q_ZodiakCenter')
+
+  for (let i = 0; i < stars.length; i++) {
+    const star_buttons = stars[i]
+    star_buttons.addEventListener('click', function () {
+      const star_button = star_buttons.dataset.tag
+      for (let i = 0; i < stars.length; i++) {
+        const star_button = stars[i]
+        star_button.classList.remove('active')
+      }
+      star_buttons.classList.add('active')
+      for (let i = 0; i < starsname.length; i++) {
+        const star_names = starsname[i]
+        star_names.classList.remove('active')
+        console.log(star_names.dataset.name, star_button)
+        if (star_names.dataset.name == star_button) {
+          starsname[i].classList.add('active')
+        }
+      }
+    })
+  }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   initZodiaks()
+  initMaps()
   phoneMenu()
 })

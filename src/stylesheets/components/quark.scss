@@ -282,11 +282,6 @@
 }
 .Q_MapStars {
   position: relative;
-  // background-image: url("./images/stars_north_default/mapcircle.png");
-  // align-self: center;
-  // object-fit: cover;
-  // background-repeat: no-repeat;
-  // background-size: contain;
   width: 100%;
   height: 100%;
   div {
@@ -298,75 +293,158 @@
     background-size: contain;
     position: absolute;
   }
-  .Q_big_dipper {
+}
+
+.Q_big_dipper {
+  background-image: url('./images/stars_north_default/big_dipper.png');
+  left: 240px;
+  top: 16px;
+
+  &:hover {
     background-image: url('./images/stars_north_hover/big_dipper_hover.png');
-    left: 240px;
-    top: 16px;
   }
-  .Q_delphin {
-    background-image: url('./images/stars_north_default/delphin.png');
-    left: 450px;
-    top: 60px;
-    rotate: 345deg;
+  &.active {
+    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
   }
 }
+
+.Q_delphin {
+  background-image: url('./images/stars_north_default/delphin.png');
+  left: 450px;
+  top: 60px;
+  rotate: 345deg;
+  &:hover {
+    background-image: url('./images/stars_north_hover/delphin_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/delphin_hover.png');
+  }
+}
+
 .Q_whale_kit {
   background-image: url('./images/stars_north_default/whale_kit.png');
   left: 470px;
   top: 200px;
-  // rotate: 34deg;
+  &:hover {
+    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+  }
 }
+
 .Q_cepheus_cefei {
   background-image: url('./images/stars_north_default/cepheus_cefei.png');
   left: 480px;
   top: 330px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+  }
 }
+
 .Q_gercules {
   background-image: url('./images/stars_north_default/gercules.png');
   left: 400px;
   top: 440px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/gercules_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/gercules_hover.png');
+  }
 }
 .Q_arrow {
   background-image: url('./images/stars_north_default/arrow.png');
   left: 283px;
   top: 540px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/arrow_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/arrow_hover.png');
+  }
 }
 .Q_eagle {
   background-image: url('./images/stars_north_default/eagle.png');
   left: 150px;
   top: 480px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/eagle_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/eagle_hover.png');
+  }
 }
 .Q_ursa_minor {
   background-image: url('./images/stars_north_default/ursa_minor.png');
   left: 80px;
   top: 387px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+  }
 }
 .Q_triangle {
   background-image: url('./images/stars_north_default/triangle.png');
   left: 50px;
   top: 280px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/triangle_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/triangle_hover.png');
+  }
 }
 .Q_north_crown {
   background-image: url('./images/stars_north_default/north_crown.png');
   left: 12px;
   top: 160px;
   rotate: 100deg;
+  &:hover {
+    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+  }
 }
 .Q_swan {
   background-image: url('./images/stars_north_default/swan.png');
   left: 80px;
   top: 20px;
   rotate: 200deg;
+  &:hover {
+    background-image: url('./images/stars_north_hover/swan_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/swan_hover.png');
+  }
 }
 .Q_ophiuchus_zmeenosec {
   background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.png');
   left: 246px;
   top: 413px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+  }
 }
 .Q_charioteer_voznichi {
   background-image: url('./images/stars_north_default/charioteer_voznichi.png');
   left: 194px;
   top: 167px;
+  &:hover {
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+  }
+  &.active {
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+  }
 }
 .Q_cassiopeia {
   background-image: url('./images/stars_north_default/cassiopeia.png');
