@@ -494,6 +494,20 @@
   background-color: rgba(0, 0, 0, 0.25);
   padding: 22px 80px 22px 80px;
 
+  &.Right {
+    border-radius: 0px 13px 13px 0px;
+  }
+  &.Left {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-image: var(--filtr);
+    border-image-slice: 1;
+    border-radius: 13px 0px 0px 13px;
+  }
+  &.All {
+    padding: 22px 46px 22px 46px;
+  }
+
   &.active {
     // background-color: red;
     background: url('./images/button_checked.png');
@@ -641,6 +655,9 @@
       top: -340px;
     }
   }
+  .A_CardsStarName {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
@@ -753,8 +770,15 @@
     margin-left: 790px;
     margin-top: -164px;
   }
+  .A_CardsStarName {
+    font-size: 18px;
+  }
 }
-
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .A_CardsStarName {
+    font-size: 16px;
+  }
+}
 @media only screen and (min-width: 1024px) and (max-width: 1194px) {
   .A_ImgGrain.five {
     left: 130px;
@@ -865,6 +889,9 @@
     width: 400px;
     margin-left: 616px;
     margin-top: -164px;
+  }
+  .A_CardsStarName {
+    font-size: 18px;
   }
 }
 
@@ -984,6 +1011,9 @@
     width: 400px;
     margin-left: 380px;
     margin-top: -142px;
+  }
+  .A_CardsStarName {
+    font-size: 14px;
   }
 }
 
@@ -1316,5 +1346,8 @@
 
   *::-webkit-scrollbar {
     display: none;
+  }
+  .A_CardsStarName {
+    font-size: 12px;
   }
 }

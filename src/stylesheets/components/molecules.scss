@@ -128,19 +128,6 @@
 .M_FilterBarFilterButton {
   display: flex;
   flex-direction: row;
-  &.Right {
-    border-radius: 0px 13px 13px 0px;
-  }
-  &.Left {
-    border-width: 1px 1px 0px 1px;
-    border-style: solid;
-    border-image: var(--filtr);
-    border-image-slice: 1;
-    border-radius: 13px 0px 0px 13px;
-  }
-  &.All {
-    padding: 22px 46px 22px 46px;
-  }
 }
 
 // adaptives
