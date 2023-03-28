@@ -33,12 +33,30 @@
   border: 0.1px solid var(--border);
 }
 
+.O_Cards {
+  margin-top: 50px;
+  display: flex;
+  width: 1620px;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.O_MapSkies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
   .O_FuterAll {
     width: 1360px;
     height: 184px;
+  }
+  .O_Cards {
+    width: 1360px;
+    gap: 36px;
   }
 }
 
@@ -47,12 +65,29 @@
     width: 1100px;
     height: 184px;
   }
+  .O_Cards {
+    width: 1100px;
+    gap: 28px;
+  }
 }
-
-@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .O_FuterAll {
     width: 960px;
     height: 184px;
+  }
+  .O_Cards {
+    width: 1044px;
+    gap: 26px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .O_FuterAll {
+    width: 960px;
+    height: 184px;
+  }
+  .O_Cards {
+    width: 960px;
+    gap: 33px;
   }
 }
 
@@ -62,6 +97,10 @@
     height: auto;
     flex-wrap: wrap;
   }
+  .O_Cards {
+    width: 728px;
+    gap: 27px;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -70,6 +109,10 @@
     height: auto;
     flex-wrap: wrap;
   }
+  .O_Cards {
+    width: 358px;
+    gap: 14px;
+  }
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
@@ -77,5 +120,9 @@
     width: 358px;
     height: auto;
     flex-wrap: wrap;
+  }
+  .O_Cards {
+    width: 358px;
+    gap: 14px;
   }
 }
