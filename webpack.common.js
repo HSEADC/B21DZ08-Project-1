@@ -98,7 +98,6 @@ module.exports = {
       filename: './myths/orion.html',
       chunks: ['myths']
     }),
-
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -107,6 +106,7 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    //For Map page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -115,6 +115,7 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    //For Myphology page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -123,6 +124,7 @@ module.exports = {
       chunks: ['myths']
     }),
 
+    //For About page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -355,7 +357,6 @@ module.exports = {
       filename: './main_pages/zodiak.html',
       chunks: ['myths']
     }),
-
     //For Map page
     new HtmlWebpackPlugin({
       hash: true,
