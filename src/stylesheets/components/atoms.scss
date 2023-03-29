@@ -893,7 +893,6 @@ A_Card {
     }
   }
   .A_MapTypeOfSky {
-    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
     font-size: 56px;
   }
 }
@@ -1011,6 +1010,9 @@ A_Card {
   .A_MapSkySouth {
     width: 500px;
     height: 500px;
+  }
+  .A_MapTypeOfSky {
+    font-size: 40px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
@@ -1338,6 +1340,14 @@ A_Card {
 
   .A_ButtonText {
     padding: 20px;
+  }
+  .A_MapTypeOfSky {
+    font-size: 38px;
+  }
+  .A_MapSkyNorth,
+  .A_MapSkySouth {
+    width: 450px;
+    height: 450px;
   }
 }
 

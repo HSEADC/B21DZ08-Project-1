@@ -750,204 +750,132 @@
   }
 
   .Q_delphin {
-    left: 370px;
-    top: 60px;
+    left: 360px;
+    top: 40px;
   }
 
   .Q_whale_kit {
-    background-image: url('./images/stars_north_default/whale_kit.png');
-    left: 470px;
-    top: 200px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/whale_kit_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/whale_kit_hover.png');
-    }
+    left: 370px;
+    top: 150px;
   }
 
   .Q_cepheus_cefei {
-    background-image: url('./images/stars_north_default/cepheus_cefei.png');
-    left: 480px;
-    top: 330px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
-    }
+    left: 320px;
+    top: 200px;
   }
 
   .Q_gercules {
-    background-image: url('./images/stars_north_default/gercules.png');
-    left: 400px;
-    top: 440px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/gercules_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/gercules_hover.png');
-    }
+    left: 370px;
+    top: 280px;
+    rotate: -50deg;
   }
   .Q_arrow {
-    background-image: url('./images/stars_north_default/arrow.png');
-    left: 283px;
-    top: 540px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/arrow_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/arrow_hover.png');
-    }
+    left: 260px;
+    top: 420px;
+    rotate: -15deg;
   }
   .Q_eagle {
-    background-image: url('./images/stars_north_default/eagle.png');
-    left: 150px;
-    top: 480px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/eagle_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/eagle_hover.png');
-    }
+    left: 140px;
+    top: 310px;
   }
   .Q_ursa_minor {
-    background-image: url('./images/stars_north_default/ursa_minor.png');
-    left: 80px;
-    top: 387px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
-    }
+    left: 50px;
+    top: 300px;
   }
   .Q_triangle {
-    background-image: url('./images/stars_north_default/triangle.png');
-    left: 50px;
-    top: 280px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/triangle_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/triangle_hover.png');
-    }
+    left: 30px;
+    top: 230px;
   }
   .Q_north_crown {
-    background-image: url('./images/stars_north_default/north_crown.png');
-    left: 12px;
-    top: 160px;
-    rotate: 100deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/north_crown_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/north_crown_hover.png');
-    }
+    left: 10px;
+    top: 130px;
   }
   .Q_swan {
-    background-image: url('./images/stars_north_default/swan.png');
-    left: 80px;
+    left: 50px;
     top: 20px;
-    rotate: 200deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/swan_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/swan_hover.png');
-    }
   }
   .Q_ophiuchus_zmeenosec {
-    background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.png');
     left: 246px;
-    top: 413px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
-    }
+    top: 330px;
   }
   .Q_charioteer_voznichi {
-    background-image: url('./images/stars_north_default/charioteer_voznichi.png');
-    left: 194px;
-    top: 167px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
-    }
+    left: 120px;
+    top: 150px;
   }
   .Q_cassiopeia {
-    background-image: url('./images/stars_north_default/cassiopeia.png');
-    left: 203px;
-    top: 324px;
-    rotate: 330deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
-    }
+    left: 100px;
+    top: 400px;
+    rotate: 10deg;
   }
   .Q_dragon {
-    background-image: url('./images/stars_north_default/dragon.png');
-    left: 363px;
-    top: 234px;
-    rotate: 314deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/dragon_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/dragon_hover.png');
-    }
+    left: 200px;
+    top: 170px;
+    rotate: 120deg;
   }
   .Q_lira {
-    background-image: url('./images/stars_north_default/lira.png');
-    left: 305px;
-    top: 173px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/lira_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/lira_hover.png');
-    }
+    left: 240px;
+    top: 100px;
   }
   .Q_andromeda {
-    background-image: url('./images/stars_north_default/andromeda.png');
-    left: 196px;
-    top: 27px;
-    width: 120%;
-    &:hover {
-      background-image: url('./images/stars_north_hover/andromeda_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/andromeda_hover.png');
-    }
+    left: 160px;
+    top: 30px;
   }
   .Q_veronicas_hair {
-    background-image: url('./images/stars_north_default/veronicas_hair.png');
-    left: 230px;
+    left: 200px;
     top: 155px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
-    }
   }
   .Q_perseus {
-    background-image: url('./images/stars_north_default/perseus.png');
-    left: 394px;
-    top: 90px;
+    left: 300px;
+    top: 60px;
     rotate: 323deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/perseus_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/perseus_hover.png');
-    }
+  }
+  .Q_feed_korma {
+    left: 230px;
+    top: 10px;
+  }
+  .Q_cup {
+    left: 300px;
+    top: 50px;
+    rotate: 20deg;
+  }
+  .Q_orion {
+    left: 400px;
+    top: 200px;
+  }
+  .Q_raven {
+    left: 260px;
+    top: 200px;
+  }
+  .Q_wolf {
+    left: 330px;
+    top: 300px;
+    width: 200%;
+  }
+  .Q_sail_parusa {
+    left: 200px;
+    top: 400px;
+  }
+  .Q_eridan {
+    left: 30px;
+    top: 250px;
+    rotate: 342deg;
+  }
+  .Q_keel {
+    left: 180px;
+    top: 330px;
+  }
+  .Q_big_dog {
+    left: 180px;
+    top: 160px;
+  }
+  .Q_hare {
+    left: 36px;
+    top: 140px;
+  }
+  .Q_centaurus {
+    left: 106px;
+    top: 10px;
+    width: 100%;
   }
 }
 
@@ -989,7 +917,158 @@
     width: 298px;
     height: 323px;
   }
+  .Q_MapStars {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    div {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .Q_big_dipper {
+    left: 200px;
+    top: 10px;
+  }
+
+  .Q_delphin {
+    left: 320px;
+    top: 40px;
+  }
+
+  .Q_whale_kit {
+    left: 340px;
+    top: 150px;
+  }
+
+  .Q_cepheus_cefei {
+    left: 320px;
+    top: 200px;
+  }
+
+  .Q_gercules {
+    left: 330px;
+    top: 280px;
+    rotate: -50deg;
+  }
+  .Q_arrow {
+    //
+    left: 230px;
+    top: 370px;
+    rotate: -15deg;
+  }
+  .Q_eagle {
+    //
+    left: 140px;
+    top: 270px;
+  }
+  .Q_ursa_minor {
+    //
+    left: 50px;
+    top: 260px;
+  }
+  .Q_triangle {
+    left: 30px;
+    top: 230px;
+  }
+  .Q_north_crown {
+    //
+    left: 0px;
+    top: 130px;
+  }
+  .Q_swan {
+    left: 50px;
+    top: 20px;
+  }
+  .Q_ophiuchus_zmeenosec {
+    //
+    left: 230px;
+    top: 280px;
+  }
+  .Q_charioteer_voznichi {
+    //
+    left: 100px;
+    top: 150px;
+  }
+  .Q_cassiopeia {
+    //
+    left: 100px;
+    top: 350px;
+    rotate: 10deg;
+  }
+  .Q_dragon {
+    left: 200px;
+    top: 170px;
+    rotate: 120deg;
+  }
+  .Q_lira {
+    left: 200px;
+    top: 60px;
+    rotate: 40deg;
+  }
+  .Q_andromeda {
+    left: 130px;
+    top: 30px;
+  }
+  .Q_veronicas_hair {
+    //
+    left: 170px;
+    top: 155px;
+  }
+  .Q_perseus {
+    left: 270px;
+    top: 60px;
+    rotate: 323deg;
+  }
+  .Q_feed_korma {
+    left: 230px;
+    top: 10px;
+  }
+  .Q_cup {
+    left: 300px;
+    top: 80px;
+    rotate: 20deg;
+  }
+  .Q_orion {
+    left: 370px;
+    top: 200px;
+  }
+  .Q_raven {
+    left: 260px;
+    top: 200px;
+  }
+  .Q_wolf {
+    left: 270px;
+    top: 330px;
+    width: 200%;
+  }
+  .Q_sail_parusa {
+    left: 160px;
+    top: 360px;
+  }
+  .Q_eridan {
+    left: 30px;
+    top: 250px;
+    rotate: 342deg;
+  }
+  .Q_keel {
+    left: 160px;
+    top: 300px;
+  }
+  .Q_big_dog {
+    left: 160px;
+    top: 140px;
+  }
+  .Q_hare {
+    left: 36px;
+    top: 140px;
+  }
+  .Q_centaurus {
+    left: 106px;
+    top: 40px;
+  }
 }
+
 @media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .Q_CardsImage {
     width: 240px;
