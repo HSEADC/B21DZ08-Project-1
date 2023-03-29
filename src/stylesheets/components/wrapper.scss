@@ -156,6 +156,49 @@
   .W_Card {
     width: 224px;
   }
+  .W_SliderWorkGood {
+    display: flex;
+    width: 613px;
+    height: 876px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .W_SliderRail {
+    display: flex;
+    width: 613px;
+    transition: all var(--transitionTiming) ease;
+  }
+  .W_SliderButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .W_SliderWork {
+    position: relative;
+    display: flex;
+    width: 613px;
+    height: 876px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    transition: all var(--transitionTiming) ease;
+    position: relative;
+    align-items: center;
+    z-index: 5;
+    background: var(--background-article);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 0.1px solid var(--border);
+  }
+  .W_SliderContent {
+    display: flex;
+    flex-direction: row;
+    // gap: 12px;
+    // display: none;
+    justify-content: space-around;
+    // justify-content: center;
+    height: 876px;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -168,6 +211,49 @@
   }
   .W_ArticleMainContent {
     margin-left: 0px;
+  }
+  .W_SliderWorkGood {
+    display: flex;
+    width: 613px;
+    height: 876px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .W_SliderRail {
+    display: flex;
+    width: 613px;
+    transition: all var(--transitionTiming) ease;
+  }
+  .W_SliderButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .W_SliderWork {
+    position: relative;
+    display: flex;
+    width: 613px;
+    height: 876px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    transition: all var(--transitionTiming) ease;
+    position: relative;
+    align-items: center;
+    z-index: 5;
+    background: var(--background-article);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 0.1px solid var(--border);
+  }
+  .W_SliderContent {
+    display: flex;
+    flex-direction: row;
+    // gap: 12px;
+    // display: none;
+    justify-content: space-around;
+    // justify-content: center;
+    height: 876px;
+    width: 100%;
   }
 }
 

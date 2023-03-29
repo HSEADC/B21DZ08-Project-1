@@ -201,23 +201,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initZodiaks()
   initMaps()
   phoneMenu()
+  initModal()
 })
 
 let currentSlide = 0
 
 function initModal() {
-  const postTeasers = document.getElementsByClassName('postTeaser')
-  const asideButton = document.querySelector('.asideButton')
-  const fader = document.querySelector('.fader')
-  const sliderButtonLeft = document.querySelector('.sliderButton.left')
-  const sliderButtonRight = document.querySelector('.sliderButton.right')
-
-  for (var i = 0; i < postTeasers.length; i++) {
-    postTeasers[i].addEventListener('click', toggleModal)
-  }
-
-  fader.addEventListener('click', toggleModal)
-  asideButton.addEventListener('click', toggleAside)
+  const sliderButtonLeft = document.querySelector('.A_SliderButtonLeft')
+  const sliderButtonRight = document.querySelector('.A_SliderButtonRight')
 
   sliderButtonLeft.addEventListener('click', () => {
     slide('prev')
@@ -228,65 +219,25 @@ function initModal() {
   })
 }
 
-function toggleModal() {
-  const body = document.querySelector('.body')
-
-  if (body.classList.contains('modal')) {
-    slide('reset')
-  }
-
-  body.classList.toggle('modal')
-}
-
-function toggleAside() {
-  const post = document.querySelector('.post')
-  post.classList.toggle('aside')
-}
-
 function slide(direction) {
-  const sliderButtonLeft = document.querySelector('.sliderButton.left')
-  const sliderButtonRight = document.querySelector('.sliderButton.right')
-  const rail = document.querySelector('.rail')
+  const sliderButtonLeft = document.querySelector('.A_SliderButtonLeft')
+  const sliderButtonRight = document.querySelector('.A_SliderButtonRight')
+  const rail = document.querySelector('.W_SliderRail')
   const railLength = rail.children.length
 
   if (direction === 'next' && currentSlide + 1 < railLength) {
     currentSlide++
   } else if (direction === 'prev' && currentSlide > 0) {
     currentSlide--
-  } else if (direction === 'reset') {
-    currentSlide = 0
   }
 
   if (currentSlide === 0) {
-    sliderButtonLeft.classList.add('hidden')
-    sliderButtonRight.classList.remove('hidden')
+    sliderButtonLeft.classList.add('toPress')
+    sliderButtonRight.classList.remove('toPress')
   } else if (currentSlide + 1 === railLength) {
-    sliderButtonLeft.classList.remove('hidden')
-    sliderButtonRight.classList.add('hidden')
-  } else {
-    sliderButtonLeft.classList.remove('hidden')
-    sliderButtonRight.classList.remove('hidden')
+    sliderButtonLeft.classList.remove('toPress')
+    sliderButtonRight.classList.add('toPress')
   }
 
-  rail.style.transform = 'translateX(-' + 664 * currentSlide + 'px)'
+  rail.style.transform = 'translateX(-' + 613 * currentSlide + 'px)'
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  initModal()
-
-  // document.addEventListener('click', (e) => {
-  //   console.log('document', e, e.screenX, e.screenY)
-  // })
-
-  // window.addEventListener('click', (e) => {
-  //   console.log('window', e, e.screenX, e.screenY)
-  // })
-
-  // window.addEventListener('resize', () => {
-  //   const rect = document
-  //     .getElementsByClassName('postTeaser')[0]
-  //     .getBoundingClientRect()
-  //
-  //   console.log('resize', rect)
-  // })
-})
