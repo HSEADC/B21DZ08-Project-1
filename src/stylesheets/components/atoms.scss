@@ -892,6 +892,10 @@ A_Card {
       top: 222px;
     }
   }
+  .A_MapTypeOfSky {
+    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+  }
 }
 
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
@@ -1002,6 +1006,11 @@ A_Card {
   }
   .A_CardsStarName {
     font-size: 18px;
+  }
+  .A_MapSkyNorth,
+  .A_MapSkySouth {
+    width: 500px;
+    height: 500px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
@@ -2002,7 +2011,8 @@ A_Card {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 240px;
-  background-color: #fc71ff;
+  background-image: url('./images/grains/grain2.png');
+  background-size: cover;
   color: #fff;
   text-align: center;
   border-radius: 6px;
