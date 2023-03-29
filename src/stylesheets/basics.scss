@@ -4,99 +4,46 @@
 
 html,
 body {
+  cursor: url('./images/cursor.svg') 4 1, pointer;
   height: 100%;
-  // background-color: white;
+  background-color: var(--black);
+  overflow-x: hidden;
+  *::-webkit-scrollbar {
+    height: 8px;
+    width: 16px;
+  }
+  *::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+  *::-webkit-scrollbar-thumb {
+    border: 0.1px solid var(--border);
+    border-radius: 10px;
+  }
 }
 
 body {
-  font-family: 'PTSans', Helvetica, Arial, sans-serif;
+  font-family: 'PT-Root-UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
+  color: var(--white);
 }
 
 a {
+  box-sizing: border-box;
   text-decoration: none;
+  color: var(--white);
+  cursor: url('./images/activecursor.svg') 4 1, pointer;
+  user-select: none;
+  z-index: 5;
+}
+
+input {
+  width: 640px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: black;
   color: white;
-}
-h1 {
-  font-size: 64px;
-  font-style: italic;
-  margin-bottom: 8px;
-}
-h2 {
-  font-size: 36px;
-  font-weight: 400;
-}
-hr {
-  width: 1112px;
-  margin: 0px;
-}
-
-.menu,
-.plashka {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-}
-
-.plashka {
-  margin-top: 20px;
-}
-
-.start {
-  margin-right: 470px;
-}
-
-.aboutus {
-  margin-left: 470px;
-}
-
-.legends {
-  margin: 0px 100px 0px 100px;
-}
-.draft {
-  margin-top: 20px;
-  font-size: 12px;
-  margin-left: 20px;
-}
-
-.futor {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-  margin-bottom: 50px;
-
-  div {
-    display: flex;
-    flex-direction: column;
-
-    // justify-content: center;
-    // align-content: space-between;
-  }
-  .Liza {
-    margin: 0px 140px 0px 140px;
-  }
-  .hse {
-    margin-left: 220px;
-  }
-  .portfolio {
-    margin-top: 0px;
-  }
-  .header {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  p {
-    margin: 3px 0px 3px 0px;
-  }
-  .Nastya,
-  .hse {
-    margin-top: 58px;
-  }
-  hr {
-    margin: 0px;
-    position: absolute;
-    justify-content: center;
-  }
+  padding-left: 30px;
+  margin-top: 60px;
+  font-size: 18px;
 }

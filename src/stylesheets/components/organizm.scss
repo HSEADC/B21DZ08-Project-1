@@ -1,0 +1,185 @@
+.O_FuterAll {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1620px;
+  height: 184px;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px 20px 0px 0px;
+  border-right: 1px solid var(--border);
+  z-index: 5;
+}
+
+.O_Cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.O_FilterBar {
+  z-index: 3;
+  position: relative;
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  // justify-content: center;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 52px 64px 52px 64px;
+  border: 0.1px solid var(--border);
+}
+
+.O_Cards {
+  margin-top: 50px;
+  display: flex;
+  width: 1620px;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.O_MapSkies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.O_StartPageMounth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.O_StartPageMounth {
+  margin-top: 200px;
+}
+
+.O_StartPageMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.O_StartPageSkies {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 260px;
+  z-index: 100;
+}
+
+.O_PopularMyphs {
+  margin-top: 600px;
+}
+
+.O_Zodiak {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
+//adaptive
+
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .O_FuterAll {
+    width: 1360px;
+    height: 184px;
+  }
+  .O_Cards {
+    width: 1360px;
+    gap: 36px;
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .O_FuterAll {
+    width: 1100px;
+    height: 184px;
+  }
+  .O_Cards {
+    width: 1100px;
+    gap: 28px;
+  }
+}
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .O_FuterAll {
+    width: 960px;
+    height: 184px;
+  }
+  .O_Cards {
+    width: 1044px;
+    gap: 26px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .O_FuterAll {
+    width: 960px;
+    height: 184px;
+  }
+  .O_Cards {
+    width: 960px;
+    gap: 33px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .O_FuterAll {
+    width: 728px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .O_Cards {
+    width: 728px;
+    gap: 27px;
+  }
+  .O_Zodiak {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .O_FuterAll {
+    width: 560px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .O_Cards {
+    width: 560px;
+    gap: 14px;
+  }
+  .O_Zodiak {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .O_PopularMyphs {
+    margin-top: 360px;
+  }
+  .O_FuterAll {
+    width: 358px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .O_Cards {
+    width: 358px;
+    gap: 14px;
+  }
+
+  .O_Zodiak {
+    margin-left: 0;
+  }
+}

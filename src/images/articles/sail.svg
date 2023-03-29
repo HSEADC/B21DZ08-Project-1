@@ -1,0 +1,23 @@
+<svg width="208" height="121" viewBox="0 0 208 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1521_131865)">
+<circle cx="3" cy="86" r="3" fill="#FAF8F5"/>
+<circle cx="93" cy="3" r="3" fill="#FAF8F5"/>
+<circle cx="127" cy="29" r="4" fill="#FAF8F5"/>
+<circle cx="204" cy="72" r="4" fill="#FAF8F5"/>
+<circle cx="145" cy="117" r="3" fill="#FAF8F5"/>
+<circle cx="104" cy="117" r="4" fill="#FAF8F5"/>
+<circle cx="64" cy="114" r="4" fill="#FAF8F5"/>
+<line x1="2.66103" y1="86.6324" x2="92.661" y2="3.63244" stroke="#FAF8F5"/>
+<line x1="92.2982" y1="2.59863" x2="127.298" y2="28.5986" stroke="#FAF8F5"/>
+<line x1="127.254" y1="28.5692" x2="200.254" y2="71.5692" stroke="#FAF8F5"/>
+<line x1="200.32" y1="72.3841" x2="146.32" y2="117.384" stroke="#FAF8F5"/>
+<line x1="146" y1="117.5" x2="104" y2="117.5" stroke="#FAF8F5"/>
+<line x1="103.975" y1="116.499" x2="63.975" y2="114.499" stroke="#FAF8F5"/>
+<line x1="63.7948" y1="114.456" x2="3.79482" y2="87.456" stroke="#FAF8F5"/>
+</g>
+<defs>
+<clipPath id="clip0_1521_131865">
+<rect width="208" height="121" fill="white"/>
+</clipPath>
+</defs>
+</svg>

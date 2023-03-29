@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Поиск созвездий</title>
+    <link rel="icon" href="../images/favicon.svg" type="image/svg" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Поиск созвездий" />
+    <meta name="description" content="Найди свой миф среди 45 созвездий" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Поиск созвездий" />
+    <meta
+      property="og:description"
+      content="Найди свой миф среди 45 созвездий"
+    />
+    <meta
+      property="og:image"
+      content="../images/shareImage/myphology_share.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Поиск созвездий" />
+    <meta
+      property="twitter:description"
+      content="Найди свой миф среди 45 созвездий"
+    />
+    <meta
+      property="twitter:image"
+      content="../images/shareImage/myphology_share.png"
+    />
+
+    <analytics></analytics>
+  </head>
+  <body>
+    <nav class="S_MenuPhone">
+      <div class="O_MenuPhoneContainer">
+        <div class="M_MenuPhoneElements">
+          <div class="M_MenuPhoneHamb">
+            <div class="A_MenuPhoneHambField" id="hamb">
+              <span class="Q_MenuBar"></span> <span class="Q_MenuBar"></span>
+              <span class="Q_MenuBar"></span>
+            </div>
+            <a class="A_MenuLogo" href="../index.html" id="logo">МИфОС</a>
+          </div>
+
+          <ul class="M_MenuSections phone" id="menu">
+            <li>
+              <a class="A_MenuSection first" href="../main_pages/map.html"
+                >КАРТА СОЗВЕЗДИЙ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/myphology.html"
+                >МИФОЛОГИЯ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/zodiak.html"
+                >ЗОДИАКИ</a
+              >
+            </li>
+            <li>
+              <a class="A_MenuSection" href="../main_pages/about.html">О НАС</a>
+            </li>
+
+            <li class="A_TgIcon">
+              <a class="Q_TgIcon" href="https://t.me/spacegreekmyths"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="S_MenuFill">
+      <header class="M_MenuButtons">
+        <a class="A_MenuLogo" href="../index.html">МИфОС</a>
+
+        <div class="M_MenuSections">
+          <a class="A_MenuSection first" href="../main_pages/map.html"
+            >КАРТА СОЗВЕЗДИЙ</a
+          >
+          <a class="A_MenuSection second" href="../main_pages/myphology.html"
+            >МИФОЛОГИЯ</a
+          >
+          <a class="A_MenuSection third" href="../main_pages/zodiak.html"
+            >ЗОДИАКИ</a
+          >
+          <a class="A_MenuSection forth" href="../main_pages/about.html"
+            >О НАС</a
+          >
+        </div>
+      </header>
+    </div>
+
+    <div class="S_FilterBarAllcontent">
+      <div class="M_Titles">
+        <h2 class="A_SecondTitle">МИфОлОГИя СОЗвеЗдИЙ</h2>
+      </div>
+      <div class="O_FilterBar">
+        <div class="W_FilterBarSearch">
+          <img src="../images/A_FilterBarSearchIcon.svg" alt="" />
+        </div>
+        <div class="C_FilterBarFilterButton">
+          <div class="M_FilterBarFilterButton">
+            <div class="A_FilterBarFilterButtonText All" data-filter="all">
+              все
+            </div>
+          </div>
+          <div class="M_FilterBarFilterButton Sky">
+            <div class="A_FilterBarFilterButtonText Left" data-filter="south">
+              южное небо
+            </div>
+            <div class="A_FilterBarFilterButtonText Right" data-filter="north">
+              северное небо
+            </div>
+          </div>
+          <div class="M_FilterBarFilterButton Zodiak">
+            <div class="A_FilterBarFilterButtonText Left" data-filter="zodiak">
+              зодиакальные
+            </div>
+            <div class="A_FilterBarFilterButtonText Right" data-filter="notz">
+              незодиакальные
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="O_Cards">
+        <div class="W_Card" data-tags="south,zodiak,all">
+        <div class="W_Card" data-sky="south" data-zod="zodiak">
+          <div class="Q_CardsImage lira"></div>
+          <p class="A_CardsStarName">south,zodiak лира</p>
+        </div>
+        <div class="W_Card" data-sky="north">
+          <div class="Q_CardsImage dragon"></div>
+          <p class="A_CardsStarName">north дракон</p>
+        </div>
+        <div class="W_Card" data-sky="south" data-zod="zodiak">
+          <div class="Q_CardsImage big_dipper"></div>
+          <p class="A_CardsStarName">south большая медведица</p>
+        </div>
+        <div class="W_Card" data-sky="north" data-zod="notzod">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north персей</p>
+        </div>
+        <div class="W_Card" data-sky="north">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north ПЕРСЕЙ</p>
+        </div>
+        <div class="W_Card" data-tags="north,zodiak">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north,zodiak ПЕРСЕЙ</p>
+        </div>
+        <div class="W_Card" data-tags="north,notz">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north,notzodiak ПЕРСЕЙ</p>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- тут я буду работать -->
+
+    <div class="S_Futer">
+      <div class="O_FuterAll">
+        <div class="M_FuterPart first">
+          <div class="A_FuterMenu name">МИфОС</div>
+          <div class="A_FuterButton tg">Телеграм</div>
+        </div>
+        <div class="M_FuterPart second">
+          <div class="A_FuterMenu">Проект сделали:</div>
+          <div class="A_FuterButton">Лиза Демичева</div>
+          <div class="A_FuterButton">Настя Колодина</div>
+          <div class="A_FuterButton">Полина Барыбина</div>
+        </div>
+        <div class="M_FuterPart third">
+          <div class="A_FuterMenu">Кураторы:</div>
+          <div class="A_FuterButton">Захар День</div>
+          <div class="A_FuterButton">Соня Каем</div>
+        </div>
+        <div class="M_FuterPart fourth">
+          <div class="A_FuterButton year">2023</div>
+        </div>
+      </div>
+      <div class="A_FuterImage"></div>
+    </div>
+  </body>
+</html>
