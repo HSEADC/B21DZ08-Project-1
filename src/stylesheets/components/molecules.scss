@@ -8,6 +8,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &.phone {
+    display: block;
+  }
 }
 
 .M_Titles {
@@ -169,6 +173,39 @@
   &:hover {
     background: var(--button-hover);
   }
+}
+
+.M_StartPageText2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.M_StartPageText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#M_StartPageMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.M_StartPageMailText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.M_StartPageMaps {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 // adaptives

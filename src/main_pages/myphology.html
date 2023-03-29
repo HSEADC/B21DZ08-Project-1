@@ -48,7 +48,7 @@
             <a class="A_MenuLogo" href="../index.html" id="logo">МИфОС</a>
           </div>
 
-          <ul class="M_MenuSections" id="menu">
+          <ul class="M_MenuSections phone" id="menu">
             <li>
               <a class="A_MenuSection first" href="../main_pages/map.html"
                 >КАРТА СОЗВЕЗДИЙ</a
@@ -101,7 +101,7 @@
       <div class="M_Titles">
         <h2 class="A_SecondTitle">МИфОлОГИя СОЗвеЗдИЙ</h2>
       </div>
-      <!-- <div class="O_FilterBar">
+      <div class="O_FilterBar">
         <div class="W_FilterBarSearch">
           <img src="../images/A_FilterBarSearchIcon.svg" alt="" />
         </div>
@@ -123,35 +123,40 @@
             <div class="A_FilterBarFilterButtonText Left" data-filter="zodiak">
               зодиакальные
             </div>
-            <div
-              class="A_FilterBarFilterButtonText Right"
-              data-filter="notzodiak"
-            >
+            <div class="A_FilterBarFilterButtonText Right" data-filter="notz">
               незодиакальные
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <div class="O_Cards">
-        <div class="W_Card" data-sky="south, zodiak">
+        <div class="W_Card" data-tags="south,zodiak,all">
           <div class="Q_CardsImage lira"></div>
-          <p class="A_CardsStarName">лира</p>
+          <p class="A_CardsStarName">south,zodiak лира</p>
         </div>
         <div class="W_Card" data-tags="north">
           <div class="Q_CardsImage dragon"></div>
-          <p class="A_CardsStarName">дракон</p>
+          <p class="A_CardsStarName">north дракон</p>
         </div>
         <div class="W_Card" data-tags="south">
           <div class="Q_CardsImage big_dipper"></div>
-          <p class="A_CardsStarName">большая медведица</p>
+          <p class="A_CardsStarName">south большая медведица</p>
         </div>
         <div class="W_Card" data-tags="north">
           <div class="Q_CardsImage perseus"></div>
-          <p class="A_CardsStarName">персей</p>
+          <p class="A_CardsStarName">north персей</p>
         </div>
         <div class="W_Card" data-tags="north">
           <div class="Q_CardsImage perseus"></div>
-          <p class="A_CardsStarName">ПЕРСЕЙ</p>
+          <p class="A_CardsStarName">north ПЕРСЕЙ</p>
+        </div>
+        <div class="W_Card" data-tags="north,zodiak">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north,zodiak ПЕРСЕЙ</p>
+        </div>
+        <div class="W_Card" data-tags="north,notz">
+          <div class="Q_CardsImage perseus"></div>
+          <p class="A_CardsStarName">north,notzodiak ПЕРСЕЙ</p>
         </div>
         <!-- </div> -->
       </div>
