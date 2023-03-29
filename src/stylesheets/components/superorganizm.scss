@@ -66,6 +66,10 @@
   flex-direction: column;
   z-index: 5;
 }
+.S_Slider {
+  margin-top: 10%;
+  display: none;
+}
 
 .S_StartPage {
   position: relative;
@@ -105,8 +109,19 @@
 }
 
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .S_MenuPhone {
+    display: block;
+  }
+
   .S_MenuFill {
+    display: none;
+  }
+  .S_Slider {
     display: flex;
+    margin-top: 10%;
+  }
+  .S_Map {
+    display: none;
   }
 }
 
@@ -125,6 +140,13 @@
   .S_StartPage,
   .S_Zodiak {
     margin-left: 0;
+  }
+  .S_Slider {
+    display: flex;
+    margin-top: 10%;
+  }
+  .S_Map {
+    display: none;
   }
 }
 
