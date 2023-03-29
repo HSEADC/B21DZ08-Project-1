@@ -302,7 +302,38 @@
   }
 
   .M_MenuSections {
-    width: 728px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    background-color: var(--menu);
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    transition: left 1s ease 0s;
+    overflow: auto;
+
+    &.active {
+      left: 0;
+      top: 0;
+      right: 0;
+    }
+  }
+  .M_MenuPhoneHamb {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: var(--background-article);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    z-index: 12;
   }
 
   .M_ZodiakRightBlock {
@@ -331,6 +362,9 @@
     padding: 32px 32px;
     border: 0px;
     border-radius: 0px;
+  }
+  .M_MapSky {
+    width: 613px;
   }
 }
 
@@ -450,6 +484,43 @@
   .M_ZodiakAllTogether {
     width: 444px;
     height: 444px;
+  }
+  .M_MenuSections {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    background-color: var(--menu);
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    transition: left 1s ease 0s;
+    overflow: auto;
+
+    &.active {
+      left: 0;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .M_MenuPhoneHamb {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: var(--background-article);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    z-index: 12;
+  }
+  .M_MapSky {
+    width: 613px;
   }
 }
 
