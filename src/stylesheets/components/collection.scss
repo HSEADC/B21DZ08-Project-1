@@ -9,6 +9,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  &.index {
+    justify-content: none;
+  }
 }
 
 .C_FilterBarFilterButton {

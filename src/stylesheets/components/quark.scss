@@ -28,6 +28,11 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  &.index {
+    width: 420px;
+    height: 310px;
+  }
+
   &.active {
     display: block;
   }
@@ -462,18 +467,38 @@
   top: 42px;
   width: 100%;
 }
-.Q_SkyBack1,
-.Q_SkyBack2 {
+
+.Q_StartPageArrow {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 200px;
+  margin-bottom: 50px;
+}
+
+.Q_StartPageArrow {
+  margin-top: 200px;
+  rotate: 90deg;
+}
+
+.Q_StartPageSky1,
+.Q_StartPageSky2 {
   width: 406px;
   height: 820px;
-  border: 0.1px solid var(--border);
-  background: var(--background-circle);
 }
-.Q_SkyBack1 {
-  border-radius: 0 1000px 1000px 0;
+
+.Q_StartPageSky1 {
+  background-image: url('./images/startpage/A_StartPageSky1.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.Q_SkyBack2 {
-  border-radius: 1000px 0 0 1000px;
+
+.Q_StartPageSky2 {
+  background-image: url('./images/startpage/A_StartPageSky2.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 //adaptive
 
@@ -678,6 +703,10 @@
       width: 156px;
       height: 150px;
     }
+  }
+  .Q_CardsImage {
+    width: 228px;
+    height: 244px;
   }
 }
 

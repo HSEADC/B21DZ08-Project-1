@@ -9,107 +9,78 @@ function phoneMenu() {
       MenuSections.classList.toggle('active')
     })
   }
+}
 
-  document.addEventListener('DOMContentLoaded', () => {
-    initModal()
-    initSelect()
-    // initMultiSelect()
+function initFilters() {
+  // const contentItems = document.getElementsByClassName('W_Cards')
+  // for (let i = 0; i < contentItems.length; i++) {
+  //   const contentItem = contentItems[i]
+  //   const contentItemCover = contentItem.querySelector('.Q_CardsImage').src
+  //   const contentItemTags = contentItem.dataset.sky.split(',')
+  //   const contentItemTitle =
+  //     contentItem.querySelector('.A_CardsStarName').innerText
+  //   const contentItemData = {
+  //     id: generateHash(),
+  //     image: contentItemCover,
+  //     tags: contentItemTags,
+  //     title: contentItemTitle
+  //   }
+  //   content.push(contentItemData)
+  // }
 
-    initFilters()
-    initMultiSelect()
+  const filtrbutton = document.querySelectorAll('.A_FilterBarFilterButtonText')
+  const cards = document.querySelectorAll('.W_Card')
 
-    initSearch()
-  })
-
-  function initFilters() {
-    const contentItems = document.getElementsByClassName('W_Cards')
-
-    for (let i = 0; i < contentItems.length; i++) {
-      const contentItem = contentItems[i]
-
-      const contentItemCover = contentItem.querySelector('.Q_CardsImage').src
-
-      const contentItemTags = contentItem.dataset.sky.split(',')
-
-      const contentItemTitle =
-        contentItem.querySelector('.A_CardsStarName').innerText
-
-      const contentItemData = {
-        id: generateHash(),
-        image: contentItemCover,
-        tags: contentItemTags,
-        title: contentItemTitle
+  for (let i = 0; i < filtrbutton.length; i++) {
+    const fbuttons = filtrbutton[i]
+    fbuttons.addEventListener('click', function () {
+      const fbutton = fbuttons.dataset.filter
+      for (let i = 0; i < filtrbutton.length; i++) {
+        const fbutton = filtrbutton[i]
+        fbutton.classList.remove('active')
       }
+      fbuttons.classList.add('active')
 
-      content.push(contentItemData)
-    }
-
-    // console.log('content', content)
+      for (let i = 0; i < cards.length; i++) {
+        const tags = cards[i]
+        tags.classList.add('hidden')
+        const tag = tags.dataset.tags
+        if (tag.includes(fbutton)) {
+          cards[i].classList.remove('hidden')
+        }
+        console.log(cards, fbutton, tag)
+      }
+    })
   }
 }
+
+// Zodiak Page
 
 // function getZodiakTags() {
 //   const zodiakButton = document.querySelectorAll('.A_ZodiakButton')
 //   const tags = []
+
 //   for (let i = 0; i < zodiakButton.length; i++) {
 //     const trueTag = zodiakButton[i]
 //     const contentTag = trueTag.dataset.tag.split()
 
 //     tags.push(...contentTag)
-//     // console.log(contentTag)
 //   }
 // }
 
-// Zodiak Page
+// function getZodiakNames() {
+//   const zodiakName = document.querySelectorAll('.A_ZodiakName')
+//   const names = []
 
-function getZodiakTags() {
-  const zodiakButton = document.querySelectorAll('.A_ZodiakButton')
-  const tags = []
+//   for (let i = 0; i < zodiakName.length; i++) {
+//     const trueName = zodiakName[i]
+//     const contentName = trueName.dataset.name.split()
 
-  for (let i = 0; i < zodiakButton.length; i++) {
-    const trueTag = zodiakButton[i]
-    const contentTag = trueTag.dataset.tag.split()
-
-    tags.push(...contentTag)
-    // console.log(contentTag)
-  }
-}
-
-function getZodiakNames() {
-  const zodiakName = document.querySelectorAll('.A_ZodiakName')
-  const names = []
-
-  for (let i = 0; i < zodiakName.length; i++) {
-    const trueName = zodiakName[i]
-    const contentName = trueName.dataset.name.split()
-
-    names.push(...contentName)
-    // console.log(contentName)
-  }
-}
-
-// function updatedContent() {
-//   const contentCenterImage = document.querySelectorAll('.A_ZodiakInCircle')
-//   const contentNameTitle = document.querySelectorAll('.A_ZodiakName')
-//   const contentDescription = document.querySelectorAll('.M_ArticleRightBlock')
-//   const contentPage = {
-//     id: '',
-//     image: contentCenterImage,
-//     title: contentNameTitle,
-//     description: contentDescription
+//     names.push(...contentName)
 //   }
-
-//   contentPageId.forEach((id) => {
-//     content.forEach((contentPage) => {
-//       if (contentPage.id === id) {
-//       }
-//     })
-//   })
 // }
 
 function initZodiaks() {
-  getZodiakTags()
-  getZodiakNames()
   const zodiaks = document.querySelectorAll('.A_ZodiakButton')
   const zodiaksname = document.querySelectorAll('.A_ZodiakName')
   const zodiaksinfo = document.querySelectorAll('.M_ZodiakRightBlock')
@@ -128,7 +99,6 @@ function initZodiaks() {
       for (let i = 0; i < zodiaksname.length; i++) {
         const names = zodiaksname[i]
         names.classList.remove('active')
-        console.log(names.dataset.name, button)
         if (names.dataset.name == button) {
           zodiaksname[i].classList.add('active')
         }
@@ -155,21 +125,14 @@ function initZodiaks() {
   }
 }
 
-// if (Array(zodiaks).classList.contains('active')) {
-//   const clickedTag = zodiaks.dataset.tag.split()
-//   console.log(clickedTag)
-
-//   let foundName = names.filter((e) => {
-//     return e === clickedTag
-//   })
-//   console.log(clickedTag)
-//   zodiakName.classList.remove('active')
-//   if ((foundName = clickedTag)) {
-//     zodiakName.classList.add('active')
-//   }
-// }
-
 document.addEventListener('DOMContentLoaded', () => {
   initZodiaks()
   phoneMenu()
+  // initModal()
+  // initSelect()
+
+  initFilters()
+  // initMultiSelect()
+
+  // initSearch()
 })
