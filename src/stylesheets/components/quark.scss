@@ -1086,6 +1086,24 @@
     width: 224px;
     height: 225px;
   }
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
 }
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
   .Q_TgIcon {
@@ -1151,6 +1169,24 @@
       width: 156px;
       height: 150px;
     }
+  }
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
   }
 }
 

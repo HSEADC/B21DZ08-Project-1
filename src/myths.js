@@ -201,4 +201,43 @@ document.addEventListener('DOMContentLoaded', () => {
   initZodiaks()
   initMaps()
   phoneMenu()
+  initModal()
 })
+
+let currentSlide = 0
+
+function initModal() {
+  const sliderButtonLeft = document.querySelector('.A_SliderButtonLeft')
+  const sliderButtonRight = document.querySelector('.A_SliderButtonRight')
+
+  sliderButtonLeft.addEventListener('click', () => {
+    slide('prev')
+  })
+
+  sliderButtonRight.addEventListener('click', () => {
+    slide('next')
+  })
+}
+
+function slide(direction) {
+  const sliderButtonLeft = document.querySelector('.A_SliderButtonLeft')
+  const sliderButtonRight = document.querySelector('.A_SliderButtonRight')
+  const rail = document.querySelector('.W_SliderRail')
+  const railLength = rail.children.length
+
+  if (direction === 'next' && currentSlide + 1 < railLength) {
+    currentSlide++
+  } else if (direction === 'prev' && currentSlide > 0) {
+    currentSlide--
+  }
+
+  if (currentSlide === 0) {
+    sliderButtonLeft.classList.add('toPress')
+    sliderButtonRight.classList.remove('toPress')
+  } else if (currentSlide + 1 === railLength) {
+    sliderButtonLeft.classList.remove('toPress')
+    sliderButtonRight.classList.add('toPress')
+  }
+
+  rail.style.transform = 'translateX(-' + 613 * currentSlide + 'px)'
+}

@@ -67,6 +67,10 @@
   z-index: 5;
   margin: 0;
 }
+.S_Slider {
+  margin-top: 10%;
+  display: none;
+}
 
 //adaptive
 
@@ -95,8 +99,19 @@
 }
 
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .S_MenuPhone {
+    display: block;
+  }
+
   .S_MenuFill {
+    display: none;
+  }
+  .S_Slider {
     display: flex;
+    margin-top: 10%;
+  }
+  .S_Map {
+    display: none;
   }
 }
 
@@ -111,6 +126,13 @@
 
   .S_ArticleAllcontent {
     margin-left: 0px;
+  }
+  .S_Slider {
+    display: flex;
+    margin-top: 10%;
+  }
+  .S_Map {
+    display: none;
   }
 }
 
