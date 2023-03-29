@@ -1,0 +1,29 @@
+<svg width="143" height="187" viewBox="0 0 143 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1467_109354)">
+<circle cx="2" cy="53" r="2" fill="#FAF8F5"/>
+<circle cx="11" cy="70" r="3" fill="#FAF8F5"/>
+<circle cx="31" cy="63" r="4" fill="#FAF8F5"/>
+<circle cx="47" cy="52" r="3" fill="#FAF8F5"/>
+<circle cx="85" cy="4" r="4" fill="#FAF8F5"/>
+<circle cx="140" cy="61" r="3" fill="#FAF8F5"/>
+<circle cx="115" cy="142" r="4" fill="#FAF8F5"/>
+<circle cx="65" cy="164" r="3" fill="#FAF8F5"/>
+<circle cx="52" cy="168" r="4" fill="#FAF8F5"/>
+<circle cx="53" cy="184" r="3" fill="#FAF8F5"/>
+<line x1="2.43097" y1="53.7465" x2="12.431" y2="70.7465" stroke="#FAF8F5"/>
+<line x1="11.806" y1="70.5392" x2="30.806" y2="62.5392" stroke="#FAF8F5"/>
+<line x1="30.7661" y1="61.5581" x2="47.7661" y2="52.5581" stroke="#FAF8F5"/>
+<line x1="47.601" y1="52.6987" x2="84.601" y2="3.6987" stroke="#FAF8F5"/>
+<line x1="85.3628" y1="2.65595" x2="140.363" y2="60.656" stroke="#FAF8F5"/>
+<line x1="140.478" y1="61.1475" x2="115.478" y2="142.147" stroke="#FAF8F5"/>
+<line x1="114.205" y1="142.456" x2="65.2048" y2="164.456" stroke="#FAF8F5"/>
+<line x1="65.147" y1="164.478" x2="52.147" y2="168.478" stroke="#FAF8F5"/>
+<line x1="51.499" y1="166.969" x2="52.499" y2="182.969" stroke="#FAF8F5"/>
+<line x1="85.4887" y1="2.89452" x2="115.489" y2="141.895" stroke="#FAF8F5"/>
+</g>
+<defs>
+<clipPath id="clip0_1467_109354">
+<rect width="143" height="187" fill="white"/>
+</clipPath>
+</defs>
+</svg>
