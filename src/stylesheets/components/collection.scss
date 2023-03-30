@@ -1,0 +1,79 @@
+.C_Article {
+  position: relative;
+}
+
+.C_ZodiakWithNaming {
+  position: relative;
+  width: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &.index {
+    justify-content: none;
+  }
+}
+
+.C_FilterBarFilterButton {
+  display: flex;
+  flex-direction: row;
+  gap: 62px;
+  height: 74px;
+}
+
+// adaptives
+
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .C_Article {
+    width: 1360px;
+  }
+  .C_ZodiakWithNaming {
+    width: 680px;
+  }
+}
+
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .C_Article {
+    width: 1100px;
+  }
+  .C_ZodiakWithNaming {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .C_Article {
+    width: 960px;
+  }
+  .C_ZodiakWithNaming {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .C_Article {
+    width: 728px;
+  }
+  .C_ZodiakWithNaming {
+    width: 728px;
+  }
+}
+
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .C_Article {
+    width: 560px;
+  }
+  .C_ZodiakWithNaming {
+    width: 560px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .C_Article {
+    width: 358px;
+  }
+  .C_ZodiakWithNaming {
+    width: 358px;
+  }
+}

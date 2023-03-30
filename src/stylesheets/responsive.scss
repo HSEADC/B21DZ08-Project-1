@@ -1,3 +1,6 @@
+// адаптивы для тизера (2 модуль)
+
+
 @media only screen and (min-width: 1920px) and (max-width: 2048px) {
   body.tizer {
     .lead {
@@ -52,7 +55,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 1194px) and (max-width: 1366px) {
   body.tizer {
     .lead {
@@ -153,8 +155,7 @@
     }
   }
 }
-
-@media only screen and (min-width: 1080px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   body.tizer {
     .lead {
       font-size: 24px;
@@ -257,7 +258,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 970px) and (max-width: 1080px) {
   body.tizer {
     .lead {
@@ -379,7 +379,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 640px) and (max-width: 970px) {
   body.tizer {
     .lead {
@@ -514,7 +513,6 @@
     }
   }
 }
-
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   body.tizer {
     .lead {
