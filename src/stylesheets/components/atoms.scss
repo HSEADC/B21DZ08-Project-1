@@ -243,6 +243,9 @@
     left: -410px;
     top: -340px;
     background-image: url('./images/grains/grain3.png');
+    &.top {
+      top: 440px;
+    }
   }
 
   &.fourth {
@@ -275,6 +278,11 @@
   &.seven {
     top: -220px;
     background-image: url('./images/grains/grain7.png');
+
+    &.top {
+      top: 526px;
+      left: 0;
+    }
   }
 }
 
