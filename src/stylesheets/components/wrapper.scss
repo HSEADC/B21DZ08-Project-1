@@ -114,15 +114,11 @@
     height: 604px;
     &.index {
       height: auto;
+      margin-left: -8px;
     }
   }
   .W_Map {
     width: 1360px;
-  }
-}
-@media only screen and (min-width: 1440px) and (max-width: 1728px) {
-  .W_ZodiakContent {
-    width: 1100px;
   }
   .W_Card {
     width: 313px;
@@ -131,12 +127,14 @@
     margin-top: 260px;
   }
 }
+
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
   .W_ZodiakContent {
     width: 1100px;
     height: 554px;
     &.index {
       height: auto;
+      margin-left: -8px;
     }
   }
   .W_Card {
@@ -154,6 +152,7 @@
     height: 514px;
     &.index {
       height: auto;
+      margin-left: -8px;
     }
   }
   .W_Card {
