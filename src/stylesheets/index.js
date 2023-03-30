@@ -102,7 +102,7 @@ function renderCardsByIds(container, ids) {
 }
 
 function rerenderContent() {
-  const contentItemsContainer = document.querySelector('.S_Content')
+  const contentItemsContainer = document.querySelector('.O_Cards')
   const searchInput = document.querySelector('.A_SearchInput')
   const requestText = searchInput.value.toLowerCase()
   const selectedTags = []

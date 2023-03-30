@@ -659,7 +659,29 @@ A_Card {
   text-transform: uppercase;
   padding: 30px;
 }
+.A_SearchInput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 1334px;
+  height: 44px;
+  min-height: 44px;
+  padding: 10px 44px 10px 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--white);
+  font-family: inherit;
+  font-size: 24px;
+  color: var(--white);
+  outline: 0;
+  box-shadow: none;
 
+  &:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
 //adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
