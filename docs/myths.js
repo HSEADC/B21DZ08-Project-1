@@ -197,10 +197,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   initFilters(); // initMultiSelect()
   // initSearch()
+  // if (document.body.classList.contains('map')) {
 
-  if (document.body.classList.contains('map')) {
-    initModal();
-  }
+  initModal(); // }
 });
 var currentSlide = 0;
 
