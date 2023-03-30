@@ -18,7 +18,9 @@
     background-clip: text;
   }
 }
-
+.Q_FilterSearchIcon {
+  background-image: url('./images/A_FilterBarSearchIcon.svg');
+}
 .Q_ZodiakCenter {
   display: none;
   width: 268px;
@@ -27,6 +29,11 @@
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: contain;
+
+  &.index {
+    width: 420px;
+    height: 310px;
+  }
 
   &.active {
     display: block;
@@ -98,6 +105,129 @@
   }
   &.perseus {
     background-image: url('./images/cardsImage/perseus.png');
+  }
+  &.andromeda {
+    background-image: url('./images/cardsImage/andromeda.png');
+  }
+  &.aquarius {
+    background-image: url('./images/cardsImage/aquarius.png');
+  }
+  &.aries {
+    background-image: url('./images/cardsImage/aries.png');
+  }
+  &.cancer {
+    background-image: url('./images/cardsImage/cancer.png');
+  }
+  &.capricorn {
+    background-image: url('./images/cardsImage/capricorn.png');
+  }
+  &.centaurus {
+    background-image: url('./images/cardsImage/centaurus.png');
+  }
+  &.cup {
+    background-image: url('./images/cardsImage/cup.png');
+  }
+  &.delphin {
+    background-image: url('./images/cardsImage/delphin.png');
+  }
+  &.dragon {
+    background-image: url('./images/cardsImage/dragon.png');
+  }
+  &.eagle {
+    background-image: url('./images/cardsImage/eagle.png');
+  }
+  &.gemini {
+    background-image: url('./images/cardsImage/gemini.png');
+  }
+  &.arrow {
+    background-image: url('./images/cardsImage/arrow.png');
+  }
+  &.gercules {
+    background-image: url('./images/cardsImage/gercules.png');
+  }
+  &.hare {
+    background-image: url('./images/cardsImage/hare.png');
+  }
+  &.hydra {
+    background-image: url('./images/cardsImage/hydra.png');
+  }
+  &.keel {
+    background-image: url('./images/cardsImage/keel.png');
+  }
+  &.libra {
+    background-image: url('./images/cardsImage/libra.png');
+  }
+  &.feed {
+    background-image: url('./images/cardsImage/feed.png');
+  }
+  &.feed {
+    background-image: url('./images/cardsImage/feed.png');
+  }
+  &.north_crown {
+    background-image: url('./images/cardsImage/north_crown.png');
+  }
+  &.sail {
+    background-image: url('./images/cardsImage/sail.png');
+  }
+  &.orion {
+    background-image: url('./images/cardsImage/orion.png');
+  }
+  &.big_dog {
+    background-image: url('./images/cardsImage/big_dog.png');
+  }
+  &.cassiopeia {
+    background-image: url('./images/cardsImage/cassiopeia.png');
+  }
+  &.whale {
+    background-image: url('./images/cardsImage/whale.png');
+  }
+  &.cepheus {
+    background-image: url('./images/cardsImage/cepheus.png');
+  }
+  &.perseus {
+    background-image: url('./images/cardsImage/perseus.png');
+  }
+  &.small_dog {
+    background-image: url('./images/cardsImage/small_dog.png');
+  }
+  &.pisces {
+    background-image: url('./images/cardsImage/pisces.png');
+  }
+  &.raven {
+    background-image: url('./images/cardsImage/raven.png');
+  }
+  &.scorpio {
+    background-image: url('./images/cardsImage/scorpio.png');
+  }
+  &.strelec {
+    background-image: url('./images/cardsImage/saggitarius.png');
+  }
+  &.swan {
+    background-image: url('./images/cardsImage/swan.png');
+  }
+  &.lion {
+    background-image: url('./images/cardsImage/lion.png');
+  }
+  &.taurus {
+    background-image: url('./images/cardsImage/taurus.png');
+  }
+  &.triangle {
+    background-image: url('./images/cardsImage/triangle.png');
+  }
+  &.veronica_hair {
+    background-image: url('./images/cardsImage/veronica_hair.png');
+  }
+  &.virgin {
+    background-image: url('./images/cardsImage/virgin.png');
+  }
+  &.voznichi {
+    background-image: url('./images/cardsImage/charioteer.png');
+  }
+  &.wolf {
+    background-image: url('./images/cardsImage/wolf.png');
+  }
+  &.zmeenosec {
+    background-image: url('./images/cardsImage/ophiuchus.png');
   }
 }
 
@@ -642,18 +772,38 @@
     background-image: url('./images/stars_south_hover/centaurus_hover.png');
   }
 }
-.Q_SkyBack1,
-.Q_SkyBack2 {
+
+.Q_StartPageArrow {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 200px;
+  margin-bottom: 50px;
+}
+
+.Q_StartPageArrow {
+  margin-top: 200px;
+  rotate: 90deg;
+}
+
+.Q_StartPageSky1,
+.Q_StartPageSky2 {
   width: 406px;
   height: 820px;
-  border: 0.1px solid var(--border);
-  background: var(--background-circle);
 }
-.Q_SkyBack1 {
-  border-radius: 0 1000px 1000px 0;
+
+.Q_StartPageSky1 {
+  background-image: url('./images/startpage/A_StartPageSky1.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.Q_SkyBack2 {
-  border-radius: 1000px 0 0 1000px;
+
+.Q_StartPageSky2 {
+  background-image: url('./images/startpage/A_StartPageSky2.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 //adaptive
 
@@ -1277,6 +1427,12 @@
       height: 150px;
     }
   }
+
+  .Q_CardsImage {
+    width: 228px;
+    height: 244px;
+  }
+
   .Q_TgIcon {
     display: block;
     height: 58px;
