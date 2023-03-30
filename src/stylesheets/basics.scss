@@ -35,3 +35,15 @@ a {
   user-select: none;
   z-index: 5;
 }
+
+input {
+  width: 640px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: black;
+  color: white;
+  padding-left: 30px;
+  margin-top: 60px;
+  font-size: 18px;
+}

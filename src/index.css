@@ -3,12 +3,22 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
 
-@import 'stylesheets/index.scss';
+/* @import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/article.scss';
 @import 'stylesheets/responsive.scss';
 @import 'stylesheets/tizer.scss';
 @import 'stylesheets/styleguide.scss';
+@import 'articles/responsive.scss'; */
+/* 
 @import 'articles/atoms.scss';
-@import 'articles/molecules.scss';
-@import 'articles/responsive.scss';
+@import 'articles/molecules.scss'; */
+
+@import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/molecules.scss';
+@import 'stylesheets/components/organizm.scss';
+@import 'stylesheets/components/collection.scss';
+@import 'stylesheets/components/wrapper.scss';
+@import 'stylesheets/components/superorganizm.scss';
+@import 'stylesheets/components/quark.scss';
+@import 'stylesheets/components/responsive.scss';
