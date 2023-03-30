@@ -47,6 +47,50 @@
   flex-direction: row;
   justify-content: center;
 }
+
+.O_StartPageMounth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.O_StartPageMounth {
+  margin-top: 200px;
+}
+
+.O_StartPageMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.O_StartPageSkies {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 260px;
+  z-index: 100;
+}
+
+.O_PopularMyphs {
+  margin-top: 600px;
+}
+
+.O_Zodiak {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -101,6 +145,9 @@
     width: 728px;
     gap: 27px;
   }
+  .O_Zodiak {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -110,12 +157,18 @@
     flex-wrap: wrap;
   }
   .O_Cards {
-    width: 358px;
+    width: 560px;
     gap: 14px;
+  }
+  .O_Zodiak {
+    margin-left: 0;
   }
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .O_PopularMyphs {
+    margin-top: 360px;
+  }
   .O_FuterAll {
     width: 358px;
     height: auto;
@@ -124,5 +177,9 @@
   .O_Cards {
     width: 358px;
     gap: 14px;
+  }
+
+  .O_Zodiak {
+    margin-left: 0;
   }
 }

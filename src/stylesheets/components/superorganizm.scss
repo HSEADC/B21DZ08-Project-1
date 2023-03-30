@@ -71,6 +71,17 @@
   display: none;
 }
 
+.S_StartPage {
+  position: relative;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
+
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -126,6 +137,10 @@
   .S_ArticleAllcontent {
     margin-left: 0px;
   }
+  .S_StartPage,
+  .S_Zodiak {
+    margin-left: 0;
+  }
   .S_Slider {
     display: flex;
     margin-top: 10%;
@@ -149,5 +164,9 @@
   }
   .S_FilterBarAllcontent {
     margin-left: 0px;
+  }
+  .S_StartPage,
+  .S_Zodiak {
+    margin-left: 0;
   }
 }
