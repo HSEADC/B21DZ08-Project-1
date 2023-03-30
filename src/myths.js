@@ -138,8 +138,8 @@ function initZodiaks() {
 //   }
 // }
 function initMaps() {
-  getZodiakTags()
-  getZodiakNames()
+  // getZodiakTags()
+  // getZodiakNames()
   const stars = document.querySelectorAll('.stars')
   const starsname = document.querySelectorAll('.W_MapStarinfo')
   // const zodiaksinfo = document.querySelectorAll('.M_ZodiakRightBlock')
@@ -177,7 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // initMultiSelect()
 
   // initSearch()
-  initModal()
+  if (document.body.classList.contains('map')) {
+    initModal()
+  }
 })
 
 let currentSlide = 0

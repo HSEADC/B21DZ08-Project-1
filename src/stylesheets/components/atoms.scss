@@ -678,7 +678,6 @@
   padding: 30px;
 }
 
-
 //adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -922,6 +921,10 @@
   .A_MapTypeOfSky {
     font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
     font-size: 56px;
+  }
+
+  .A_ButtonText {
+    padding: 18px;
   }
 }
 
@@ -1399,6 +1402,9 @@
 }
 
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .A_ButtonText {
+    padding: 22px;
+  }
   .A_StartPageSkyNorth,
   .A_StartPageSkySouth {
     width: 540px;
@@ -1602,6 +1608,12 @@
     &.toPress {
       background-image: url('./images/slider/slider_button_right.png');
     }
+  }
+  .A_TgIcon {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 200px;
   }
 }
 
