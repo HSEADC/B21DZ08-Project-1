@@ -62,6 +62,7 @@
   border-radius: 20px;
   border: 0.1px solid var(--border);
   margin-top: 150px;
+  margin-left: 16px;
 }
 
 .W_MapStarinfo {
@@ -116,6 +117,7 @@
   }
   .W_Map {
     width: 1100px;
+    margin-left: 0px;
   }
 }
 
@@ -129,6 +131,7 @@
   }
   .W_Map {
     width: 960px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
@@ -143,6 +146,7 @@
   }
   .W_Map {
     width: 960px;
+    margin-left: 0px;
   }
 }
 
@@ -204,6 +208,11 @@
     // justify-content: center;
     height: 876px;
     width: 100%;
+  }
+  .W_MapStarinfo {
+    border: 0px;
+    width: 100%;
+    margin-top: 40px;
   }
 }
 

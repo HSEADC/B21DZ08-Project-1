@@ -1538,6 +1538,21 @@ A_Card {
       background-image: url('./images/slider/slider_button_right.png');
     }
   }
+  .A_MapSkySouth {
+    width: 578px;
+    height: 578px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .A_MapTypeOfSky {
+    font-size: 52px;
+  }
+  .A_MapCoordinates {
+    margin-top: 20px;
+  }
+  .A_MapTypeOfSky {
+    padding: 0px 26px;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -2116,12 +2131,17 @@ A_Card {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 240px;
-  background-image: url('./images/grains/grain2.png');
-  background-size: cover;
-  color: #fff;
+  // background-image: url('./images/grains/grain2.png');
+  // background-size: cover;
+  background: var(--background-article);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0.1px solid var(--border);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  margin-left: 20px;
+  margin-top: -20px;
 
   /* Position the tooltip */
   position: absolute;
