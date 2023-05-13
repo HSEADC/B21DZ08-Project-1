@@ -177,9 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // initMultiSelect()
 
   // initSearch()
-  if (document.body.classList.contains('map')) {
-    initModal()
-  }
+  // if (document.body.classList.contains('map')) {
+  initModal()
+  // }
 })
 
 let currentSlide = 0
