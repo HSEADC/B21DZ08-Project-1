@@ -323,19 +323,25 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  svg path {
+    color: rgba(255, 255, 255, 0);
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+  }
+
   &.Aries {
     width: 158.73px;
     height: 158.74px;
     left: 48px;
     top: 439px;
-    background-image: url('./images/ZodiakPage/A_ZodiakAries.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakAriesHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -344,14 +350,13 @@
     top: 518px;
     width: 152px;
     height: 126.85px;
-    background-image: url('./images/ZodiakPage/A_ZodiakTaurus.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakTaurusHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -360,14 +365,13 @@
     top: 518px;
     width: 152px;
     height: 126.85px;
-    background-image: url('./images/ZodiakPage/A_ZodiakGemini.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakGeminiHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -376,14 +380,13 @@
     top: 440px;
     width: 158.72px;
     height: 158.75px;
-    background-image: url('./images/ZodiakPage/A_ZodiakCancer.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakCancerHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -392,14 +395,13 @@
     top: 328px;
     width: 126.84px;
     height: 152.02px;
-    background-image: url('./images/ZodiakPage/A_ZodiakLeo.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakLeoHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -408,14 +410,13 @@
     top: 170px;
     width: 126.83px;
     height: 152px;
-    background-image: url('./images/ZodiakPage/A_ZodiakVirgo.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakVirgoHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -424,14 +425,13 @@
     top: 52px;
     width: 158.72px;
     height: 158.74px;
-    background-image: url('./images/ZodiakPage/A_ZodiakLibra.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakLibraHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -440,14 +440,13 @@
     top: 4px;
     width: 152px;
     height: 126.85px;
-    background-image: url('./images/ZodiakPage/A_ZodiakScorpio.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakScorpioHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -457,14 +456,12 @@
     width: 152px;
     height: 126.85px;
 
-    background-image: url('./images/ZodiakPage/A_ZodiakStrelec.png');
-
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakStrelecHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -473,14 +470,13 @@
     top: 52px;
     width: 158.73px;
     height: 158.75px;
-    background-image: url('./images/ZodiakPage/A_ZodiakKozerog.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakKozerogHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -489,14 +485,13 @@
     left: 2px;
     width: 126.85px;
     height: 152.01px;
-    background-image: url('./images/ZodiakPage/A_ZodiakVodolei.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakVodoleiHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 
@@ -505,14 +500,13 @@
     top: 328px;
     width: 126.84px;
     height: 152.02px;
-    background-image: url('./images/ZodiakPage/A_ZodiakPisces.png');
 
-    &:hover {
-      background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+    &:hover svg path {
+      color: var(--white);
     }
 
-    &.active {
-      background-image: url('./images/ZodiakPage/A_ZodiakPiscesHover.png');
+    &.active svg path {
+      color: var(--white);
     }
   }
 }
@@ -844,7 +838,7 @@
   .A_ZodiakInCircle {
     width: 278px;
     height: 278px;
-    top: 111px;
+    top: 109px;
 
     &.index {
       margin-top: 88px;
@@ -866,35 +860,35 @@
       height: 110px;
       width: 108px;
       left: 38px;
-      top: 296px;
+      top: 294px;
     }
 
     &.Taurus {
       height: 87px;
-      width: 108px;
-      left: 118px;
-      top: 348px;
+      width: 105px;
+      left: 114px;
+      top: 346px;
     }
 
     &.Gemini {
       height: 86px;
-      width: 108px;
-      left: 224px;
-      top: 348px;
+      width: 106px;
+      left: 220px;
+      top: 346px;
     }
 
     &.Cancer {
       height: 111px;
-      width: 108px;
-      left: 299px;
-      top: 294px;
+      width: 110px;
+      left: 297px;
+      top: 292px;
     }
 
     &.Leo {
       height: 104px;
-      width: 97px;
+      width: 85px;
       left: 350px;
-      top: 220px;
+      top: 219px;
     }
 
     &.Virgo {
@@ -902,7 +896,6 @@
       width: 84px;
       left: 350px;
       top: 115px;
-      transform: rotate(358deg);
     }
 
     &.Libra {
@@ -1086,6 +1079,111 @@
   .A_MapTypeOfSky {
     font-size: 40px;
   }
+
+  .A_ZodiakInCircle {
+    width: 278px;
+    height: 278px;
+    top: 83px;
+    left: 134px;
+
+    &.index {
+      margin-top: 88px;
+    }
+  }
+
+  .A_ZodiakButton {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.Aries {
+      height: 110px;
+      width: 108px;
+      left: 38px;
+      top: 296px;
+    }
+
+    &.Taurus {
+      height: 87px;
+      width: 102px;
+      left: 118px;
+      top: 348px;
+    }
+
+    &.Gemini {
+      height: 86px;
+      width: 103px;
+      left: 222px;
+      top: 348px;
+    }
+
+    &.Cancer {
+      height: 111px;
+      width: 108px;
+      left: 297px;
+      top: 295px;
+    }
+
+    &.Leo {
+      height: 104px;
+      width: 85px;
+      left: 349px;
+      top: 221px;
+    }
+
+    &.Virgo {
+      height: 108px;
+      width: 84px;
+      left: 349px;
+      top: 116px;
+      // transform: 0;
+    }
+
+    &.Libra {
+      height: 106px;
+      width: 102px;
+      left: 299px;
+      top: 41px;
+      transform: rotate(359deg);
+    }
+
+    &.Scorpio {
+      height: 86px;
+      width: 100px;
+      left: 224px;
+      top: 9px;
+    }
+
+    &.Strelec {
+      height: 86px;
+      width: 100px;
+      left: 121px;
+      top: 9px;
+    }
+
+    &.Kozerog {
+      height: 108px;
+      width: 106px;
+      left: 42px;
+      top: 39px;
+    }
+
+    &.Vodolei {
+      height: 108px;
+      width: 85px;
+      top: 118px;
+      left: 9px;
+    }
+
+    &.Pisces {
+      height: 108px;
+      width: 86px;
+      left: 8px;
+      top: 222px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
@@ -1099,7 +1197,7 @@
     .A_ZodiakInCircle {
       width: 278px;
       height: 278px;
-      top: 85px;
+      top: 82px;
     }
 
     .A_ZodiakName {
@@ -1117,43 +1215,42 @@
         height: 110px;
         width: 108px;
         left: 38px;
-        top: 296px;
+        top: 295px;
       }
 
       &.Taurus {
         height: 87px;
-        width: 108px;
-        left: 118px;
-        top: 348px;
+        width: 105px;
+        left: 115px;
+        top: 347px;
       }
 
       &.Gemini {
         height: 86px;
-        width: 108px;
-        left: 224px;
-        top: 348px;
+        width: 105px;
+        left: 221px;
+        top: 347px;
       }
 
       &.Cancer {
         height: 111px;
         width: 108px;
-        left: 299px;
-        top: 294px;
+        left: 297px;
+        top: 295px;
       }
 
       &.Leo {
         height: 104px;
-        width: 97px;
-        left: 350px;
+        width: 85px;
+        left: 349px;
         top: 220px;
       }
 
       &.Virgo {
         height: 108px;
         width: 84px;
-        left: 350px;
+        left: 349px;
         top: 115px;
-        transform: rotate(358deg);
       }
 
       &.Libra {
@@ -1327,7 +1424,7 @@
   .A_ZodiakInCircle {
     width: 278px;
     height: 278px;
-    top: 81px;
+    top: 82px;
   }
 
   .A_ZodiakName {
@@ -1345,43 +1442,42 @@
       height: 110px;
       width: 108px;
       left: 38px;
-      top: 296px;
+      top: 295px;
     }
 
     &.Taurus {
       height: 87px;
-      width: 108px;
-      left: 118px;
-      top: 348px;
+      width: 105px;
+      left: 115px;
+      top: 347px;
     }
 
     &.Gemini {
       height: 86px;
-      width: 108px;
-      left: 224px;
-      top: 348px;
+      width: 105px;
+      left: 221px;
+      top: 347px;
     }
 
     &.Cancer {
       height: 111px;
       width: 108px;
-      left: 299px;
-      top: 294px;
+      left: 297px;
+      top: 295px;
     }
 
     &.Leo {
       height: 104px;
-      width: 97px;
-      left: 350px;
+      width: 85px;
+      left: 349px;
       top: 220px;
     }
 
     &.Virgo {
       height: 108px;
       width: 84px;
-      left: 350px;
+      left: 349px;
       top: 115px;
-      transform: rotate(358deg);
     }
 
     &.Libra {
@@ -1891,16 +1987,16 @@
 
     &.Taurus {
       height: 87px;
-      width: 108px;
-      left: 118px;
+      width: 105px;
+      left: 119px;
       top: 348px;
     }
 
     &.Gemini {
       height: 86px;
-      width: 108px;
-      left: 224px;
-      top: 348px;
+      width: 105px;
+      left: 225px;
+      top: 347px;
     }
 
     &.Cancer {
@@ -1911,25 +2007,24 @@
     }
 
     &.Leo {
-      height: 104px;
-      width: 97px;
-      left: 350px;
+      height: 92px;
+      width: 85px;
+      left: 351px;
       top: 220px;
     }
 
     &.Virgo {
       height: 108px;
-      width: 84px;
+      width: 85px;
       left: 350px;
       top: 115px;
-      transform: rotate(358deg);
     }
 
     &.Libra {
       height: 106px;
-      width: 102px;
-      left: 299px;
-      top: 41px;
+      width: 104px;
+      left: 298px;
+      top: 38px;
       transform: rotate(359deg);
     }
 
