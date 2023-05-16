@@ -91,6 +91,10 @@
   flex-direction: column;
   z-index: 5;
 }
+
+.O_HemispheresMobile {
+  display: none;
+}
 //adaptive
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -233,5 +237,23 @@
 
   .O_Zodiak {
     margin-left: 0;
+  }
+  .O_HemispheresMobile {
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 25;
+  }
+  .O_MapStarsOpen {
+    // height: 420px;
+    width: 90%;
+    border: 0.1px solid var(--border);
+    background: var(--background-article);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -366,6 +366,22 @@ module.exports = {
       filename: './main_pages/map.html',
       chunks: ['myths']
     }),
+    //For map mobile page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/mobile_south.html',
+      filename: './main_pages/mobile_south.html',
+      chunks: ['myths']
+    }),
+    //For map mobile page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/mobile_north.html',
+      filename: './main_pages/mobile_north.html',
+      chunks: ['myths']
+    }),
 
     //For Myphology page
     new HtmlWebpackPlugin({
