@@ -40,6 +40,9 @@
   .C_ZodiakWithNaming {
     width: 550px;
   }
+  .C_FilterBarFilterButton {
+    gap: 44px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1194px) {
@@ -48,6 +51,10 @@
   }
   .C_ZodiakWithNaming {
     width: 480px;
+  }
+  .C_FilterBarFilterButton {
+    height: 60px;
+    gap: 34px;
   }
 }
 
@@ -58,6 +65,12 @@
   .C_ZodiakWithNaming {
     width: 728px;
   }
+  .C_FilterBarFilterButton {
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    gap: 20px;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -67,6 +80,12 @@
   .C_ZodiakWithNaming {
     width: 560px;
   }
+  .C_FilterBarFilterButton {
+    align-items: center;
+    flex-direction: column;
+    height: 240px;
+    gap: 20px;
+  }
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
@@ -75,5 +94,11 @@
   }
   .C_ZodiakWithNaming {
     width: 358px;
+  }
+  .C_FilterBarFilterButton {
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    gap: 14px;
   }
 }
