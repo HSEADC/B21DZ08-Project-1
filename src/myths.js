@@ -137,13 +137,13 @@ function initZodiaks() {
 //     zodiakName.classList.add('active')
 //   }
 // }
+
 function initMaps() {
-  // getZodiakTags()
-  // getZodiakNames()
+  // создали функцию
   const stars = document.querySelectorAll('.stars')
   const starsname = document.querySelectorAll('.W_MapStarinfo')
-  // const zodiaksinfo = document.querySelectorAll('.M_ZodiakRightBlock')
-  // const zodiaksimage = document.querySelectorAll('.Q_ZodiakCenter')
+  // ввели переменные stars - то на что нажимаем + в хтмл data-tag + добавляем в хтмл класс stars
+  // starsname - то что меняется + в хтмл data-name
 
   for (let i = 0; i < stars.length; i++) {
     const star_buttons = stars[i]
@@ -165,22 +165,6 @@ function initMaps() {
     })
   }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  initZodiaks()
-  initMaps()
-  phoneMenu()
-  // initModal()
-  // initSelect()
-
-  initFilters()
-  // initMultiSelect()
-
-  // initSearch()
-  // if (document.body.classList.contains('map')) {
-  initModal()
-  // }
-})
 
 let currentSlide = 0
 
@@ -217,5 +201,78 @@ function slide(direction) {
     sliderButtonRight.classList.add('toPress')
   }
 
-  rail.style.transform = 'translateX(-' + 613 * currentSlide + 'px)'
+  rail.style.transform = 'translateX(-' + 78 * currentSlide + '%)'
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  initMobile()
+  initZodiaks()
+  initMaps()
+  phoneMenu()
+
+  initFilters()
+
+  initModal()
+})
+
+// function initMobile() {
+//   const arrow = document.querySelectorAll('.M_MapStarsText')
+//   const window = document.querySelectorAll('.M_MapStarsWindow')
+
+//   for (let i = 0; i < arrow.length; i++) {
+//     const arrow_buttons = arrow[i]
+//     arrow_buttons.addEventListener('click', function () {
+//       const arrow_button = arrow_buttons.dataset.tag
+//       for (let i = 0; i < window.length; i++) {
+//         const arrow_names = window[i]
+//         if (arrow_names.dataset.name == arrow_button) {
+//           arrow_names.classList.add('active')
+//         }
+//       }
+//     })
+//   }
+// }
+
+function initMobile() {
+  const arrow = document.querySelectorAll('.M_MapStarsText')
+  const window = document.querySelectorAll('.M_MapStarsWindow')
+
+  for (let i = 0; i < arrow.length; i++) {
+    const arrow_buttons = arrow[i]
+    arrow_buttons.addEventListener(
+      'click',
+      function () {
+        const arrow_button = arrow_buttons.dataset.tag
+        for (let i = 0; i < window.length; i++) {
+          const arrow_names = window[i]
+          if (arrow_names.dataset.name == arrow_button) {
+            arrow_names.classList.toggle('active')
+          }
+        }
+      },
+      1000
+    )
+  }
+}
+
+// function initMobile() {
+//   const arrow = document.querySelectorAll('.M_MapStarsText')
+//   const window = document.querySelectorAll('.M_MapStarsWindow')
+
+//   for (let i = 0; i < arrow.length; i++) {
+//     const arrow_buttons = arrow[i]
+//     arrow_buttons.addEventListener('click', function () {
+//       const arrow_button = arrow_buttons.dataset.tag
+//       for (let i = 0; i < window.length; i++) {
+//         const arrow_names = window[i]
+//         if (arrow_names.dataset.name == arrow_button) {
+//           if (arrow_names.classList.contains('active')) {
+//             arrow_names.classList.remove('active')
+//           } else {
+//             arrow_names.classList.add('active')
+//           }
+//         }
+//       }
+//     })
+//   }
+// }

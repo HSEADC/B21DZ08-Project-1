@@ -209,6 +209,10 @@
   justify-content: space-between;
 }
 
+.M_HemispheresMobile {
+  display: none;
+}
+
 // adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
@@ -567,7 +571,7 @@
     z-index: 12;
   }
   .M_MapSky {
-    width: 613px;
+    width: 480px;
   }
 }
 
@@ -679,5 +683,62 @@
     &.fourth {
       width: 178px;
     }
+  }
+  .M_HemispheresMobile {
+    display: block;
+    width: 350px;
+    height: 740px;
+    background-color: red;
+    border: 0.1px solid var(--border);
+    background: var(--background-article);
+    border-radius: 20px;
+    margin-top: 100px;
+  }
+  .M_ButtonMobile {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .M_MapTypeOfSkyMobile {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+  }
+  .M_MapStarsText {
+    width: 100%;
+    height: 80px;
+    background: var(--background-article);
+    border-radius: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .M_MapStarsWindow {
+    width: 100%;
+    border-top: 0.1px solid var(--border);
+    height: 400px;
+    background: var(--background-article);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    top: -70px;
+
+    transition: left 0.2s linear;
+
+    &.active {
+      // top: 0;
+      top: 0px;
+      display: flex;
+    }
+  }
+  .M_MapReadmyph {
+    margin: 20px -180px 0 0;
   }
 }

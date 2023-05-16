@@ -92,6 +92,7 @@
 
 .W_MapStarinfo {
   height: 108px;
+  width: 100%;
   border: 0.1px solid var(--border);
   border-radius: 20px 20px 0px 0px;
   // display: flex;
@@ -198,7 +199,7 @@
   }
   .W_SliderRail {
     display: flex;
-    width: 613px;
+    width: 788px;
     transition: all var(--transitionTiming) ease;
   }
   .W_SliderButton {
@@ -255,7 +256,7 @@
   }
   .W_SliderWorkGood {
     display: flex;
-    width: 613px;
+    width: 480px;
     height: 876px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -274,7 +275,7 @@
   .W_SliderWork {
     position: relative;
     display: flex;
-    width: 613px;
+    width: 480px;
     height: 876px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     transition: all var(--transitionTiming) ease;
@@ -295,6 +296,9 @@
     // justify-content: center;
     height: 876px;
     width: 100%;
+    .W_MapStarinfo {
+      border: 0px;
+    }
   }
 }
 
@@ -314,5 +318,12 @@
   }
   .W_StartPageText {
     margin-top: 310px;
+  }
+  .W_Map {
+    display: none;
+  }
+  .W_ButtonMobile {
+    display: flex;
+    flex-direction: column;
   }
 }
