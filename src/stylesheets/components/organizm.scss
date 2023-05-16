@@ -105,6 +105,9 @@
     width: 1360px;
     gap: 36px;
   }
+  .O_FilterBar {
+    width: 1360px;
+  }
 }
 
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
@@ -120,6 +123,9 @@
     width: 1100px;
     gap: 28px;
   }
+  .O_FilterBar {
+    width: 1100px;
+  }
 }
 @media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .O_FuterAll {
@@ -134,6 +140,9 @@
     width: 1044px;
     gap: 26px;
   }
+  .O_FilterBar {
+    width: 960px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
   .O_FuterAll {
@@ -147,6 +156,9 @@
   .O_Cards {
     width: 960px;
     gap: 33px;
+  }
+  .O_FilterBar {
+    width: 960px;
   }
 }
 
