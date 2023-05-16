@@ -1293,4 +1293,48 @@
       height: 130px;
     }
   }
+  .Q_HemisphereCircle {
+    // background: var(--background-circle);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    justify-items: center;
+    align-items: center;
+  }
+  .Q_Circle {
+    width: 330px;
+    height: 330px;
+    background: var(--background-circle);
+    border-radius: 100%;
+    border: 0.1px solid var(--border);
+  }
+  .Q_MapStarsElipse {
+    width: 60px;
+    height: 60px;
+    // background: var(--background-circle);
+    border-radius: 100%;
+    border: 0.1px solid var(--border);
+    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 46px 16px;
+  }
+  .Q_ArrowExpand {
+    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+  }
+  .Q_MapStarsElipseBig {
+    width: 260px;
+    height: 260px;
+    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.1px solid var(--border);
+    border-radius: 100%;
+  }
+  .Q_ArrowRead {
+    font-size: 48px;
+    margin: 0 0 0 16px;
+  }
 }
