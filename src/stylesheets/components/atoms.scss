@@ -1967,6 +1967,7 @@
     justify-content: flex-end;
     background-image: url('./images/slider/slider_button_left_active.png');
     background-repeat: no-repeat;
+    background-position: center;
 
     &.toPress {
       background-image: url('./images/slider/slider_button_left.png');
@@ -1979,6 +1980,7 @@
     justify-content: flex-end;
     background-image: url('./images/slider/slider_button_right_active.png');
     background-repeat: no-repeat;
+    background-position: center;
 
     &.toPress {
       background-image: url('./images/slider/slider_button_right.png');
@@ -2325,6 +2327,7 @@
     justify-content: flex-end;
     background-image: url('./images/slider/slider_button_left_active.png');
     background-repeat: no-repeat;
+    background-position: center;
 
     &.toPress {
       background-image: url('./images/slider/slider_button_left.png');
@@ -2337,6 +2340,7 @@
     justify-content: flex-end;
     background-image: url('./images/slider/slider_button_right_active.png');
     background-repeat: no-repeat;
+    background-position: center;
 
     &.toPress {
       background-image: url('./images/slider/slider_button_right.png');
@@ -2657,19 +2661,24 @@
   }
   .A_MapTypeOfSkyMobile {
     margin: 0 12% 0 12%;
+    font-size: 42px;
   }
   .A_MapStarsNameMobile {
-    font-size: 20px;
-    margin: 0 30px;
+    font-size: 22px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
   }
   .A_MapCoordinatesMobile {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 16px;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 20px;
   }
-  .A_MapTime {
-    margin-right: 40px;
+  A_MapReadmyph {
+    font-size: 18px;
   }
 }
 .tooltip {

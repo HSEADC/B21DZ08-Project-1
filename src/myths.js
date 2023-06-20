@@ -211,8 +211,10 @@ document.addEventListener('DOMContentLoaded', () => {
   phoneMenu()
 
   initFilters()
-
+  initMaps1()
   initModal()
+  initArrow()
+  initMaps()
 })
 
 // function initMobile() {
@@ -276,3 +278,44 @@ function initMobile() {
 //     })
 //   }
 // }
+
+// function initArrow() {
+//   const ArrowMobile = document.querySelector('.Q_ArrowExpand')
+//   ArrowMobile.addEventListener('click', function (e) {
+//     ArrowMobile.classList.toggle('open')
+//   })
+// }
+
+const arrow = document.getElementById('arrow')
+
+arrow.onclick = function () {
+  arrow.classList.toggle('open')
+}
+
+function initMaps1() {
+  // создали функцию
+  const south = document.querySelectorAll('.south')
+  const southname = document.querySelectorAll('.W_MapStarSouth')
+  // ввели переменные stars - то на что нажимаем + в хтмл data-tag + добавляем в хтмл класс stars
+  // starsname - то что меняется + в хтмл data-name
+
+  for (let i = 0; i < south.length; i++) {
+    const south_buttons = south[i]
+    south_buttons.addEventListener('click', function () {
+      const south_button = south_buttons.dataset.tag
+      for (let i = 0; i < south.length; i++) {
+        const south_button = south[i]
+        south_button.classList.remove('active')
+      }
+      south_buttons.classList.add('active')
+      for (let i = 0; i < southname.length; i++) {
+        const south_names = southname[i]
+        south_names.classList.remove('active')
+        console.log(south_names.dataset.name, south_button)
+        if (south_names.dataset.name == south_button) {
+          southname[i].classList.add('active')
+        }
+      }
+    })
+  }
+}

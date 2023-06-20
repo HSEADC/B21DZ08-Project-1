@@ -208,12 +208,11 @@
     z-index: 25;
   }
   .O_MapStarsOpen {
-    // height: 420px;
-    width: 90%;
     border: 0.1px solid var(--border);
     background: var(--background-article);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    width: 358px;
   }
 }
