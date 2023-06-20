@@ -19,6 +19,18 @@
   }
 }
 
+.Q_CircleGuied {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.Q_CircleSmall {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}
+
 .Q_ZodiakCenter {
   display: none;
   width: 268px;
@@ -1226,6 +1238,10 @@
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .Q_CircleGuied {
+    width: 20px;
+    height: 20px;
+  }
   .Q_TgIcon {
     display: block;
     height: 58px;
