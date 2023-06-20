@@ -176,7 +176,11 @@
   &:hover {
     width: inherit;
     height: 60px;
-    background-image: url('./images/menuButton/A_MenuLogo.png');
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
   }
 }
 
@@ -195,25 +199,41 @@
   &.first:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/menuButton/A_MenuSection first.png');
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
   }
 
   &.second:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/menuButton/A_MenuSection second.png');
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
   }
 
   &.third:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/menuButton/A_MenuSection third.png');
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
   }
 
   &.forth:hover {
     width: inherit;
     height: 50px;
-    background-image: url('./images/menuButton/A_MenuSection forth.png');
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
     border-right: 1px solid var(--border);
   }
 }

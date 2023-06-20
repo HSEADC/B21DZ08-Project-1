@@ -393,7 +393,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main_pages/myphology.html',
       filename: './main_pages/myphology.html',
-      chunks: ['myths']
+      chunks: ['myths', 'mythology']
     }),
 
     //For About page

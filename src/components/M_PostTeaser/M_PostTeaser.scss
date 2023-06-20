@@ -13,14 +13,39 @@
   &:hover {
     background: var(--background-article-hover);
   }
-
-  .C_PostTeaserTags {
-    display: flex;
-    gap: 8px;
-    margin: 10px 0;
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .M_PostTeaser {
+    width: 313px;
   }
-
-  .A_Image {
-    width: 100%;
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .M_PostTeaser {
+    width: 254px;
+  }
+}
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .M_PostTeaser {
+    width: 240px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .M_PostTeaser {
+    width: 298px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .M_PostTeaser {
+    width: 224px;
+  }
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .M_PostTeaser {
+    width: 272px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .W_Card {
+    width: 172px;
   }
 }
