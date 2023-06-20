@@ -18,6 +18,43 @@
     background-clip: text;
   }
 }
+.Q_bottom {
+  position: relative;
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  width: 50px;
+  font-size: 128px;
+  margin-top: 200px;
+  animation: go-top-bottom 3s linear infinite;
+  -webkit-animation: go-top-bottom 3s linear infinite;
+  background: white;
+  background-clip: text;
+}
+@keyframes go-top-bottom {
+  0% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+
+  50% {
+    transform: translateY(20%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+}
+@-webkit-keyframes go-top-bottom {
+  0% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+
+  50% {
+    transform: translateY(20%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+}
 
 .Q_ZodiakCenter {
   display: none;

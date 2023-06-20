@@ -12,7 +12,11 @@ module.exports = {
     index: './src/index.js',
     page: './src/page.jsx',
     myths: './src/myths.js',
-    menubar: './src/stylesheets/menu_bar.jsx'
+    menubar: './src/stylesheets/menu_bar.jsx',
+    // search: './src/search.js',
+    searchcontent: './src/searchcontent.jsx',
+    mythology: './src/mythology.jsx',
+    searchfilter: './src/searchfilter.jsx'
   },
   output: {
     filename: '[name].js',
@@ -406,7 +410,8 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/main_pages/mythology_react.html',
       filename: './main_pages/mythology_react.html',
-      chunks: ['myths', 'menubar']
+      chunks: ['myths', 'menubar', 'mythology']
+      // chunks: ['myths', 'menubar', 'searchfilter', 'searchcontent', 'mythology']
     }),
     // // Myths
     // new HtmlWebpackPlugin({
