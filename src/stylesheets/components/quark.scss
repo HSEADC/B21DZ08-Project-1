@@ -30,6 +30,43 @@
   height: 14px;
   border-radius: 100%;
 }
+.Q_bottom {
+  position: relative;
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  width: 50px;
+  font-size: 128px;
+  margin-top: 200px;
+  animation: go-top-bottom 3s linear infinite;
+  -webkit-animation: go-top-bottom 3s linear infinite;
+  background: white;
+  background-clip: text;
+}
+@keyframes go-top-bottom {
+  0% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+
+  50% {
+    transform: translateY(20%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+}
+@-webkit-keyframes go-top-bottom {
+  0% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+
+  50% {
+    transform: translateY(20%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateY(-20%) rotate(90deg);
+  }
+}
 
 .Q_ZodiakCenter {
   display: none;
@@ -1552,6 +1589,18 @@
 //     height: 323px;
 //   }
 // }
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .Q_CardsImage {
+    width: 240px;
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .Q_CardsImage {
+    width: 298px;
+    height: 323px;
+  }
+}
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
   .Q_CardsImage {
     width: 224px;

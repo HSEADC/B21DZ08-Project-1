@@ -156,6 +156,7 @@
 }
 .M_MapSky {
   width: 811px;
+  border: 0.1px solid var(--border);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -163,6 +164,7 @@
   &.south {
     border-left: 0.1px solid var(--border);
   }
+  border-radius: 0px 0px 20px 20px;
 }
 .M_CardBack {
   width: 390px;
@@ -610,7 +612,7 @@
   }
   .M_MapSky {
     width: 480px;
-    border: 20px;
+    // border: 20px;
   }
   .M_FilterBarFilterButton {
     display: flex;

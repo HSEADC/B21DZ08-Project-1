@@ -1,0 +1,14 @@
+.S_SearchFilterBar {
+  z-index: 3;
+  position: relative;
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  // justify-content: center;
+  background: var(--background-article);
+
+  border-radius: 20px;
+  padding: 52px 64px 52px 64px;
+  border: 0.1px solid var(--border);
+}

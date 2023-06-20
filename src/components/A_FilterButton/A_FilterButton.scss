@@ -1,0 +1,24 @@
+.A_FilterButton {
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  white-space: nowrap;
+  display: flex;
+  background: var(--filtr);
+  width: 310px;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
+}
+.A_FilterButton.active {
+  background-color: pink !important;
+  // Другие стили для активной кнопки
+}
