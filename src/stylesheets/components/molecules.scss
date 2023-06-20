@@ -35,6 +35,9 @@
   align-items: center;
   border-left: 1px solid var(--border);
   border-left: 1px solid var(--border);
+  &.style {
+    justify-content: center;
+  }
 }
 
 .M_ArticleContentBlocks {
@@ -52,6 +55,18 @@
 
 .M_ArticleLeftBlock {
   width: 810px;
+}
+
+.M_InfoStyle {
+  display: flex;
+  gap: 14px;
+  flex-wrap: nowrap;
+  width: 680px;
+  height: 26px;
+
+  &.bottom {
+    margin-bottom: 40px;
+  }
 }
 
 .M_ArticleStarsContainer {
@@ -217,6 +232,9 @@
 // adaptives
 
 @media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .M_InfoStyle {
+    width: 540px;
+  }
   .M_MenuButtons {
     width: 1360px;
   }
@@ -258,6 +276,10 @@
 }
 
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .M_InfoStyle {
+    width: 540px;
+    margin-left: 140px;
+  }
   .M_ArticleStarsContainer {
     width: 500px;
   }
@@ -294,10 +316,15 @@
   }
   .M_Button {
     width: 430px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .M_InfoStyle {
+    width: 405px;
+    margin-left: 26px;
+  }
   .M_MenuButtons {
     width: 960px;
   }
@@ -341,7 +368,9 @@
 }
 
 @media only screen and (min-width: 758px) and (max-width: 1024px) {
-  //
+  .M_InfoStyle {
+    width: 560px;
+  }
   .M_MenuButtons {
     width: 728px;
   }
@@ -418,9 +447,17 @@
   .M_MapReadmyph {
     margin-top: 68px;
   }
+  .M_FilterBarFilterButton {
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+  }
 }
 
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .M_InfoStyle {
+    width: 426px;
+  }
   .M_MenuSections {
     position: fixed;
     display: flex;
@@ -575,9 +612,22 @@
     width: 480px;
     border: 20px;
   }
+  .M_FilterBarFilterButton {
+    display: flex;
+    flex-direction: row;
+    height: 68px;
+  }
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .M_InfoStyle {
+    width: 316px;
+  }
+  .M_FilterBarFilterButton {
+    display: flex;
+    flex-direction: row;
+    height: 68px;
+  }
   .M_MenuSections {
     position: fixed;
     display: flex;

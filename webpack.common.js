@@ -11,7 +11,8 @@ module.exports = {
   entry: {
     index: './src/index.js',
     page: './src/page.jsx',
-    myths: './src/myths.js'
+    myths: './src/myths.js',
+    menubar: './src/stylesheets/menu_bar.jsx'
   },
   output: {
     filename: '[name].js',
@@ -87,6 +88,14 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/styleguide.html',
+      filename: './styleguide.html',
       chunks: ['index']
     }),
 
@@ -399,7 +408,14 @@ module.exports = {
       filename: './main_pages/about.html',
       chunks: ['myths']
     }),
-
+    //For About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/main_pages/mythology_react.html',
+      filename: './main_pages/mythology_react.html',
+      chunks: ['myths', 'menubar']
+    }),
     // // Myths
     // new HtmlWebpackPlugin({
     //   hash: true,

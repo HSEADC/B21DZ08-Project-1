@@ -102,6 +102,9 @@
     width: 1360px;
     height: 184px;
   }
+  .O_FilterBar {
+    width: 1360px;
+  }
   .O_Cards {
     width: 1360px;
     gap: 36px;
@@ -116,6 +119,10 @@
     width: 1100px;
     height: 184px;
   }
+  .O_FilterBar {
+    width: 1100px;
+    padding: 46px 42px 46px 42px;
+  }
   .O_Cards {
     width: 1100px;
     gap: 28px;
@@ -129,6 +136,10 @@
     width: 960px;
     height: 184px;
   }
+  .O_FilterBar {
+    width: 1044px;
+    padding: 46px 42px 46px 42px;
+  }
   .O_Cards {
     width: 1044px;
     gap: 26px;
@@ -141,6 +152,10 @@
   .O_FuterAll {
     width: 960px;
     height: 184px;
+  }
+  .O_FilterBar {
+    width: 960px;
+    padding: 46px 42px 46px 42px;
   }
   .O_Cards {
     width: 960px;
@@ -157,6 +172,14 @@
     height: auto;
     flex-wrap: wrap;
   }
+  .O_FilterBar {
+    width: 728px;
+    background: none;
+    backdrop-filter: none;
+    border-radius: 20px;
+    padding: 0;
+    border: none;
+  }
   .O_Cards {
     width: 728px;
     gap: 27px;
@@ -171,6 +194,14 @@
     width: 560px;
     height: auto;
     flex-wrap: wrap;
+  }
+  .O_FilterBar {
+    width: 560px;
+    background: none;
+    backdrop-filter: none;
+    border-radius: 20px;
+    padding: 0;
+    border: none;
   }
   .O_Cards {
     width: 560px;
@@ -190,9 +221,18 @@
     height: auto;
     flex-wrap: wrap;
   }
+  .O_FilterBar {
+    width: 358px;
+    background: none;
+    backdrop-filter: none;
+    border-radius: 20px;
+    padding: 0;
+    border: none;
+  }
   .O_Cards {
     width: 358px;
     gap: 14px;
+    margin-top: 25px;
   }
 
   .O_Zodiak {
