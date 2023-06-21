@@ -513,350 +513,362 @@
 }
 
 .Q_big_dipper {
-  background-image: url('./images/stars_north_default/big_dipper.png');
+  background-image: url('./images/stars_north_default/big_dipper.svg');
   left: 240px;
   top: 16px;
 
   &:hover {
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
   }
 }
 
 .Q_delphin {
-  background-image: url('./images/stars_north_default/delphin.png');
-  left: 450px;
+  background-image: url('./images/stars_north_default/delphin.svg');
+  left: 424px;
   top: 60px;
-  rotate: 345deg;
+  rotate: 343deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/delphin_hover.png');
+    background-image: url('./images/stars_north_hover/delphin_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/delphin_hover.png');
+    background-image: url('./images/stars_north_hover/delphin_hover.svg');
   }
 }
 
 .Q_whale_kit {
-  background-image: url('./images/stars_north_default/whale_kit.png');
+  background-image: url('./images/stars_north_default/whale_kit.svg');
   left: 470px;
   top: 200px;
   &:hover {
-    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+    background-image: url('./images/stars_north_hover/whale_kit_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+    background-image: url('./images/stars_north_hover/whale_kit_hover.svg');
   }
 }
 
 .Q_cepheus_cefei {
-  background-image: url('./images/stars_north_default/cepheus_cefei.png');
+  background-image: url('./images/stars_north_default/cepheus_cefei.svg');
   left: 480px;
   top: 330px;
   &:hover {
-    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.svg');
   }
 }
 
 .Q_gercules {
-  background-image: url('./images/stars_north_default/gercules.png');
+  background-image: url('./images/stars_north_default/gercules.svg');
   left: 400px;
   top: 440px;
   &:hover {
-    background-image: url('./images/stars_north_hover/gercules_hover.png');
+    background-image: url('./images/stars_north_hover/gercules_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/gercules_hover.png');
+    background-image: url('./images/stars_north_hover/gercules_hover.svg');
   }
 }
 .Q_arrow {
-  background-image: url('./images/stars_north_default/arrow.png');
+  background-image: url('./images/stars_north_default/arrow.svg');
   left: 283px;
   top: 540px;
   &:hover {
-    background-image: url('./images/stars_north_hover/arrow_hover.png');
+    background-image: url('./images/stars_north_hover/arrow_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/arrow_hover.png');
+    background-image: url('./images/stars_north_hover/arrow_hover.svg');
   }
 }
 .Q_eagle {
-  background-image: url('./images/stars_north_default/eagle.png');
+  background-image: url('./images/stars_north_default/eagle.svg');
   left: 150px;
   top: 480px;
   &:hover {
-    background-image: url('./images/stars_north_hover/eagle_hover.png');
+    background-image: url('./images/stars_north_hover/eagle_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/eagle_hover.png');
+    background-image: url('./images/stars_north_hover/eagle_hover.svg');
   }
 }
 .Q_ursa_minor {
-  background-image: url('./images/stars_north_default/ursa_minor.png');
+  background-image: url('./images/stars_north_default/ursa_minor.svg');
   left: 80px;
   top: 387px;
   &:hover {
-    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.svg');
   }
 }
 .Q_triangle {
-  background-image: url('./images/stars_north_default/triangle.png');
+  background-image: url('./images/stars_north_default/triangle.svg');
   left: 50px;
   top: 280px;
   &:hover {
-    background-image: url('./images/stars_north_hover/triangle_hover.png');
+    background-image: url('./images/stars_north_hover/triangle_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/triangle_hover.png');
+    background-image: url('./images/stars_north_hover/triangle_hover.svg');
   }
 }
 .Q_north_crown {
-  background-image: url('./images/stars_north_default/north_crown.png');
+  background-image: url('./images/stars_north_default/north_crown.svg');
   left: 12px;
   top: 160px;
   rotate: 100deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+    background-image: url('./images/stars_north_hover/north_crown_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+    background-image: url('./images/stars_north_hover/north_crown_hover.svg');
   }
 }
 .Q_swan {
-  background-image: url('./images/stars_north_default/swan.png');
+  background-image: url('./images/stars_north_default/swan.svg');
   left: 80px;
   top: 20px;
   rotate: 200deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/swan_hover.png');
+    background-image: url('./images/stars_north_hover/swan_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/swan_hover.png');
+    background-image: url('./images/stars_north_hover/swan_hover.svg');
   }
 }
 .Q_ophiuchus_zmeenosec {
-  background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.png');
+  background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.svg');
   left: 246px;
   top: 413px;
   &:hover {
-    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.svg');
   }
 }
 .Q_charioteer_voznichi {
-  background-image: url('./images/stars_north_default/charioteer_voznichi.png');
+  background-image: url('./images/stars_north_default/charioteer_voznichi.svg');
   left: 194px;
   top: 167px;
   &:hover {
-    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.svg');
   }
 }
 .Q_cassiopeia {
-  background-image: url('./images/stars_north_default/cassiopeia.png');
+  background-image: url('./images/stars_north_default/cassiopeia.svg');
   left: 203px;
   top: 324px;
   rotate: 330deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
+    background-image: url('./images/stars_north_hover/cassiopeia_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
+    background-image: url('./images/stars_north_hover/cassiopeia_hover.svg');
   }
 }
 .Q_dragon {
-  background-image: url('./images/stars_north_default/dragon.png');
+  background-image: url('./images/stars_north_default/dragon.svg');
   left: 363px;
   top: 234px;
   rotate: 314deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/dragon_hover.png');
+    background-image: url('./images/stars_north_hover/dragon_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/dragon_hover.png');
+    background-image: url('./images/stars_north_hover/dragon_hover.svg');
   }
 }
 .Q_lira {
-  background-image: url('./images/stars_north_default/lira.png');
+  background-image: url('./images/stars_north_default/lira.svg');
   left: 305px;
   top: 173px;
   &:hover {
-    background-image: url('./images/stars_north_hover/lira_hover.png');
+    background-image: url('./images/stars_north_hover/lira_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/lira_hover.png');
+    background-image: url('./images/stars_north_hover/lira_hover.svg');
   }
 }
 .Q_andromeda {
-  background-image: url('./images/stars_north_default/andromeda.png');
+  background-image: url('./images/stars_north_default/andromeda.svg');
   left: 196px;
   top: 27px;
   width: 120%;
   &:hover {
-    background-image: url('./images/stars_north_hover/andromeda_hover.png');
+    background-image: url('./images/stars_north_hover/andromeda_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/andromeda_hover.png');
+    background-image: url('./images/stars_north_hover/andromeda_hover.svg');
   }
 }
 .Q_veronicas_hair {
-  background-image: url('./images/stars_north_default/veronicas_hair.png');
+  background-image: url('./images/stars_north_default/veronicas_hair.svg');
   left: 230px;
   top: 155px;
   &:hover {
-    background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
+    background-image: url('./images/stars_north_hover/veronicas_hair_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
+    background-image: url('./images/stars_north_hover/veronicas_hair_hover.svg');
   }
 }
 .Q_perseus {
-  background-image: url('./images/stars_north_default/perseus.png');
+  background-image: url('./images/stars_north_default/perseus.svg');
   left: 394px;
   top: 90px;
   rotate: 323deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/perseus_hover.png');
+    background-image: url('./images/stars_north_hover/perseus_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/perseus_hover.png');
+    background-image: url('./images/stars_north_hover/perseus_hover.svg');
   }
 }
 
 .Q_feed_korma {
-  background-image: url('./images/stars_south_default/feed_korma.png');
+  background-image: url('./images/stars_south_default/feed_korma.svg');
   left: 294px;
   top: 24px;
   &:hover {
-    background-image: url('./images/stars_south_hover/feed_korma_hover.png');
+    background-image: url('./images/stars_south_hover/feed_korma_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/feed_korma_hover.png');
+    background-image: url('./images/stars_south_hover/feed_korma_hover.svg');
   }
 }
 .Q_cup {
-  background-image: url('./images/stars_south_default/сup.png');
+  background-image: url('./images/stars_south_default/сup.svg');
   left: 405px;
   top: 68px;
   rotate: 20deg;
   &:hover {
-    background-image: url('./images/stars_south_hover/сup_hover.png');
+    background-image: url('./images/stars_south_hover/сup_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/сup_hover.png');
+    background-image: url('./images/stars_south_hover/сup_hover.svg');
   }
 }
 .Q_orion {
-  background-image: url('./images/stars_south_default/orion.png');
+  background-image: url('./images/stars_south_default/orion.svg');
   left: 520px;
   top: 200px;
   &:hover {
-    background-image: url('./images/stars_south_hover/orion_hover.png');
+    background-image: url('./images/stars_south_hover/orion_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/orion_hover.png');
+    background-image: url('./images/stars_south_hover/orion_hover.svg');
   }
 }
 .Q_raven {
-  background-image: url('./images/stars_south_default/raven.png');
+  background-image: url('./images/stars_south_default/raven.svg');
   left: 344px;
   top: 220px;
   &:hover {
-    background-image: url('./images/stars_south_hover/raven_hover.png');
+    background-image: url('./images/stars_south_hover/raven_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/raven_hover.png');
+    background-image: url('./images/stars_south_hover/raven_hover.svg');
   }
 }
 .Q_wolf {
-  background-image: url('./images/stars_south_default/wolf.png');
+  background-image: url('./images/stars_south_default/wolf.svg');
   left: 424px;
   top: 372px;
   width: 200%;
   &:hover {
-    background-image: url('./images/stars_south_hover/wolf_hover.png');
+    background-image: url('./images/stars_south_hover/wolf_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/wolf_hover.png');
+    background-image: url('./images/stars_south_hover/wolf_hover.svg');
   }
 }
 .Q_sail_parusa {
-  background-image: url('./images/stars_south_default/sail_parusa.png');
+  background-image: url('./images/stars_south_default/sail_parusa.svg');
   left: 315px;
   top: 510px;
   &:hover {
-    background-image: url('./images/stars_south_hover/sail_parusa_hover.png');
+    background-image: url('./images/stars_south_hover/sail_parusa_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/sail_parusa_hover.png');
+    background-image: url('./images/stars_south_hover/sail_parusa_hover.svg');
   }
 }
 .Q_eridan {
-  background-image: url('./images/stars_south_default/eridan.png');
+  background-image: url('./images/stars_south_default/eridan.svg');
   left: 94px;
   top: 431px;
   rotate: 342deg;
   &:hover {
-    background-image: url('./images/stars_south_hover/eridan_hover.png');
+    background-image: url('./images/stars_south_hover/eridan_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/eridan_hover.png');
+    background-image: url('./images/stars_south_hover/eridan_hover.svg');
+  }
+}
+.Q_hydra {
+  background-image: url('./images/stars_south_default/hydra.svg');
+  left: 35px;
+  top: 278px;
+  rotate: 352deg;
+  &:hover {
+    background-image: url('./images/stars_south_hover/hydra_hover.svg');
+  }
+  &.active {
+    background-image: url('./images/stars_south_hover/hydra_hover.svg');
   }
 }
 .Q_keel {
-  background-image: url('./images/stars_south_default/keel.png');
+  background-image: url('./images/stars_south_default/keel.svg');
   left: 250px;
   top: 444px;
   &:hover {
-    background-image: url('./images/stars_south_hover/keel_hover.png');
+    background-image: url('./images/stars_south_hover/keel_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/keel_hover.png');
+    background-image: url('./images/stars_south_hover/keel_hover.svg');
   }
 }
 .Q_big_dog {
-  background-image: url('./images/stars_south_default/big_dog.png');
+  background-image: url('./images/stars_south_default/big_dog.svg');
   left: 192px;
   top: 276px;
   &:hover {
-    background-image: url('./images/stars_south_hover/big_dog_hover.png');
+    background-image: url('./images/stars_south_hover/big_dog_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/big_dog_hover.png');
+    background-image: url('./images/stars_south_hover/big_dog_hover.svg');
   }
 }
 .Q_hare {
-  background-image: url('./images/stars_south_default/hare.png');
+  background-image: url('./images/stars_south_default/hare.svg');
   left: 36px;
-  top: 224px;
+  top: 179px;
   &:hover {
-    background-image: url('./images/stars_south_hover/hare_hover.png');
+    background-image: url('./images/stars_south_hover/hare_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/hare_hover.png');
+    background-image: url('./images/stars_south_hover/hare_hover.svg');
   }
 }
 .Q_centaurus {
-  background-image: url('./images/stars_south_default/centaurus.png');
+  background-image: url('./images/stars_south_default/centaurus.svg');
   left: 106px;
   top: 42px;
   width: 100%;
   &:hover {
-    background-image: url('./images/stars_south_hover/centaurus_hover.png');
+    background-image: url('./images/stars_south_hover/centaurus_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/centaurus_hover.png');
+    background-image: url('./images/stars_south_hover/centaurus_hover.svg');
   }
 }
 .Q_SkyBack1,
@@ -1330,6 +1342,11 @@
     top: 250px;
     rotate: 342deg;
   }
+  .Q_hydra {
+    left: 62px;
+    top: 330px;
+    rotate: 18deg;
+  }
   .Q_keel {
     left: 180px;
     top: 330px;
@@ -1558,6 +1575,11 @@
   .Q_eridan {
     left: 30px;
     top: 250px;
+    rotate: 342deg;
+  }
+  .Q_hydra {
+    left: 79px;
+    top: 324px;
     rotate: 342deg;
   }
   .Q_keel {
