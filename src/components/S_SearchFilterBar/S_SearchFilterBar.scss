@@ -1,0 +1,56 @@
+.S_SearchFilterBar {
+  z-index: 3;
+  position: relative;
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  justify-content: center;
+  background: var(--background-article);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 52px 64px 52px 64px;
+  border: 0.1px solid var(--border);
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .S_SearchFilterBar {
+    width: 1360px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .S_SearchFilterBar {
+    width: 1100px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .S_SearchFilterBar {
+    width: 960px;
+    gap: 40px;
+    padding: 36px 60px 36px 60px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .S_SearchFilterBar {
+    width: 728px;
+    padding: 20px 20px 40px 20px;
+  }
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .S_SearchFilterBar {
+    width: 560px;
+    background: none;
+    border-radius: none;
+    border: none;
+    padding: 0%;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .S_SearchFilterBar {
+    width: 358px;
+    background: none;
+    border-radius: none;
+    border: none;
+    padding: 0%;
+  }
+}

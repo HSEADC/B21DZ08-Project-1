@@ -1,0 +1,49 @@
+.A_Image {
+  width: 380px;
+  height: 422px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .A_Image {
+    width: 313px;
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .A_Image {
+    width: 254px;
+    height: 265px;
+  }
+}
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .A_Image {
+    width: 298px;
+    height: 323px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .A_Image {
+    width: 298px;
+    height: 323px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .A_Image {
+    width: 224px;
+    height: 225px;
+  }
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .A_Image {
+    width: 272px;
+    height: 260px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .A_Image {
+    width: 172px;
+    height: 180px;
+  }
+}

@@ -1,0 +1,11 @@
+.M_SearchForm {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+
+  .resetField {
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+  }
+}

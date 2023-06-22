@@ -90,9 +90,11 @@
   margin-left: 16px;
 }
 
-.W_MapStarinfo {
+.W_MapStarinfo,
+.W_MapStarSouth {
   height: 108px;
-  border: 0.1px solid var(--border);
+  width: 100%;
+  border-top: 0.1px solid var(--border);
   border-radius: 20px 20px 0px 0px;
   // display: flex;
   flex-direction: row;
@@ -131,7 +133,7 @@
 @media only screen and (min-width: 1194px) and (max-width: 1440px) {
   .W_ZodiakContent {
     width: 1100px;
-    height: 554px;
+    height: 700px;
     &.index {
       height: auto;
       margin-left: -8px;
@@ -149,7 +151,7 @@
 @media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .W_ZodiakContent {
     width: 960px;
-    height: 580px;
+    height: 660px;
     &.index {
       height: auto;
       margin-left: -8px;
@@ -166,6 +168,11 @@
 @media only screen and (min-width: 1024px) and (max-width: 1112px) {
   .W_ZodiakContent {
     width: 960px;
+    height: 660px;
+    &.index {
+      height: auto;
+      margin-left: -8px;
+    }
   }
   .W_Card {
     width: 298px;
@@ -188,6 +195,9 @@
 
   .W_Card {
     width: 224px;
+    .lost {
+      display: none;
+    }
   }
   .W_SliderWorkGood {
     display: flex;
@@ -198,7 +208,7 @@
   }
   .W_SliderRail {
     display: flex;
-    width: 613px;
+    width: 788px;
     transition: all var(--transitionTiming) ease;
   }
   .W_SliderButton {
@@ -232,10 +242,13 @@
     height: 876px;
     width: 100%;
   }
-  .W_MapStarinfo {
+  .W_MapStarinfo,
+  .W_MapStarSouth {
     border: 0px;
     width: 100%;
     margin-top: 40px;
+    border-top: 0.1px solid var(--border);
+    padding-top: 40px;
   }
 }
 
@@ -255,8 +268,8 @@
   }
   .W_SliderWorkGood {
     display: flex;
-    width: 613px;
-    height: 876px;
+    width: 480px;
+    height: 760px;
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -274,8 +287,8 @@
   .W_SliderWork {
     position: relative;
     display: flex;
-    width: 613px;
-    height: 876px;
+    width: 480px;
+    height: 760px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     transition: all var(--transitionTiming) ease;
     position: relative;
@@ -293,8 +306,16 @@
     // display: none;
     justify-content: space-around;
     // justify-content: center;
-    height: 876px;
+    height: 760px;
     width: 100%;
+    margin-top: 30px;
+    // .W_MapStarinfo {
+    //   padding: 0 20px;
+    // }
+  }
+  .W_MapStarinfo,
+  .W_MapStarSouth {
+    padding: 10px 20px 0px 20px;
   }
 }
 
@@ -314,5 +335,12 @@
   }
   .W_StartPageText {
     margin-top: 310px;
+  }
+  .W_Map {
+    display: none;
+  }
+  .W_ButtonMobile {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,0 +1,22 @@
+.A_Button {
+  &.primary {
+    width: 100px;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    background: none;
+    border: var(--border);
+    color: white;
+    font-size: 22px;
+
+    &.disabled {
+      opacity: 0.4;
+    }
+    &.resetField {
+      position: relative;
+      top: 30px;
+      left: 180px;
+      cursor: pointer;
+    }
+  }
+}
