@@ -6,4 +6,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 15px;
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .W_MythologyContent {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .W_MythologyContent {
+    margin-left: 0px;
+  }
 }

@@ -1,5 +1,47 @@
 .M_FilterButtonZodiak {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+
+  .left {
+    border-radius: 12px 0px 0px 12px;
+    border-style: solid;
+    border-color: #a1a1a1;
+    border-width: 1px 0.5px 0px 1px;
+  }
+  .right {
+    border-radius: 0px 12px 12px 0px;
+    border-style: solid;
+    border-color: #a1a1a1;
+    border-width: 1px 1px 0px 0.5px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .M_FilterButtonZodiak {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .M_FilterButtonZodiak {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .M_FilterButtonZodiak {
+    width: 360px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .M_FilterButtonZodiak {
+    width: 620px;
+  }
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .M_FilterButtonZodiak {
+    width: 560px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .M_FilterButtonZodiak {
+    width: 358px;
+  }
 }

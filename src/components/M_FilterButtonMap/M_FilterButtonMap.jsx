@@ -13,6 +13,7 @@ export default class M_FilterButtonMap extends React.Component {
     return (
       <div className="M_FilterButtonMap">
         <A_FilterButton
+          className="left"
           text="южное небо"
           // disabled={southSelected}
           active={filters.map === 'south'}
@@ -20,6 +21,7 @@ export default class M_FilterButtonMap extends React.Component {
         />
 
         <A_FilterButton
+          className="right"
           text="северное небо"
           // disabled={northSelected}
           active={filters.map === 'north'}

@@ -16,6 +16,7 @@ export default class O_FilterBar extends React.Component {
     return (
       <div className="O_FilterBar">
         <A_FilterButton
+          className="all"
           text="все"
           handleClick={() => handleFilterClick('all', 'none')}
         />

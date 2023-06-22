@@ -48,12 +48,14 @@ export default class M_FilterButtonZodiak extends React.Component {
     return (
       <div className="M_FilterButtonZodiak">
         <A_FilterButton
+          className="left"
           text="зодиакальные"
           active={filters.zodiak === 'zodiak'}
           handleClick={() => handleFilterClick('zodiak', 'zodiak')}
         />
 
         <A_FilterButton
+          className="right"
           text="незодиакальные"
           active={filters.zodiak === 'notzodiak'}
           handleClick={() => handleFilterClick('zodiak', 'notzodiak')}

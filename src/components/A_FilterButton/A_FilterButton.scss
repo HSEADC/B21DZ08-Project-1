@@ -4,11 +4,11 @@
   font-size: 22px;
   white-space: nowrap;
   display: flex;
-  background: var(--filtr);
   width: 310px;
-  height: 74px;
+  background-color: rgba(0, 0, 0, 0.25);
   justify-content: center;
   align-items: center;
+  height: 70px;
 
   &:hover {
     background: linear-gradient(
@@ -19,5 +19,37 @@
   }
 }
 .A_FilterButton.active {
-  background-color: pink !important;
+  background-color: #3f3f3f !important;
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .A_FilterButton {
+    height: 70px;
+    width: 450px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .A_FilterButton {
+    font-size: 18px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1194px) {
+  .A_FilterButton {
+    font-size: 18px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .A_FilterButton {
+    font-size: 18px;
+    padding: 20px 0px 20px 0px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .A_FilterButton {
+    font-size: 16px;
+    padding: 15px 0px 15px 0px;
+  }
 }

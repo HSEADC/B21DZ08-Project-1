@@ -5,13 +5,3 @@
 /* @import 'stylesheets/main.scss'; */
 
 @import 'stylesheets/menubar.scss';
-
-.W_SearchFilterReactModule {
-  position: relative;
-  width: 100%;
-  margin-left: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}

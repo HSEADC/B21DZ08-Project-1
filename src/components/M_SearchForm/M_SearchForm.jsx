@@ -14,6 +14,7 @@ export default class M_SearchForm extends React.Component {
 
     return (
       <A_Button
+        className="resetField"
         type="resetField"
         text="X"
         disabled={false}
@@ -34,7 +35,7 @@ export default class M_SearchForm extends React.Component {
       <div className="M_SearchForm">
         <A_Input
           value={searchInputValue}
-          placeholder="Search posts"
+          placeholder="Найти созвездие"
           handleInput={handleSearchInput}
           handleSubmit={handleSearchSubmit}
         />
@@ -43,7 +44,7 @@ export default class M_SearchForm extends React.Component {
 
         <A_Button
           type="primary"
-          text="Search"
+          text="искать"
           disabled={isSearchButtonDisabled}
           handleClick={handleSearchSubmit}
         />

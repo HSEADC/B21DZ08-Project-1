@@ -1,9 +1,44 @@
-.W_SearchBar {
+.O_SearchBar {
   width: 1334px;
   .C_PostTeasers {
     position: absolute;
     background-color: white;
     overflow-y: scroll;
     max-height: 360px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1728px) {
+  .S_SearchFilterBar {
+    width: 1360px;
+  }
+}
+@media only screen and (min-width: 1194px) and (max-width: 1440px) {
+  .S_SearchFilterBar {
+    width: 1100px;
+  }
+}
+@media only screen and (min-width: 1112px) and (max-width: 1194px) {
+  .S_SearchFilterBar {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1112px) {
+  .S_SearchFilterBar {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+  .S_SearchFilterBar {
+    width: 728px;
+  }
+}
+@media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
+  .S_SearchFilterBar {
+    width: 560px;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 580px) {
+  .S_SearchFilterBar {
+    width: 358px;
   }
 }

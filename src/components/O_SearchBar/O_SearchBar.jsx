@@ -8,33 +8,33 @@ import M_PostSuggestion from '../M_PostSuggestion/M_PostSuggestion.jsx'
 const addressPart = ':8080/'
 
 export default class O_SearchBar extends React.Component {
-  renderPostSuggestions = () => {
-    const { postTeasers } = this.props
-    const searchInputValue = this.props.searchInputValue.toLowerCase()
-    const nbspRegex = /[\u202F\u00A0]/gm
-    const punctuationRegex = /[.,\/#!$%\^&\*;:{}=\-_`~()]/gm
-    const posts = []
+  // renderPostSuggestions = () => {
+  //   const { postTeasers } = this.props
+  //   const searchInputValue = this.props.searchInputValue.toLowerCase()
+  //   const nbspRegex = /[\u202F\u00A0]/gm
+  //   const punctuationRegex = /[.,\/#!$%\^&\*;:{}=\-_`~()]/gm
+  //   const posts = []
 
-    postTeasers.forEach((postTeaser) => {
-      const title = postTeaser.title
-        .replaceAll(nbspRegex, ' ')
-        .replaceAll(punctuationRegex, '')
-        .toLowerCase()
+  //   postTeasers.forEach((postTeaser) => {
+  //     const title = postTeaser.title
+  //       .replaceAll(nbspRegex, ' ')
+  //       .replaceAll(punctuationRegex, '')
+  //       .toLowerCase()
 
-      if (title.includes(searchInputValue)) {
-        posts.push(
-          <M_PostSuggestion
-            title={postTeaser.title}
-            description={postTeaser.description}
-            url={postTeaser.url}
-            key={postTeaser.id}
-          />
-        )
-      }
-    })
+  //     if (title.includes(searchInputValue)) {
+  //       posts.push(
+  //         <M_PostSuggestion
+  //           title={postTeaser.title}
+  //           description={postTeaser.description}
+  //           url={postTeaser.url}
+  //           key={postTeaser.id}
+  //         />
+  //       )
+  //     }
+  //   })
 
-    return <div className="C_PostSuggestions">{posts}</div>
-  }
+  //   return <div className="C_PostSuggestions">{posts}</div>
+  // }
 
   render() {
     const {
@@ -53,9 +53,9 @@ export default class O_SearchBar extends React.Component {
           handleSearchSubmit={handleSearchSubmit}
         />
 
-        {searchInputValue.length >= 3 &&
+        {/* {searchInputValue.length >= 3 &&
           !isSearchButtonDisabled &&
-          this.renderPostSuggestions()}
+          this.renderPostSuggestions()} */}
       </div>
     )
   }

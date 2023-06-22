@@ -158,10 +158,6 @@
     background-image: url('./images/cardsImage/big_dipper.png');
   }
 
-  // &.ursa_minor {
-  //   background-image: url('./images/cardsImage/ursa_minor.png');
-  // }
-
   &.triangle {
     background-image: url('./images/cardsImage/triangle.png');
   }
@@ -448,20 +444,10 @@
     background-image: url('./images/articles/strelec.svg');
   }
 }
-
-// .Q_SearchIcon {
-//   width: 24px;
-//   height: 24px;
-//   align-self: center;
-//   object-fit: cover;
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   background-image: url('./images/A_FilterBarSearchIcon.svg');
-// }
 .Q_ArrowRead {
   font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-  font-size: 60px;
-  margin: 16px;
+  font-size: 40px;
+  margin-left: 8px;
 }
 .Q_MapStars {
   position: relative;
@@ -479,364 +465,396 @@
 }
 
 .Q_big_dipper {
-  background-image: url('./images/stars_north_default/big_dipper.png');
+  background-image: url('./images/stars_north_default/big_dipper.svg');
   left: 240px;
   top: 16px;
 
   &:hover {
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
   }
 }
 
 .Q_delphin {
-  background-image: url('./images/stars_north_default/delphin.png');
-  left: 450px;
+  background-image: url('./images/stars_north_default/delphin.svg');
+  left: 424px;
   top: 60px;
-  rotate: 345deg;
+  rotate: 343deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/delphin_hover.png');
+    background-image: url('./images/stars_north_hover/delphin_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/delphin_hover.png');
+    background-image: url('./images/stars_north_hover/delphin_hover.svg');
   }
 }
 
 .Q_whale_kit {
-  background-image: url('./images/stars_north_default/whale_kit.png');
+  background-image: url('./images/stars_north_default/whale_kit.svg');
   left: 470px;
   top: 200px;
   &:hover {
-    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+    background-image: url('./images/stars_north_hover/whale_kit_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/whale_kit_hover.png');
+    background-image: url('./images/stars_north_hover/whale_kit_hover.svg');
   }
 }
 
 .Q_cepheus_cefei {
-  background-image: url('./images/stars_north_default/cepheus_cefei.png');
+  background-image: url('./images/stars_north_default/cepheus_cefei.svg');
   left: 480px;
   top: 330px;
   &:hover {
-    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
+    background-image: url('./images/stars_north_hover/cepheus_cefei_hover.svg');
   }
 }
 
 .Q_gercules {
-  background-image: url('./images/stars_north_default/gercules.png');
+  background-image: url('./images/stars_north_default/gercules.svg');
   left: 400px;
   top: 440px;
   &:hover {
-    background-image: url('./images/stars_north_hover/gercules_hover.png');
+    background-image: url('./images/stars_north_hover/gercules_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/gercules_hover.png');
+    background-image: url('./images/stars_north_hover/gercules_hover.svg');
   }
 }
 .Q_arrow {
-  background-image: url('./images/stars_north_default/arrow.png');
+  background-image: url('./images/stars_north_default/arrow.svg');
   left: 283px;
   top: 540px;
   &:hover {
-    background-image: url('./images/stars_north_hover/arrow_hover.png');
+    background-image: url('./images/stars_north_hover/arrow_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/arrow_hover.png');
+    background-image: url('./images/stars_north_hover/arrow_hover.svg');
   }
 }
 .Q_eagle {
-  background-image: url('./images/stars_north_default/eagle.png');
+  background-image: url('./images/stars_north_default/eagle.svg');
   left: 150px;
   top: 480px;
   &:hover {
-    background-image: url('./images/stars_north_hover/eagle_hover.png');
+    background-image: url('./images/stars_north_hover/eagle_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/eagle_hover.png');
+    background-image: url('./images/stars_north_hover/eagle_hover.svg');
   }
 }
 .Q_ursa_minor {
-  background-image: url('./images/stars_north_default/ursa_minor.png');
+  background-image: url('./images/stars_north_default/ursa_minor.svg');
   left: 80px;
   top: 387px;
   &:hover {
-    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
+    background-image: url('./images/stars_north_hover/ursa_minor_hover.svg');
   }
 }
 .Q_triangle {
-  background-image: url('./images/stars_north_default/triangle.png');
+  background-image: url('./images/stars_north_default/triangle.svg');
   left: 50px;
   top: 280px;
   &:hover {
-    background-image: url('./images/stars_north_hover/triangle_hover.png');
+    background-image: url('./images/stars_north_hover/triangle_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/triangle_hover.png');
+    background-image: url('./images/stars_north_hover/triangle_hover.svg');
   }
 }
 .Q_north_crown {
-  background-image: url('./images/stars_north_default/north_crown.png');
+  background-image: url('./images/stars_north_default/north_crown.svg');
   left: 12px;
   top: 160px;
   rotate: 100deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+    background-image: url('./images/stars_north_hover/north_crown_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/north_crown_hover.png');
+    background-image: url('./images/stars_north_hover/north_crown_hover.svg');
   }
 }
 .Q_swan {
-  background-image: url('./images/stars_north_default/swan.png');
+  background-image: url('./images/stars_north_default/swan.svg');
   left: 80px;
   top: 20px;
   rotate: 200deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/swan_hover.png');
+    background-image: url('./images/stars_north_hover/swan_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/swan_hover.png');
+    background-image: url('./images/stars_north_hover/swan_hover.svg');
   }
 }
 .Q_ophiuchus_zmeenosec {
-  background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.png');
+  background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.svg');
   left: 246px;
   top: 413px;
   &:hover {
-    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
+    background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.svg');
   }
 }
 .Q_charioteer_voznichi {
-  background-image: url('./images/stars_north_default/charioteer_voznichi.png');
+  background-image: url('./images/stars_north_default/charioteer_voznichi.svg');
   left: 194px;
   top: 167px;
   &:hover {
-    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
+    background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.svg');
   }
 }
 .Q_cassiopeia {
-  background-image: url('./images/stars_north_default/cassiopeia.png');
+  background-image: url('./images/stars_north_default/cassiopeia.svg');
   left: 203px;
   top: 324px;
   rotate: 330deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
+    background-image: url('./images/stars_north_hover/cassiopeia_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
+    background-image: url('./images/stars_north_hover/cassiopeia_hover.svg');
   }
 }
 .Q_dragon {
-  background-image: url('./images/stars_north_default/dragon.png');
+  background-image: url('./images/stars_north_default/dragon.svg');
   left: 363px;
   top: 234px;
   rotate: 314deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/dragon_hover.png');
+    background-image: url('./images/stars_north_hover/dragon_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/dragon_hover.png');
+    background-image: url('./images/stars_north_hover/dragon_hover.svg');
   }
 }
 .Q_lira {
-  background-image: url('./images/stars_north_default/lira.png');
+  background-image: url('./images/stars_north_default/lira.svg');
   left: 305px;
   top: 173px;
   &:hover {
-    background-image: url('./images/stars_north_hover/lira_hover.png');
+    background-image: url('./images/stars_north_hover/lira_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/lira_hover.png');
+    background-image: url('./images/stars_north_hover/lira_hover.svg');
   }
 }
 .Q_andromeda {
-  background-image: url('./images/stars_north_default/andromeda.png');
+  background-image: url('./images/stars_north_default/andromeda.svg');
   left: 196px;
   top: 27px;
   width: 120%;
   &:hover {
-    background-image: url('./images/stars_north_hover/andromeda_hover.png');
+    background-image: url('./images/stars_north_hover/andromeda_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/andromeda_hover.png');
+    background-image: url('./images/stars_north_hover/andromeda_hover.svg');
   }
 }
 .Q_veronicas_hair {
-  background-image: url('./images/stars_north_default/veronicas_hair.png');
+  background-image: url('./images/stars_north_default/veronicas_hair.svg');
   left: 230px;
   top: 155px;
   &:hover {
-    background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
+    background-image: url('./images/stars_north_hover/veronicas_hair_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
+    background-image: url('./images/stars_north_hover/veronicas_hair_hover.svg');
   }
 }
 .Q_perseus {
-  background-image: url('./images/stars_north_default/perseus.png');
+  background-image: url('./images/stars_north_default/perseus.svg');
   left: 394px;
   top: 90px;
   rotate: 323deg;
   &:hover {
-    background-image: url('./images/stars_north_hover/perseus_hover.png');
+    background-image: url('./images/stars_north_hover/perseus_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_north_hover/perseus_hover.png');
+    background-image: url('./images/stars_north_hover/perseus_hover.svg');
   }
 }
 
 .Q_feed_korma {
-  background-image: url('./images/stars_south_default/feed_korma.png');
+  background-image: url('./images/stars_south_default/feed_korma.svg');
   left: 294px;
   top: 24px;
   &:hover {
-    background-image: url('./images/stars_south_hover/feed_korma_hover.png');
+    background-image: url('./images/stars_south_hover/feed_korma_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/feed_korma_hover.png');
+    background-image: url('./images/stars_south_hover/feed_korma_hover.svg');
   }
 }
 .Q_cup {
-  background-image: url('./images/stars_south_default/сup.png');
+  background-image: url('./images/stars_south_default/сup.svg');
   left: 405px;
   top: 68px;
   rotate: 20deg;
   &:hover {
-    background-image: url('./images/stars_south_hover/сup_hover.png');
+    background-image: url('./images/stars_south_hover/сup_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/сup_hover.png');
+    background-image: url('./images/stars_south_hover/сup_hover.svg');
   }
 }
 .Q_orion {
-  background-image: url('./images/stars_south_default/orion.png');
+  background-image: url('./images/stars_south_default/orion.svg');
   left: 520px;
   top: 200px;
   &:hover {
-    background-image: url('./images/stars_south_hover/orion_hover.png');
+    background-image: url('./images/stars_south_hover/orion_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/orion_hover.png');
+    background-image: url('./images/stars_south_hover/orion_hover.svg');
   }
 }
 .Q_raven {
-  background-image: url('./images/stars_south_default/raven.png');
+  background-image: url('./images/stars_south_default/raven.svg');
   left: 344px;
   top: 220px;
   &:hover {
-    background-image: url('./images/stars_south_hover/raven_hover.png');
+    background-image: url('./images/stars_south_hover/raven_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/raven_hover.png');
+    background-image: url('./images/stars_south_hover/raven_hover.svg');
   }
 }
 .Q_wolf {
-  background-image: url('./images/stars_south_default/wolf.png');
+  background-image: url('./images/stars_south_default/wolf.svg');
   left: 424px;
   top: 372px;
   width: 200%;
   &:hover {
-    background-image: url('./images/stars_south_hover/wolf_hover.png');
+    background-image: url('./images/stars_south_hover/wolf_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/wolf_hover.png');
+    background-image: url('./images/stars_south_hover/wolf_hover.svg');
   }
 }
 .Q_sail_parusa {
-  background-image: url('./images/stars_south_default/sail_parusa.png');
+  background-image: url('./images/stars_south_default/sail_parusa.svg');
   left: 315px;
   top: 510px;
   &:hover {
-    background-image: url('./images/stars_south_hover/sail_parusa_hover.png');
+    background-image: url('./images/stars_south_hover/sail_parusa_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/sail_parusa_hover.png');
+    background-image: url('./images/stars_south_hover/sail_parusa_hover.svg');
   }
 }
 .Q_eridan {
-  background-image: url('./images/stars_south_default/eridan.png');
+  background-image: url('./images/stars_south_default/eridan.svg');
   left: 94px;
   top: 431px;
   rotate: 342deg;
   &:hover {
-    background-image: url('./images/stars_south_hover/eridan_hover.png');
+    background-image: url('./images/stars_south_hover/eridan_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/eridan_hover.png');
+    background-image: url('./images/stars_south_hover/eridan_hover.svg');
+  }
+}
+.Q_hydra {
+  background-image: url('./images/stars_south_default/hydra.svg');
+  left: 35px;
+  top: 278px;
+  rotate: 352deg;
+  &:hover {
+    background-image: url('./images/stars_south_hover/hydra_hover.svg');
+  }
+  &.active {
+    background-image: url('./images/stars_south_hover/hydra_hover.svg');
   }
 }
 .Q_keel {
-  background-image: url('./images/stars_south_default/keel.png');
+  background-image: url('./images/stars_south_default/keel.svg');
   left: 250px;
   top: 444px;
   &:hover {
-    background-image: url('./images/stars_south_hover/keel_hover.png');
+    background-image: url('./images/stars_south_hover/keel_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/keel_hover.png');
+    background-image: url('./images/stars_south_hover/keel_hover.svg');
   }
 }
 .Q_big_dog {
-  background-image: url('./images/stars_south_default/big_dog.png');
+  background-image: url('./images/stars_south_default/big_dog.svg');
   left: 192px;
   top: 276px;
   &:hover {
-    background-image: url('./images/stars_south_hover/big_dog_hover.png');
+    background-image: url('./images/stars_south_hover/big_dog_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/big_dog_hover.png');
+    background-image: url('./images/stars_south_hover/big_dog_hover.svg');
   }
 }
 .Q_hare {
-  background-image: url('./images/stars_south_default/hare.png');
+  background-image: url('./images/stars_south_default/hare.svg');
   left: 36px;
-  top: 224px;
+  top: 179px;
   &:hover {
-    background-image: url('./images/stars_south_hover/hare_hover.png');
+    background-image: url('./images/stars_south_hover/hare_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/hare_hover.png');
+    background-image: url('./images/stars_south_hover/hare_hover.svg');
   }
 }
 .Q_centaurus {
-  background-image: url('./images/stars_south_default/centaurus.png');
+  background-image: url('./images/stars_south_default/centaurus.svg');
   left: 106px;
   top: 42px;
   width: 100%;
   &:hover {
-    background-image: url('./images/stars_south_hover/centaurus_hover.png');
+    background-image: url('./images/stars_south_hover/centaurus_hover.svg');
   }
   &.active {
-    background-image: url('./images/stars_south_hover/centaurus_hover.png');
+    background-image: url('./images/stars_south_hover/centaurus_hover.svg');
   }
 }
-.Q_SkyBack1,
-.Q_SkyBack2 {
+
+.Q_StartPageArrow {
+  font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  font-size: 200px;
+  margin-bottom: 50px;
+}
+
+.Q_StartPageArrow {
+  margin-top: 200px;
+  rotate: 90deg;
+}
+
+.Q_StartPageSky1,
+.Q_StartPageSky2 {
   width: 406px;
   height: 820px;
-  border: 0.1px solid var(--border);
-  background: var(--background-circle);
 }
-.Q_SkyBack1 {
-  border-radius: 0 1000px 1000px 0;
+
+.Q_StartPageSky1 {
+  background-image: url('./images/startpage/A_StartPageSky1.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.Q_SkyBack2 {
-  border-radius: 1000px 0 0 1000px;
+
+.Q_StartPageSky2 {
+  background-image: url('./images/startpage/A_StartPageSky2.png');
+  background-size: 90%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 //adaptive
 
@@ -937,200 +955,143 @@
     top: 60px;
   }
 
+  .Q_big_dipper {
+    left: 200px;
+    top: 10px;
+  }
+
+  .Q_delphin {
+    left: 360px;
+    top: 40px;
+  }
+
   .Q_whale_kit {
-    background-image: url('./images/stars_north_default/whale_kit.png');
-    left: 470px;
-    top: 200px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/whale_kit_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/whale_kit_hover.png');
-    }
+    left: 370px;
+    top: 150px;
   }
 
   .Q_cepheus_cefei {
-    background-image: url('./images/stars_north_default/cepheus_cefei.png');
-    left: 480px;
-    top: 330px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/cepheus_cefei_hover.png');
-    }
+    left: 320px;
+    top: 200px;
   }
 
   .Q_gercules {
-    background-image: url('./images/stars_north_default/gercules.png');
-    left: 400px;
-    top: 440px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/gercules_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/gercules_hover.png');
-    }
+    left: 370px;
+    top: 280px;
+    rotate: -50deg;
   }
   .Q_arrow {
-    background-image: url('./images/stars_north_default/arrow.png');
-    left: 283px;
-    top: 540px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/arrow_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/arrow_hover.png');
-    }
+    left: 260px;
+    top: 420px;
+    rotate: -15deg;
   }
   .Q_eagle {
-    background-image: url('./images/stars_north_default/eagle.png');
-    left: 150px;
-    top: 480px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/eagle_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/eagle_hover.png');
-    }
+    left: 140px;
+    top: 310px;
   }
   .Q_ursa_minor {
-    background-image: url('./images/stars_north_default/ursa_minor.png');
-    left: 80px;
-    top: 387px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/ursa_minor_hover.png');
-    }
+    left: 50px;
+    top: 300px;
   }
   .Q_triangle {
-    background-image: url('./images/stars_north_default/triangle.png');
-    left: 50px;
-    top: 280px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/triangle_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/triangle_hover.png');
-    }
+    left: 30px;
+    top: 230px;
   }
   .Q_north_crown {
-    background-image: url('./images/stars_north_default/north_crown.png');
-    left: 12px;
-    top: 160px;
-    rotate: 100deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/north_crown_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/north_crown_hover.png');
-    }
+    left: 10px;
+    top: 130px;
   }
   .Q_swan {
-    background-image: url('./images/stars_north_default/swan.png');
-    left: 80px;
+    left: 50px;
     top: 20px;
-    rotate: 200deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/swan_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/swan_hover.png');
-    }
   }
   .Q_ophiuchus_zmeenosec {
-    background-image: url('./images/stars_north_default/ophiuchus_zmeenosec.png');
     left: 246px;
-    top: 413px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/ophiuchus_zmeenosec_hover.png');
-    }
+    top: 330px;
   }
   .Q_charioteer_voznichi {
-    background-image: url('./images/stars_north_default/charioteer_voznichi.png');
-    left: 194px;
-    top: 167px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/charioteer_voznichi_hover.png');
-    }
+    left: 120px;
+    top: 150px;
   }
   .Q_cassiopeia {
-    background-image: url('./images/stars_north_default/cassiopeia.png');
-    left: 203px;
-    top: 324px;
-    rotate: 330deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/cassiopeia_hover.png');
-    }
+    left: 100px;
+    top: 400px;
+    rotate: 10deg;
   }
   .Q_dragon {
-    background-image: url('./images/stars_north_default/dragon.png');
-    left: 363px;
-    top: 234px;
-    rotate: 314deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/dragon_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/dragon_hover.png');
-    }
+    left: 200px;
+    top: 170px;
+    rotate: 120deg;
   }
   .Q_lira {
-    background-image: url('./images/stars_north_default/lira.png');
-    left: 305px;
-    top: 173px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/lira_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/lira_hover.png');
-    }
+    left: 240px;
+    top: 100px;
   }
   .Q_andromeda {
-    background-image: url('./images/stars_north_default/andromeda.png');
-    left: 196px;
-    top: 27px;
-    width: 120%;
-    &:hover {
-      background-image: url('./images/stars_north_hover/andromeda_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/andromeda_hover.png');
-    }
+    left: 160px;
+    top: 30px;
   }
   .Q_veronicas_hair {
-    background-image: url('./images/stars_north_default/veronicas_hair.png');
-    left: 230px;
+    left: 200px;
     top: 155px;
-    &:hover {
-      background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/veronicas_hair_hover.png');
-    }
   }
   .Q_perseus {
-    background-image: url('./images/stars_north_default/perseus.png');
-    left: 394px;
-    top: 90px;
+    left: 300px;
+    top: 60px;
     rotate: 323deg;
-    &:hover {
-      background-image: url('./images/stars_north_hover/perseus_hover.png');
-    }
-    &.active {
-      background-image: url('./images/stars_north_hover/perseus_hover.png');
-    }
+  }
+  .Q_feed_korma {
+    left: 230px;
+    top: 10px;
+  }
+  .Q_cup {
+    left: 300px;
+    top: 50px;
+    rotate: 20deg;
+  }
+  .Q_orion {
+    left: 400px;
+    top: 200px;
+  }
+  .Q_raven {
+    left: 260px;
+    top: 200px;
+  }
+  .Q_wolf {
+    left: 330px;
+    top: 300px;
+    width: 200%;
+  }
+  .Q_sail_parusa {
+    left: 200px;
+    top: 400px;
+  }
+  .Q_eridan {
+    left: 30px;
+    top: 250px;
+    rotate: 342deg;
+  }
+  .Q_hydra {
+    left: 62px;
+    top: 330px;
+    rotate: 18deg;
+  }
+  .Q_keel {
+    left: 180px;
+    top: 330px;
+  }
+  .Q_big_dog {
+    left: 180px;
+    top: 160px;
+  }
+  .Q_hare {
+    left: 36px;
+    top: 140px;
+  }
+  .Q_centaurus {
+    left: 106px;
+    top: 10px;
+    width: 100%;
   }
 }
 
@@ -1172,7 +1133,163 @@
     width: 298px;
     height: 323px;
   }
+  .Q_MapStars {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    div {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .Q_big_dipper {
+    left: 200px;
+    top: 10px;
+  }
+
+  .Q_delphin {
+    left: 320px;
+    top: 40px;
+  }
+
+  .Q_whale_kit {
+    left: 340px;
+    top: 150px;
+  }
+
+  .Q_cepheus_cefei {
+    left: 320px;
+    top: 200px;
+  }
+
+  .Q_gercules {
+    left: 330px;
+    top: 280px;
+    rotate: -50deg;
+  }
+  .Q_arrow {
+    //
+    left: 230px;
+    top: 370px;
+    rotate: -15deg;
+  }
+  .Q_eagle {
+    //
+    left: 140px;
+    top: 270px;
+  }
+  .Q_ursa_minor {
+    //
+    left: 50px;
+    top: 260px;
+  }
+  .Q_triangle {
+    left: 30px;
+    top: 230px;
+  }
+  .Q_north_crown {
+    //
+    left: 0px;
+    top: 130px;
+  }
+  .Q_swan {
+    left: 50px;
+    top: 20px;
+  }
+  .Q_ophiuchus_zmeenosec {
+    //
+    left: 230px;
+    top: 280px;
+  }
+  .Q_charioteer_voznichi {
+    //
+    left: 100px;
+    top: 150px;
+  }
+  .Q_cassiopeia {
+    //
+    left: 100px;
+    top: 350px;
+    rotate: 10deg;
+  }
+  .Q_dragon {
+    left: 200px;
+    top: 170px;
+    rotate: 120deg;
+  }
+  .Q_lira {
+    left: 200px;
+    top: 60px;
+    rotate: 40deg;
+  }
+  .Q_andromeda {
+    left: 130px;
+    top: 30px;
+  }
+  .Q_veronicas_hair {
+    //
+    left: 170px;
+    top: 155px;
+  }
+  .Q_perseus {
+    left: 270px;
+    top: 60px;
+    rotate: 323deg;
+  }
+  .Q_feed_korma {
+    left: 230px;
+    top: 10px;
+  }
+  .Q_cup {
+    left: 300px;
+    top: 80px;
+    rotate: 20deg;
+  }
+  .Q_orion {
+    left: 370px;
+    top: 200px;
+  }
+  .Q_raven {
+    left: 260px;
+    top: 200px;
+  }
+  .Q_wolf {
+    left: 270px;
+    top: 330px;
+    width: 200%;
+  }
+  .Q_sail_parusa {
+    left: 160px;
+    top: 360px;
+  }
+  .Q_eridan {
+    left: 30px;
+    top: 250px;
+    rotate: 342deg;
+  }
+  .Q_hydra {
+    left: 79px;
+    top: 324px;
+    rotate: 342deg;
+  }
+  .Q_keel {
+    left: 160px;
+    top: 300px;
+  }
+  .Q_big_dog {
+    left: 160px;
+    top: 140px;
+  }
+  .Q_hare {
+    left: 36px;
+    top: 140px;
+  }
+  .Q_centaurus {
+    left: 106px;
+    top: 40px;
+  }
 }
+
 @media only screen and (min-width: 1112px) and (max-width: 1194px) {
   .Q_CardsImage {
     width: 240px;
@@ -1189,6 +1306,131 @@
   .Q_CardsImage {
     width: 224px;
     height: 225px;
+  }
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+  .Q_MapStars {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    div {
+      width: 140px;
+      height: 140px;
+    }
+  }
+  .Q_big_dipper {
+    left: 200px;
+    top: 20px;
+  }
+  .Q_delphin {
+    left: 390px;
+    top: 40px;
+  }
+  .Q_whale_kit {
+    left: 430px;
+    top: 190px;
+    rotate: 30deg;
+  }
+  .Q_cepheus_cefei {
+    left: 300px;
+    top: 200px;
+  }
+  .Q_gercules {
+    left: 370px;
+    top: 380px;
+    rotate: -30deg;
+  }
+  .Q_swan {
+    left: 60px;
+    top: 20px;
+    rotate: 200deg;
+  }
+  .Q_north_crown {
+    left: 6px;
+    top: 160px;
+    rotate: 100deg;
+  }
+  .Q_lira {
+    left: 270px;
+    top: 100px;
+    rotate: -30deg;
+  }
+  .Q_cassiopeia {
+    left: 203px;
+    top: 280px;
+    rotate: 330deg;
+  }
+  .Q_ursa_minor {
+    left: 80px;
+    top: 350px;
+  }
+  .Q_eagle {
+    left: 120px;
+    top: 430px;
+  }
+  .Q_ophiuchus_zmeenosec {
+    left: 246px;
+    top: 370px;
+  }
+  .Q_arrow {
+    left: 283px;
+    top: 480px;
+  }
+  .Q_dragon {
+    left: 416px;
+    top: 270px;
+    rotate: 270deg;
+  }
+  .Q_feed_korma {
+    left: 260px;
+    top: 24px;
+  }
+  .Q_cup {
+    left: 350px;
+    top: 68px;
+    rotate: 20deg;
+  }
+  .Q_big_dog {
+    left: 160px;
+    top: 276px;
+  }
+  .Q_orion {
+    left: 480px;
+    top: 200px;
+  }
+  .Q_keel {
+    left: 250px;
+    top: 380px;
+  }
+  .Q_eridan {
+    left: 94px;
+    top: 420px;
+    rotate: 342deg;
+  }
+  .Q_sail_parusa {
+    left: 260px;
+    top: 450px;
+  }
+  .Q_wolf {
+    left: 380px;
+    top: 372px;
+    width: 200%;
   }
 }
 @media only screen and (min-device-width: 580px) and (max-device-width: 758px) {
@@ -1259,6 +1501,137 @@
       width: 156px;
       height: 150px;
     }
+  }
+
+  .Q_CardsImage {
+    width: 228px;
+    height: 244px;
+  }
+
+  .Q_TgIcon {
+    display: block;
+    height: 58px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-image: url('./images/Q_TgIcon.svg');
+  }
+
+  .Q_MenuBar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background-color: var(--white);
+    transition: 0.2s;
+  }
+  // .Q_ArrowRead {
+  //   font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+  //   font-size: 40px;
+  //   margin-left: 8px;
+  // }
+  .Q_MapStars div {
+    width: 90px;
+    height: 110px;
+  }
+  .Q_swan {
+    margin: 14px 0px 0px -32px;
+  }
+  .Q_andromeda {
+    margin: -10px 0px 0px -66px;
+  }
+  .Q_big_dipper {
+    margin: 12px 0px 0px -15px;
+  }
+  .Q_perseus {
+    margin: -41px 0px 0px -144px;
+  }
+  .Q_delphin {
+    margin: 0px 0px 0px -90px;
+    rotate: 19deg;
+  }
+  .Q_north_crown {
+    margin: -30px 0px 0px 0px;
+  }
+  .Q_charioteer_voznichi {
+    margin: -53px 0px 0px -40px;
+  }
+  .Q_veronicas_hair {
+    margin: -55px 0px 0px -12px;
+    rotate: 230deg;
+  }
+  .Q_triangle {
+    margin: -58px 0px 0px -6px;
+  }
+  .Q_ursa_minor {
+    margin: -100px 0px 0px -16px;
+  }
+  .Q_cassiopeia {
+    margin: -84px 0px 0px -24px;
+  }
+  .Q_eagle {
+    margin: -138px 0px 0px -38px;
+  }
+  .Q_ophiuchus_zmeenosec {
+    margin: -96px 0px 0px -47px;
+  }
+  .Q_dragon {
+    margin: 16px 0px 0px -68px;
+  }
+  .Q_gercules {
+    margin: -272px 0px 0px -44px;
+  }
+  .Q_lira {
+    margin: -44px 0px 0px -24px;
+    rotate: 19deg;
+  }
+  .Q_arrow {
+    margin: -139px 0px 0px -77px;
+    rotate: 357deg;
+  }
+  .Q_centaurus {
+    margin: -20px 0px 0px 0px;
+    width: 120px;
+  }
+  .Q_feed_korma {
+    margin: 0px 0px 0px -66px;
+  }
+  .Q_cup {
+    margin: 0px 0px 0px -98px;
+  }
+  .Q_hare {
+    margin: -77px 0px 0px 4px;
+  }
+  .Q_whale_kit {
+    margin: 19px 0px 0px -84px;
+    rotate: 232deg;
+  }
+  .Q_big_dog {
+    margin: -107px 0px 0px 0px;
+  }
+  .Q_hydra {
+    margin: -78px 0px 0px 0px;
+    width: 120px;
+  }
+  .Q_cepheus_cefei {
+    margin: 15px 0px 0px -209px;
+    rotate: 34deg;
+  }
+  .Q_eridan {
+    margin: -129px 0px 0px -18px;
+  }
+  .Q_keel {
+    margin: -60px 0px 0px -30px;
+  }
+  .Q_raven {
+    margin: -60px 0px 0px 0px;
+  }
+  .Q_wolf {
+    margin: -120px 0px 0px -180px;
+  }
+  .Q_sail_parusa {
+    margin: -196px 0px 0px 0px;
   }
 }
 
@@ -1345,33 +1718,70 @@
     background: var(--background-circle);
     border-radius: 100%;
     border: 0.1px solid var(--border);
+    background-image: url('./images/sky_mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--bordercircle);
   }
+
+  .Q_ArrowExpand {
+    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    transition: 0.3s linear;
+    &.open {
+      rotate: 90deg;
+    }
+  }
+
+  .Q_MapStarsElipseBig {
+    width: 260px;
+    height: 260px;
+    border: 0.1px solid var(--border);
+    border-radius: 100%;
+    background: var(--button);
+    div {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .Q_ArrowRead {
+    font-size: 36px;
+    margin: 0px;
+  }
+  .Q_Сonstellation {
+    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  // .Q_big_dipper {
+  //   background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   background-size: 70%;
+  //   width: 100%;
+  //   height: 100%;
+  // }
   .Q_MapStarsElipse {
     width: 60px;
     height: 60px;
     // background: var(--background-circle);
     border-radius: 100%;
     border: 0.1px solid var(--border);
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 46px 16px;
-  }
-  .Q_ArrowExpand {
-    font-family: 'BASE&BLOOM Demo', Helvetica, Arial, sans-serif;
-    font-size: 48px;
-  }
-  .Q_MapStarsElipseBig {
-    width: 260px;
-    height: 260px;
-    background-image: url('./images/stars_north_hover/big_dipper_hover.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 0.1px solid var(--border);
-    border-radius: 100%;
-  }
-  .Q_ArrowRead {
-    font-size: 48px;
-    margin: 0 0 0 16px;
+    background-size: 40px 40px;
+    margin: 10px 0 10px 0px;
+    &.big_dipper_mobile {
+      background-image: url('./images/stars_north_hover/big_dipper_hover.svg');
+    }
+    &.whale_kit_mobile {
+      background-image: url('./images/stars_north_hover/whale_kit_hover.svg');
+    }
   }
 }
