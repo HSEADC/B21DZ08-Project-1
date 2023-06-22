@@ -5237,7 +5237,7 @@ function O_SearchBar_getPrototypeOf(o) { O_SearchBar_getPrototypeOf = Object.set
 
 
 
-var addressPart = ':8080/';
+var addressPart = 'https://hseadc.github.io/myphos/';
 
 var O_SearchBar = /*#__PURE__*/function (_React$Component) {
   O_SearchBar_inherits(O_SearchBar, _React$Component);
@@ -5467,7 +5467,7 @@ function S_SearchFilterBar_defineProperty(obj, key, value) { if (key in obj) { O
 
 
 
-var S_SearchFilterBar_addressPart = ':8080/';
+var S_SearchFilterBar_addressPart = 'https://hseadc.github.io/myphos/';
 
 var S_SearchFilterBar = /*#__PURE__*/function (_React$Component) {
   S_SearchFilterBar_inherits(S_SearchFilterBar, _React$Component);
