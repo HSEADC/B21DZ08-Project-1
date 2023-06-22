@@ -2445,7 +2445,7 @@
     text-transform: uppercase;
   }
   .A_MapTypeOfSkyMobile {
-    margin: 0 5% 0 5%;
+    margin: 0 4% 0 4%;
   }
   .A_MapStarsNameMobile {
     font-size: 20px;
@@ -2460,6 +2460,23 @@
   }
   .A_MapTime {
     margin-right: 40px;
+  }
+  .A_ButtonMobileMap {
+    background: var(--background-article);
+    padding: 20px 40px 20px 40px;
+    // border-radius: 10px;
+    border: 1px solid var(--border);
+    &.north {
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    &.south {
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    &.press {
+      background-color: var(--black);
+    }
   }
 }
 .tooltip {
