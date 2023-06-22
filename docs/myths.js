@@ -153,11 +153,10 @@ function initZodiaks() {
 
 
 function initMaps() {
-  // getZodiakTags()
-  // getZodiakNames()
+  // создали функцию
   var stars = document.querySelectorAll('.stars');
-  var starsname = document.querySelectorAll('.W_MapStarinfo'); // const zodiaksinfo = document.querySelectorAll('.M_ZodiakRightBlock')
-  // const zodiaksimage = document.querySelectorAll('.Q_ZodiakCenter')
+  var starsname = document.querySelectorAll('.W_MapStarinfo'); // ввели переменные stars - то на что нажимаем + в хтмл data-tag + добавляем в хтмл класс stars
+  // starsname - то что меняется + в хтмл data-name
 
   var _loop3 = function _loop3(i) {
     var star_buttons = stars[i];
@@ -189,18 +188,6 @@ function initMaps() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  initZodiaks();
-  initMaps();
-  phoneMenu(); // initModal()
-  // initSelect()
-
-  initFilters(); // initMultiSelect()
-  // initSearch()
-  // if (document.body.classList.contains('map')) {
-
-  initModal(); // }
-});
 var currentSlide = 0;
 
 function initModal() {
@@ -234,7 +221,126 @@ function slide(direction) {
     sliderButtonRight.classList.add('toPress');
   }
 
-  rail.style.transform = 'translateX(-' + 613 * currentSlide + 'px)';
+  rail.style.transform = 'translateX(-' + 78 * currentSlide + '%)';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  initMobile();
+  initZodiaks();
+  initMaps();
+  phoneMenu();
+  initFilters();
+  initMaps1();
+  initModal();
+  initArrow();
+  initMaps();
+}); // function initMobile() {
+//   const arrow = document.querySelectorAll('.M_MapStarsText')
+//   const window = document.querySelectorAll('.M_MapStarsWindow')
+//   for (let i = 0; i < arrow.length; i++) {
+//     const arrow_buttons = arrow[i]
+//     arrow_buttons.addEventListener('click', function () {
+//       const arrow_button = arrow_buttons.dataset.tag
+//       for (let i = 0; i < window.length; i++) {
+//         const arrow_names = window[i]
+//         if (arrow_names.dataset.name == arrow_button) {
+//           arrow_names.classList.add('active')
+//         }
+//       }
+//     })
+//   }
+// }
+
+function initMobile() {
+  var arrow = document.querySelectorAll('.M_MapStarsText');
+  var window = document.querySelectorAll('.M_MapStarsWindow');
+
+  var _loop4 = function _loop4(i) {
+    var arrow_buttons = arrow[i];
+    arrow_buttons.addEventListener('click', function () {
+      var arrow_button = arrow_buttons.dataset.tag;
+
+      for (var _i9 = 0; _i9 < window.length; _i9++) {
+        var arrow_names = window[_i9];
+
+        if (arrow_names.dataset.name == arrow_button) {
+          arrow_names.classList.toggle('active');
+        }
+      }
+    }, 1000);
+  };
+
+  for (var i = 0; i < arrow.length; i++) {
+    _loop4(i);
+  }
+} // function initMobile() {
+//   const arrow = document.querySelectorAll('.M_MapStarsText')
+//   const window = document.querySelectorAll('.M_MapStarsWindow')
+//   for (let i = 0; i < arrow.length; i++) {
+//     const arrow_buttons = arrow[i]
+//     arrow_buttons.addEventListener('click', function () {
+//       const arrow_button = arrow_buttons.dataset.tag
+//       for (let i = 0; i < window.length; i++) {
+//         const arrow_names = window[i]
+//         if (arrow_names.dataset.name == arrow_button) {
+//           if (arrow_names.classList.contains('active')) {
+//             arrow_names.classList.remove('active')
+//           } else {
+//             arrow_names.classList.add('active')
+//           }
+//         }
+//       }
+//     })
+//   }
+// }
+// function initArrow() {
+//   const ArrowMobile = document.querySelector('.Q_ArrowExpand')
+//   ArrowMobile.addEventListener('click', function (e) {
+//     ArrowMobile.classList.toggle('open')
+//   })
+// }
+
+
+var arrow = document.getElementById('arrow');
+
+arrow.onclick = function () {
+  arrow.classList.toggle('open');
+};
+
+function initMaps1() {
+  // создали функцию
+  var south = document.querySelectorAll('.south');
+  var southname = document.querySelectorAll('.W_MapStarSouth'); // ввели переменные stars - то на что нажимаем + в хтмл data-tag + добавляем в хтмл класс stars
+  // starsname - то что меняется + в хтмл data-name
+
+  var _loop5 = function _loop5(i) {
+    var south_buttons = south[i];
+    south_buttons.addEventListener('click', function () {
+      var south_button = south_buttons.dataset.tag;
+
+      for (var _i10 = 0; _i10 < south.length; _i10++) {
+        var _south_button = south[_i10];
+
+        _south_button.classList.remove('active');
+      }
+
+      south_buttons.classList.add('active');
+
+      for (var _i11 = 0; _i11 < southname.length; _i11++) {
+        var south_names = southname[_i11];
+        south_names.classList.remove('active');
+        console.log(south_names.dataset.name, south_button);
+
+        if (south_names.dataset.name == south_button) {
+          southname[_i11].classList.add('active');
+        }
+      }
+    });
+  };
+
+  for (var i = 0; i < south.length; i++) {
+    _loop5(i);
+  }
 }
 /******/ })()
 ;

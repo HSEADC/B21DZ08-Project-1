@@ -1,0 +1,16 @@
+<svg width="123" height="150" viewBox="0 0 123 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="4.49902" r="4" fill="#FAF8F5"/>
+<circle cx="89" cy="21.499" r="3" fill="#FAF8F5"/>
+<circle cx="110" cy="109.499" r="4" fill="#FAF8F5"/>
+<circle cx="114" cy="145.499" r="4" fill="#FAF8F5"/>
+<circle cx="3" cy="121.499" r="3" fill="#FAF8F5"/>
+<circle cx="63" cy="96.499" r="2" fill="#FAF8F5"/>
+<circle cx="69" cy="53.499" r="2" fill="#FAF8F5"/>
+<circle cx="122" cy="52.499" r="1" fill="#FAF8F5"/>
+<circle cx="102" cy="125.499" r="2" fill="#FAF8F5"/>
+<line x1="24.1423" y1="3.0197" x2="88.1423" y2="22.0197" stroke="#FAF8F5"/>
+<line x1="88.4851" y1="21.3778" x2="110.485" y2="109.378" stroke="#FAF8F5"/>
+<line x1="109.061" y1="108.995" x2="4.06144" y2="121.995" stroke="#FAF8F5"/>
+<line x1="24.493" y1="3.58258" x2="4.49297" y2="121.583" stroke="#FAF8F5"/>
+<line x1="109.495" y1="108.432" x2="114.495" y2="145.432" stroke="#FAF8F5"/>
+</svg>
