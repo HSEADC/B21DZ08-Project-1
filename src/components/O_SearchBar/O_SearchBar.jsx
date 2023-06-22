@@ -5,7 +5,7 @@ import React from 'react'
 import M_SearchForm from '../M_SearchForm/M_SearchForm.jsx'
 import M_PostSuggestion from '../M_PostSuggestion/M_PostSuggestion.jsx'
 
-const addressPart = ':8080/'
+const addressPart = 'https://hseadc.github.io/myphos/'
 
 export default class O_SearchBar extends React.Component {
   // renderPostSuggestions = () => {
