@@ -5,7 +5,7 @@ import O_SearchBar from '../O_SearchBar/O_SearchBar.jsx'
 import O_FilterBar from '../O_FilterBar/O_FilterBar.jsx'
 import { getPostTeasers } from '../../search_data.js'
 
-const addressPart = ':8080/'
+const addressPart = 'https://hseadc.github.io/myphos/'
 
 export default class S_SearchFilterBar extends React.Component {
   constructor(props) {
